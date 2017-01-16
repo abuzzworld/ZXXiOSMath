@@ -1,9 +1,17 @@
+21990	$$\frac{1}{3}$$+$$\frac{1}{2}$$-$$\frac{5}{6}$$+$$\frac{1}{5}$$+$$\frac{1}{4}$$-$$\frac{9}{20}$$=
+3931	The total price of a basic computer and a printer was $2,500. If the same printer had been purchased with an enhanced computer whose price was $500 more than the price of the basic computer, then the price of the printer would have been $$\frac{1}{5}$$of that total.[br/]What was the price of the basic computer?
+5234	Does Mary or Susan earn a higher salary?[br/](1) Susan's salary is 150% of Mary's salary.[br/](2) Mary's salary is 66 $${2}/{3}$$ of Susan's salary.
+4630	If $${v}\neq{0}$$,is $$ \mid w\mid<\mid v\mid$$?[br/](1)$$\frac{w}{v}<{1}$$[br/](2)$${{w}^{2}\over{v}^{2}}<{1}$$
+3805	What is the value of x?[br/](1) $$\mid{x+2}\mid \leq 4[br/](2) $${x}^{2}$$ = 36
+3267	0.1+$${0.1}^{2}$$+$${0.1}^{3}$$= miss =
+2794	If x is equal to one of the numbers $$\frac1 4$$,$$\frac3 8$$ or $$\frac2 5$$what is the value of x ?[br/](1)$$\frac1 4<x<\frac1 2$$[br/](2)$$\frac1 3<x<\frac3 5$$
+3805	What is the value of x?[br/](1) $$\mid{x+2}\mid \leq 4$$[br/](2) $${x}^{2}$$ = 36
 5147	Is ε equal to the average (arithmetic mean) of ζ,η,ψ,ξ and ν?[br/]1.ζ+η+ψ+ε+ν=5ξ[br/]2.$$ζ+η+ψ+ε+ν\over{10}=\fracξ{2}$$
 3665	For all integers x and y, the operation △ is defined by $${x}△{y}=({x}+{2})^{2}+({y}+{3})^{2}$$. What is the value of integer t?[br/](1) t △ 2 = 74[br/](2) 2 △ t = 80
 3593	The operation Θ is defined by $${x}Θ{y}=\frac{1}{x}+\frac{1}{y}$$ for all nonzero numbers x and y. If z is a number greater than 1, which of the following must be true?[br\]I. zΘ(-z) = 0[br\]II.$${z}Θ{{z}\over{z}-{1}}={1}$$[br\]III. $$(\frac{2}{z})Θ(\frac{2}{z})={z}$$
-3522	[img]20120325233713535_3522.jpg[/img][br\]If $${l}_{1}$$ ║ $${l}_{2}$$ in the figure above, is x = y?[br\](1) p║r and r║t[br\](2) q║s
-3505	If x(x - 5)(x + 2) = 0, is x negative?[br/](1) $${x}^{2}–{7}{x}≠{0}$$[br/](2) $${x}^{2}–{2}{x}–{15}≠{0}$$
-3244	$$(\frac{1}{2})^{-3}(\frac{1}{4})^{-2}(\frac{1}{16})^{-1}$$= missing =
+3522	[img]20120325233713535_3522.jpg[/img][br\]If $${l}_{1} \|  {l}_{2}$$ in the figure above, is x = y?[br\](1) $$p\|r$$ and $$r\|t$$[br\](2) $$q\|s$$
+3505	If x(x - 5)(x + 2) = 0, is x negative?[br/](1) $${x}^{2}-{7}{x}\neq{0}$$[br/](2) $${x}^{2}–{2}{x}–{15}\neq{0}$$ error: miss - .
+3244	$$(\frac{1}{2})^{-3}(\frac{1}{4})^{-2}(\frac{1}{16})^{-1}$$=
 3255	if $${{(0.0015}×{10}^{m})\over({0.03}×{10}^{k})}={5}×{10}^{7}$$,then m-k=
 2851	What was the revenue that a theater received from the sale of 400 tickets, some of which were sold at the full price and the remainder of which were sold at a reduced price?[br/](1)The number of tickets sold at the full price was $$\frac1 4$$of the total number of tickets sold.[br/](2)The full price of a ticket was $25.
 2754	The operation $$⊙$$ is defined for all nonzero numbers a and b by $$a ⊙ b =\frac a b-\frac b a$$. If x and y are nonzero numbers, which of the following statements must be true?[br/]I.$$x ⊙ xy = x(1 ⊙ y)$$[br/]II.$$x ⊙ y = -(y ⊙ x)$$[br/]III.$$\frac1 x ⊙ \frac1 y$$ =$$ y ⊙ x$$

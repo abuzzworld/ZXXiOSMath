@@ -9,6 +9,7 @@
 #import "TestVC.h"
 #import "EHMathSample.h"
 #import "EHMathCell.h"
+#import "EHGoToView.h"
 
 #define kMathCellIdentifier @"kMathCellIdentifier"
 #define kMathFontSize 18
@@ -20,6 +21,7 @@
 @property (nonatomic, strong) NSArray<NSString *> *srcOriTxt;
 @property (nonatomic, strong) NSMutableArray<NSString *> *srcFinalTxt;
 @property (nonatomic, strong) UILabel *oriStrLbl;
+@property (nonatomic, strong) EHGoToView *gotoView;
 @end
 
 @implementation TestVC
@@ -35,7 +37,7 @@
     _dataSource = @[].mutableCopy;
     [self.view addSubview:self.tableView];
     NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"gmat选项内容数学公式的副本" ofType:@"txt"];
-    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"goto" style:UIBarButtonItemStylePlain target:self action:sel_registerName("goInputNum")];
     NSString *txt = [NSString stringWithContentsOfFile:srcPath encoding:NSUTF8StringEncoding error:nil];
     _srcOriTxt = [txt componentsSeparatedByString:@"\n"];
     _srcFinalTxt = [NSMutableArray arrayWithCapacity:1];
@@ -60,6 +62,11 @@
                                                                   @"size": [NSValue valueWithCGSize:_mathManager.rect]}];
         [_dataSource addObject:mathSample];
     }
+}
+- (void)goInputNum
+{
+    self.gotoView.hidden = FALSE;
+    [self.view bringSubviewToFront:_gotoView];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -91,6 +98,15 @@
         _oriStrLbl.alpha = 0;
     }];
 }
+- (NSInteger)binSearch:(NSInteger)input_num_int
+{
+    for (NSInteger i = 0; i < _dataSource.count; i++) {
+        if (input_num_int == [_dataSource[i].dataNum integerValue]) {
+            return i;
+        }
+    }
+    return -1;
+}
 - (UITableView *)tableView
 {
     if (!_tableView) {
@@ -119,5 +135,25 @@
     }
     return _oriStrLbl;
 }
-
+- (EHGoToView *)gotoView
+{
+    if (!_gotoView) {
+        
+        __weak typeof(self)bself = self;
+        _gotoView = [EHGoToView gotoView:^(NSString *inputNum) {
+            NSInteger index = [bself binSearch:[inputNum integerValue]];
+            if (index > 0) {
+                NSIndexPath *indexpath = [NSIndexPath indexPathForRow:index inSection:0];
+                [bself.tableView scrollToRowAtIndexPath:indexpath atScrollPosition:UITableViewScrollPositionTop animated:TRUE];
+            }
+            bself.gotoView.hidden = TRUE;
+        } cancel:^{
+            bself.gotoView.hidden = TRUE;
+        }];
+        [self.view addSubview:_gotoView];
+        _gotoView.hidden = TRUE;
+        _gotoView.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 49 - 64);
+    }
+    return _gotoView;
+}
 @end

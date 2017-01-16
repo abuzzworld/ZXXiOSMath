@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EHGoToView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="输入开头数字，点击确定" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YO-kg-Vvo">
+                    <rect key="frame" x="0.0" y="100" width="375" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7h4-46-Zdl">
+                    <rect key="frame" x="0.0" y="157" width="375" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7X0-7I-NDO">
+                    <rect key="frame" x="187.5" y="280" width="187.5" height="30"/>
+                    <state key="normal" title="跳转"/>
+                    <connections>
+                        <action selector="gotoInputTopic:" destination="iN0-l3-epB" eventType="touchUpInside" id="nii-FP-UCc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxK-RC-70x">
+                    <rect key="frame" x="0.0" y="280" width="187.5" height="30"/>
+                    <state key="normal" title="取消"/>
+                    <connections>
+                        <action selector="cancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="Cag-e6-nc6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7X0-7I-NDO" firstAttribute="top" secondItem="7h4-46-Zdl" secondAttribute="bottom" constant="93" id="AfE-vp-KSk"/>
+                <constraint firstItem="7h4-46-Zdl" firstAttribute="trailing" secondItem="6YO-kg-Vvo" secondAttribute="trailing" id="AoW-Qm-UpJ"/>
+                <constraint firstItem="6YO-kg-Vvo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DGs-ys-lgo"/>
+                <constraint firstAttribute="trailing" secondItem="6YO-kg-Vvo" secondAttribute="trailing" id="KTf-BW-TNB"/>
+                <constraint firstItem="yxK-RC-70x" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Kl0-nY-GdL"/>
+                <constraint firstItem="yxK-RC-70x" firstAttribute="top" secondItem="7h4-46-Zdl" secondAttribute="bottom" constant="93" id="T8P-i9-pgV"/>
+                <constraint firstItem="yxK-RC-70x" firstAttribute="trailing" secondItem="7X0-7I-NDO" secondAttribute="leading" id="Yee-mc-Utb"/>
+                <constraint firstItem="yxK-RC-70x" firstAttribute="width" secondItem="7X0-7I-NDO" secondAttribute="width" id="YuJ-h5-gaK"/>
+                <constraint firstItem="6YO-kg-Vvo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="awS-1o-XJM"/>
+                <constraint firstItem="7h4-46-Zdl" firstAttribute="top" secondItem="6YO-kg-Vvo" secondAttribute="bottom" constant="36" id="gxi-mP-xoy"/>
+                <constraint firstAttribute="trailing" secondItem="7X0-7I-NDO" secondAttribute="trailing" id="ptd-tR-kdl"/>
+                <constraint firstItem="7h4-46-Zdl" firstAttribute="leading" secondItem="6YO-kg-Vvo" secondAttribute="leading" id="sZu-ut-YZb"/>
+            </constraints>
+            <connections>
+                <outlet property="inputTF" destination="7h4-46-Zdl" id="tyV-UE-D0S"/>
+            </connections>
+        </view>
+    </objects>
+</document>

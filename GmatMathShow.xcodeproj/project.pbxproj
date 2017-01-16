@@ -51,6 +51,12 @@
 		6A46C11B1E28A7F500DB195D /* gmat内容公式.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A46C1191E28A7F500DB195D /* gmat内容公式.txt */; };
 		6A46C11C1E28A7F500DB195D /* gmat选项公式内容.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A46C11A1E28A7F500DB195D /* gmat选项公式内容.txt */; };
 		6A46C11F1E28C33B00DB195D /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C11E1E28C33B00DB195D /* TestVC.m */; };
+		6ABAA01C1E2C762000FA42A9 /* gmat 数学公式-题目.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA01A1E2C762000FA42A9 /* gmat 数学公式-题目.txt */; };
+		6ABAA01D1E2C762000FA42A9 /* gmat 数学公式-选项.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA01B1E2C762000FA42A9 /* gmat 数学公式-选项.txt */; };
+		6ABAA01F1E2C779000FA42A9 /* gmat 数学公式-题目的副本.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA01E1E2C779000FA42A9 /* gmat 数学公式-题目的副本.txt */; };
+		6ABAA0211E2C842B00FA42A9 /* gmat 数学公式-题目1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA0201E2C842B00FA42A9 /* gmat 数学公式-题目1.txt */; };
+		6ABAA0241E2C88D700FA42A9 /* EHGoToView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAA0231E2C88D700FA42A9 /* EHGoToView.m */; };
+		6ABAA0261E2C88E700FA42A9 /* EHGoToView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA0251E2C88E700FA42A9 /* EHGoToView.xib */; };
 		A7831CFE1E27E59C00ABEDA1 /* EHMathCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */; };
 		A7831CFF1E27E59C00ABEDA1 /* EHMathCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */; };
 		A7831D011E27EA6600ABEDA1 /* gmat选项内容数学公式的副本.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7831D001E27EA6600ABEDA1 /* gmat选项内容数学公式的副本.txt */; };
@@ -128,6 +134,13 @@
 		6A46C11A1E28A7F500DB195D /* gmat选项公式内容.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmat选项公式内容.txt"; sourceTree = "<group>"; };
 		6A46C11D1E28C33B00DB195D /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		6A46C11E1E28C33B00DB195D /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		6ABAA01A1E2C762000FA42A9 /* gmat 数学公式-题目.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmat 数学公式-题目.txt"; sourceTree = "<group>"; };
+		6ABAA01B1E2C762000FA42A9 /* gmat 数学公式-选项.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmat 数学公式-选项.txt"; sourceTree = "<group>"; };
+		6ABAA01E1E2C779000FA42A9 /* gmat 数学公式-题目的副本.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmat 数学公式-题目的副本.txt"; sourceTree = "<group>"; };
+		6ABAA0201E2C842B00FA42A9 /* gmat 数学公式-题目1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmat 数学公式-题目1.txt"; sourceTree = "<group>"; };
+		6ABAA0221E2C88D700FA42A9 /* EHGoToView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHGoToView.h; sourceTree = "<group>"; };
+		6ABAA0231E2C88D700FA42A9 /* EHGoToView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHGoToView.m; sourceTree = "<group>"; };
+		6ABAA0251E2C88E700FA42A9 /* EHGoToView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHGoToView.xib; sourceTree = "<group>"; };
 		A7831CFB1E27E59C00ABEDA1 /* EHMathCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHMathCell2.h; sourceTree = "<group>"; };
 		A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHMathCell2.m; sourceTree = "<group>"; };
 		A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHMathCell2.xib; sourceTree = "<group>"; };
@@ -184,6 +197,9 @@
 				6A46C10C1E278ECD00DB195D /* OptionsVC.m */,
 				6A46C0FA1E2733D900DB195D /* EHMathSample.h */,
 				6A46C0FB1E2733D900DB195D /* EHMathSample.m */,
+				6ABAA0221E2C88D700FA42A9 /* EHGoToView.h */,
+				6ABAA0231E2C88D700FA42A9 /* EHGoToView.m */,
+				6ABAA0251E2C88E700FA42A9 /* EHGoToView.xib */,
 				A7831CFB1E27E59C00ABEDA1 /* EHMathCell2.h */,
 				A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */,
 				A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */,
@@ -206,6 +222,10 @@
 			isa = PBXGroup;
 			children = (
 				6A46C0BC1E2730F900DB195D /* math.html */,
+				6ABAA0201E2C842B00FA42A9 /* gmat 数学公式-题目1.txt */,
+				6ABAA01E1E2C779000FA42A9 /* gmat 数学公式-题目的副本.txt */,
+				6ABAA01A1E2C762000FA42A9 /* gmat 数学公式-题目.txt */,
+				6ABAA01B1E2C762000FA42A9 /* gmat 数学公式-选项.txt */,
 				6A46C1191E28A7F500DB195D /* gmat内容公式.txt */,
 				6A46C11A1E28A7F500DB195D /* gmat选项公式内容.txt */,
 				6A46C10E1E27925A00DB195D /* gmat_answer_math.txt */,
@@ -365,14 +385,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A46C1121E27925A00DB195D /* gmat_answer_math.txt in Resources */,
+				6ABAA0211E2C842B00FA42A9 /* gmat 数学公式-题目1.txt in Resources */,
 				6A46C0A91E272FD100DB195D /* LaunchScreen.storyboard in Resources */,
+				6ABAA01C1E2C762000FA42A9 /* gmat 数学公式-题目.txt in Resources */,
 				A7831CFF1E27E59C00ABEDA1 /* EHMathCell2.xib in Resources */,
 				6A46C1181E2879C900DB195D /* Main.storyboard in Resources */,
 				6A46C1141E27925A00DB195D /* gmat选项内容数学公式.txt in Resources */,
 				6A46C0E21E27317000DB195D /* iosMathFonts.bundle in Resources */,
+				6ABAA01D1E2C762000FA42A9 /* gmat 数学公式-选项.txt in Resources */,
 				6A46C0A61E272FD100DB195D /* Assets.xcassets in Resources */,
 				6A46C1131E27925A00DB195D /* gmat题目内容数学公式.txt in Resources */,
+				6ABAA01F1E2C779000FA42A9 /* gmat 数学公式-题目的副本.txt in Resources */,
 				6A46C11C1E28A7F500DB195D /* gmat选项公式内容.txt in Resources */,
+				6ABAA0261E2C88E700FA42A9 /* EHGoToView.xib in Resources */,
 				6A46C0BD1E2730F900DB195D /* math.html in Resources */,
 				6A46C1061E276DAB00DB195D /* EHMathCell.xib in Resources */,
 				6A46C11B1E28A7F500DB195D /* gmat内容公式.txt in Resources */,
@@ -396,6 +421,7 @@
 				6A46C0E91E27317000DB195D /* MTFontMathTable.m in Sources */,
 				6A46C0EC1E27317000DB195D /* MTFontManager.m in Sources */,
 				6A46C0E41E27317000DB195D /* MTMathList.m in Sources */,
+				6ABAA0241E2C88D700FA42A9 /* EHGoToView.m in Sources */,
 				6A46C1051E276DAB00DB195D /* EHMathCell.m in Sources */,
 				6A46C0FC1E2733D900DB195D /* EHMathSample.m in Sources */,
 				6A46C09E1E272FD100DB195D /* ViewController.m in Sources */,
