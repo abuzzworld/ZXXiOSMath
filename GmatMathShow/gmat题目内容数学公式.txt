@@ -1,0 +1,680 @@
+2360	If 2 different representatives are to be selected at random from a group of 10 employees and if p is the probability that both representatives selected will be women, is $$p＞\frac1 2$$ ?[br/](1)More than $$\frac1 2$$ of the 10 employees are women.[br/](2)The probability that both representatives selected will be men is less than $$\frac1 {10}$$.
+2361	If $${v}{m}{t}!={0}$$, is $${v}^{2}{m}^{3}{t}^{4}＞{0}$$?[br/](1)$${m}＞{v}^{2}$$[br/](2)$${m}＞{t}^{4}$$
+2363	For all integers n, the function f is defined by $${f}({n})={a}^{n}$$, where a is a constant. What is the value of $$f (1)$$?[br/](1)$$f (2) = 100$$[br/](2)$$f (3) = -1,000$$
+2364	What is the value of $$({x}-{y})^{4}$$?[br/](1)The product of x and y is 7.[br/](2)x and y are integers.
+2365	Mary persuaded n friends to donate $500 each to her election campaign, and then each of these n friends persuaded n more people to donate $500 each to Mary’s campaign. If no one donated more than once and if there were no other donations, what was the value of n?[br/](1)The first n people donated $$\frac1 {16}$$ of the total amount donated.[br/](2)The total amount donated was $120,000.
+2367	What is the value of the integer k?[br/](1)$$k + 3 ＞ 0$$[br/](2)$${k}^{4}\le{0}$$
+2381	What is the value of xy?[br/](1)$${2}^{(x+y)}=4$$[br/](2)$${2}^{(x+3y)}=16$$
+2383	If y is an integer and $${y}=|{x}|+{x}$$, is $$y = 0$$?[br/](1)$${x}＜ {0}$$[br/](2)$$y＜1$$
+2385	If x is negative, is $$x ＜ -3$$?[br/](1)$${x}^{2}＞{9}$$[br/](2)$${x}^{3}＜-{9}$$
+2386	If n is a positive integer that is less than 10, what is the value of n?[br/](1)n is the tenth digit in the decimal representation of $$\frac1 n$$.[br/](2)n is the hundredth digit in the decimal representation of $$\frac1 n$$
+2388	p is an integer; n is an integer; and $$\frac p n$$ is an integer. Is $$\frac p n$$ odd?[br/](1)p is divisible by 4.[br/](2)n is divisible by 4.
+2390	How many liters of apple juice were added to the cranberry juice in a certain container?[br/](1)The amount of apple juice that was added was $$\frac3 2$$ the amount of cranberry juice in the container.[br/](2)There were 5 liters of cranberry juice in the container.
+2393	A box contains 10 light bulbs, fewer than half of which are defective. Two bulbs are to be drawn simultaneously from the box. If n of the bulbs in box are defective, what is the value of n?[br/](1)The probability that the two bulbs to be drawn will be defective is $$\frac 1 {15}$$.[br/](2)The probability that one of the bulbs to be drawn will be defective and the other will not be defective is $$\frac 7 {15}$$.
+2397	What is the total number of executives at Company P?[br/](1)The number of male executives is $$\frac3 5$$ the number of female executives.[br/](2)There are 4 more female executives than male executives.
+2398	[img]0322.jpg[/img] What is the volume of the cube above?[br/](1)The surface area of the cube is 600 square inches.[br/](2)The length of diagonal AB is $${10}\sqrt3$$ inches.
+2402	If a, b, c, and d are positive integers, is $$(\frac {a} {b})(\frac {c} {d})＞\frac {c} {b}$$?[br/](1)$$c ＞ b$$[br/](2)$$a ＞ d$$
+2406	Is $${x}{y}＞{x}^{2}{y}^{2}$$?[br/](1)$${14}{x}^{2}={3}$$[br/](2)$${y}^{2}={1}$$
+2407	A total of $60,000 was invested for one year. Part of this amount earned simple annual interest at the rate of x percent per year, and the rest earned simple annual interest at the rate of y percent per year. If the total interest earned by the $60,000 for that year was $4,080, what is the value of x?[br/](1)$${x}=\frac {3y} {4}$$[br/](2)The ratio of the amount that earned interest at the rate of x percent per year to the amount that earned interest at the rate of y percent per year was 3 to 2.
+2410	Is $${x}^{2}+{y}^{2}＞{6}$$?[br/](1)$$({x}+{y})^{2}＞{6}$$[br/](2)$$xy = 2$$
+2413	If $${x}\neq{0}$$, is $$\frac {x^2} {|x|}＜{1}$$?[br/](1)$$x ＜ 1$$[br/](2)$$x ＞ -1$$
+2415	Of the cans of peaches inspected yesterday at a certain plant, 1.5 percent failed to pass inspection. Of the cans that failed inspection, $$\frac5 6$$ were incorrectly labeled and the rest were dented. If all of the cans that were incorrectly labeled or dented failed inspection, how many of the cans of peaches inspected yesterday at the plant were dented?[br/](1)450 of the cans of peaches inspected yesterday at the plant failed to pass inspection.[br/](2)29,550 of the cans of peaches inspected yesterday at the plant passed inspection.
+2416	The annual rent collected by a corporation from a certain building was x percent more in 1998 than in 1997 and y percent less in 1999 than in 1998. Was the annual rent collected by the corporation from the building more in 1999 than in 1997?[br/](1)$$x ＞ y$$[br/](2)$$\frac{xy} {100}＜{x}-{y}$$
+2417	If m and v are integers, what is the value of $$m + v$$?[br/](1)$$mv = 6$$[br/](2)$$({m}+{v})^{2}={25}$$
+2418	The number n of units of its product that Company X is scheduled to produce in month t of its next fiscal year is given by the formula $${n}=\frac{900} {1+{c2}^{-t}}$$, where c is a constant and t is a positive integer between 1 and 6, inclusive. What is the number of units of its product that Company X is scheduled to produce in month 6 of its next fiscal year?[br/](1)Company X is scheduled to produce 180 units of its product in month 1 of its next fiscal year.[br/](2)Company X is scheduled to produce 300 units of its product in month 2 of its next fiscal year.
+2419	If n is an integer and $$100 ＜ n ＜200$$, what is the value of n?[br/](1)$$\frac n {36}$$is an odd integer.[br/](2)$$\frac n {45}$$is an even integer.
+2423	If x is a positive integer, is the remainder 0 when $${3}^{x}+{1}$$ is divided by 10?[br/](1)$$x = 4n + 2$$, where n is a positive integer.[br/](2)$$x＞4$$
+2425	What is the value of the integer n?[br/](1)$$n(n + 2) = 15$$[br/](2)$$({n}+{2})^{n}={125}$$
+2430	Is x an odd integer?[br/](1)$$x + 3$$ is an even integer.[br/](2)$$\frac x 3$$ is an odd integer.
+2434	What is the value of $$|x + 7|$$?[br/](1)$$|x + 3|= 14$$[br/](2)$$({x}+{2})^{2}={169}$$
+2435	When 200 gallons of oil were removed from a tank, the volume of oil left in the tank was $$\frac 3 7$$ of the tank’s capacity. What was the tank’s capacity?[br/](1)Before the 200 gallons were removed, the volume of oil in the tank was $$\frac1 2$$ of the tank’s capacity.[br/](2)After the 200 gallons were removed, the volume of oil left in the tank was 1,600 gallons less than the tank’s capacity.
+2436	<p>For a certain play performance, adults&rsquo; tickets were sold for $12 each and children&rsquo;s tickets were sold for $8 each. How many children&rsquo;s tickets were sold for the performance?[br/](1)The total revenue from the sale of adults&rsquo; and children&rsquo;s tickets for the performance was $5,040.[br/](2)The number of adults&rsquo; tickets sold for the performance was $$\frac1 3$$ the total number of adults&rsquo; and children&rsquo;s tickets sold for the performance.</p>
+2439	What is the value of $$\frac {3^{-(x+y)}} {3^{-(x-y)}}$$?[br/](1)$$x = 2$$[br/](2)$$y = 3$$
+2442	[img]0623.jpg[/img][br/]In the figure shown, what is the area of the circular region with center O and diameter BC?[br/](1)$$\frac {BC}{AB}=\frac3 4$$[br/](2)BD = 25
+2447	If $$\frac x {600}=\frac y {300}$$, is y equal to 1,000?[br/](1)$$x + y = 3,000$$[br/](2)$$3x = 6,000$$
+2449	In the xy-plane, line l and line k intersect at the point $$(\frac{16} 5,\frac{12} 5)$$. What is the slope of line l?[br/](1)The product of the slopes of line l and line k is -1.[br/](2)Line k passes through the origin.
+2451	If k, m, and t are positive integers and $$\frac k 6+\frac m 4=\frac t {12}$$, do t and 12 have a common factor greater than 1 ?[br/](1)k is a multiple of 3.[br/](2)m is a multiple of 3.
+2453	If $${x}^{2}+{3}{x}+{c}=({x}+{a})({x}+{b})$$ for all x, what is the value of c ?[br/](1)$$a = 1$$[br/](2)$$b = 2$$
+2455	Is the number of seconds required to travel $${d}_{1}$$ feet at $${r}_{1}$$ feet per second greater than the number of seconds required to travel $${d}_{2}$$ feet at $${r}_{2}$$ feet per second?[br/](1)$${d}_{1}$$ is 30 greater than $${d}_{2}$$.[br/](2)$${r}_{1}$$ is 30 greater than $${r}_{2}$$.
+2460	What is the value of $${x}^{5}$$ ?[br/](1)$${x}^{2}={9}$$[br/](2)$${x}^{3}＞{9}$$
+2462	What is the value of $$x$$ ?[br/](1)$${x}^{2}+{y}^{2}$$ = 25[br/](2)$$xy = 12$$
+2463	A clothing store acquired an item at a cost of x dollars and sold the item for y dollars. The store’s gross profit from the item was what percent of its cost for the item?[br/](1)$$y - x = 20$$[br/](2)$$\frac y x=\frac5 4$$
+2474	If x and y are positive, is $$4x ＞ 3y$$?[br/](1)$$x＞y - x$$[br/](2)$$\frac x y＜1$$
+2475	Is $$x ＞ k$$?[br/](1)$${2}^{x}*{2}^{k}={4}$$[br/](2)$${9}^{x}*{3}^{k}={81}$$
+2476	<p>If x and y are positive, what is the value of $$x -y$$?[br/](1)$$\frac {x^2-y^2} {x+y}={1}$$[br/](2)$$x+y=7$$</p>
+2482	In the xy-plane, point (r, s) lies on a circle with center at the origin. What is the value of $${r}^{2}+{s}^{2}$$?[br/](1)The circle has radius 2.[br/](2)The point ($$\sqrt 2$$, $$-\sqrt2)$$) lies on the circle.
+2491	<p>If $${s}^{4}{v}^{3}{x}^{7}<{0}$$, is $$svx＜0$$?[br/](1)$$v＜0$$[br/](2)$$v＞0$$</p>
+2499	If n is a positive integer, what is the value of the hundreds digit of $${30}^{n}$$?[br/](1)$${30}^{n}＞{1},{000}$$[br/](2)n is a multiple of 3.
+2500	On Monday a store had a sale on bottles of juice S and juice T. If $$\frac1 2$$ the total number of bottles of juice S in stock were sold on Monday, for which juice, S or T, were more of the bottles sold that day?[br/](1)Two-thirds of the total number of bottles of juice T in stock were sold on Monday.[br/](2)At the beginning of the sale, there was a total of 90 bottles of juice S and 60 bottles of juice T in stock.
+2505	If $$xyz ＞ 0$$, is $${x}{y}^{2}{z}^{3} ＜ 0$$ ?[br/](1)$$y ＜ 0$$[br/](2)$$x ＞ 0$$
+2512	What is the value of $${x}^{2}$$ ?[br/](1)$${5}＜{x}^{2}＜{10}$$[br/](2)x is an integer.
+2514	What is the value of $${p}^{r}$$?[br/](1)$$p = 1$$[br/](2)$$r = 1$$
+2520	If $$x$$ and $$y$$ are positive integers, what is the value of $$x$$?[br/](1)$${3}^{x}{5}^{y}={1},{125}$$[br/](2)$$y = 3$$
+2522	$10,000 is deposited in a certain account that pays r percent annual interest compounded annually, the amount D(t), in dollars, that the deposit will grow to in t years is given by $${D}({t})=10,000[1+(\frac r {100})]^{t}$$. What amount will the deposit grow to in 3 years?[br/](1)$$D(1)=11,000$$[br/](2)$$r =10$$
+2528	<p>If $$xy \neq 0$$, what is the value of $$\frac {25x^2} {y^2}$$?[br/](1)$$x = 3$$[br/](2)$$5x - 2y = 0$$</p>
+2531	What is the value of $${v}^{3}-{k}^{3}$$?[br/](1)$$v k ＞ 0$$[br/](2)$$v - k = 6$$
+2536	If a and b are positive, is $$(a^{-1}+b^{-1})^{-1}$$ less than $$(a^{-1}*b^{-1})^{-1}$$?[br/](1)$$a = 2b$$[br/](2)$$a + b ＞ 1$$
+2538	<p>If $$xy!=0$$, is $$\frac x y=1$$?[br/](1)$$x^2=y^2$$[br/](2)$$xy＞0$$</p>
+2542	<p>$$\frac {4.8(10^9)} {1.6(10^3)}=$$</p>
+2544	The points R, T, and U lie on a circle that has radius 4. If the length of arc RTU is $$\frac4 3\pi$$, what is the length of line segment RU?
+2545	When n liters of fuel was added to a tank that was already $$\frac1 3$$ full, the tank was filled to $$\frac7 9$$ of its capacity. In terms of n, what is the capacity of the tank, in liters?
+2546	If n is a positive integer, what is the remainder when $${3}^{8n+3}+2$$ is divided by 5?
+2547	Of all the students in a certain dormitory, $$\frac1 2$$ are first-year students and the rest are second-year students. If $$\frac4 5$$ of the first-year students have not declared a major and if the fraction of second-year students who have declared a major is 3 times the fraction of first-year students who have declared a major, what fraction of all the students in the dormitory are second-year students who have not declared a major?
+2548	If p is the product of the integers from 1 to 30, inclusive, what is the greatest integer k for which $$3^k$$ is a factor of p?
+2551	The age of the Earth is approximately $${1.3}*{10}^{17}$$ seconds, and one year is approximately $${3.2}*{10}^{7}$$ seconds. Which of the following is closest to the age of the Earth in years?
+2553	If the sequence $${x}_{1}$$, $${x}_{2}$$, $${x}_{3}$$, …, $${x}_{n}$$, … is such that $${x}_{1}={3}$$ and $${x}_{n+1}={2}{x}_{n}-{1}$$ for $$n\ge 1$$, then $${x}_{20}-{x}_{19}=$$
+2565	[img]0211.jpg[/img][br/]The figure shown represents a board with 4 rows of pegs, and at the bottom of the board are 4 cells numbered 1 to 4. Whenever the ball shown passes through the opening between two adjacent pegs in the same row, it will hit the peg directly beneath the opening. The ball then has the probability $$\frac1 2$$ of passing through the opening immediately to the left of that peg and probability $$\frac1 2$$ of passing through the opening immediately to the right. What is the probability that when the ball passes through the first two pegs at the top it will end in Cell 2?
+2566	The function f is defined by $${f}({x})=-\frac{1} x$$ for all nonzero numbers x. If $${f}({a})=-\frac1 2$$ and $${f}({a}{b})=\frac1 6$$, then b =
+2569	<p>If $${x}{y}!={0}$$ and $${x}^{2}{y}^{2}-{x}{y}={6}$$, which of the following could be y in terms of x?[br/]I.$$\frac1 {2x}$$[br/]II.$$-\frac2 x$$[br/]III $$\frac3 x$$</p>
+2570	If $$k = -1$$, which of the following is (are) true?[br/]I.$${k}^{k}={k}$$[br/]II.$$|{k}|=-{k}$$[br/]III.$${k}^{0}=-{k}$$
+2571	A certain computer program generates a sequence of numbers $${a}_{1}$$, $${a}_{2}$$, … , an such that $${a}_{1}={a}_{2}={1}$$ and $${a}_{k}={a}_{k-1}+{2a}_{k-2}$$ for all integers k such that $$3 \le k\le n$$. If $$n ＞ 6$$, then $${a}_{7}=$$ ?
+2573	At a monthly meeting, $$\frac2 5$$ of the attendees were males and $$\frac7 8$$ of the male attendees arrived on time. If $$\frac9 {10}$$ of the female attendees arrived on time, what fraction of the attendees at the monthly meeting did not arrive on time?
+2578	If 5x = 2y and $${x}{y}!={0}$$, then x is what percent of y?
+2579	[img]0310.jpg[/img][br/]In the figure shown, two identical squares are inscribed in the rectangle. If the perimeter of the rectangle is $$18\sqrt2$$, then what is the perimeter of each square?
+2580	The sequence $${a}_{1}$$, $${a}_{2}$$, $${a}_{n}$$,  such that $${a}_{n}={2a}_{n-1}-{x}$$ for all positive integers $$n \ge 2$$ and for certain number x. If $${a}_{5}={99}$$ and $${a}_{3}={27}$$, what is the value of x?
+2582	If $${x}!={0}$$, then $$({x}+\frac1 x)^{2}-({x}-\frac1 x)^{2}=$$
+2583	If a certain coin is flipped, the probability that the coin will land heads is $$\frac1 2$$. If the coin is flipped 5 times, what is the probability that it will land heads up on the first 3 flips and not on the last 2 flips?
+2584	The function f is defined by $${f}({x})=\sqrt x-{10}$$ for all positive numbers x. If $$u = f(t)$$ for some positive numbers $$t$$ and $$u$$. What is t in terms of $$u$$?
+2587	If x and y are positive integers, and $${x}^{3}{y}^{4}={2000}$$, which of the following is the value of $$xy$$?
+2603	Company S produces two kinds of stereos: basic and deluxe. Of the stereos produced by Company S last month, $$\frac2 3$$ were basic and the rest were deluxe. If it takes $$\frac7 5$$ as many hours to produce a deluxe stereo as it does to produce a basic stereo, then the number of hours it took to produce the deluxe stereos last month was what fraction of the total number of hours it took to produce all the stereos?
+2604	$${99},{999}^{2}-{1}^{2}=$$
+2606	Which of the following is equal to $$({2}^{k})({5}^{k-1})$$?
+2607	If $$\sqrt x=25$$, then $$x^3-x^2=$$
+2608	[img]0421.jpg[/img][br/]Note: Figure not drawn to scale.On line segment AD shown, $$AB=\frac1 2CD$$ and BC = 10. If AD = 100, then CD =
+
+
+2616	The operation $$\Delta$$ is defined for all nonzero x and y by $${x}\Delta{y}={x}+\frac x y$$. If $$a ＞ 0$$, then $$1\Delta (1\Delta a) =$$
+2621	$$\sqrt{{2\sqrt{63}}+{\frac2 {8+3\sqrt7}}}$$
+2622	The infinite sequence $${a}_{1}$$, $${a}_{2}$$,…, $${a}_{n}$$,… is such that $${a}_{1}={2}$$, $${a}_{2}=-{3}$$, $${a}_{3}={5}$$, $${a}_{4}=-{1}$$, and $${a}_{n}={a}_{n-4}$$ for $$n ＞ 4$$. What is the sum of the first 97 terms of the sequence?
+2625	For any integer k greater than 1, the symbol $${k}^※$$ denotes the product of all the fractions of the form $$\frac1 t$$, where t is an integer between 1 and k, inclusive. What is the value of $$\frac{{5}^※} {{4}^※}$$?
+2628	If $${5}^{x}-{5}^{x-3}=({124})({5}^{y})$$, what is y in terms of x?
+2634	If $$\frac{7x} 3+a=8$$ and $$a ＞ 8$$, then, in terms of a, $$\frac{3x} 7=$$
+2640	A certain business produced x rakes each month form November through February and shipped $$\frac x 2$$ rakes at the beginning of each month from March through October. The business paid no storage costs for the rakes from November through February, but it paid storage costs of $0.10 per rake each month from March through October for the rakes that had not been shipped. In terms of x, what was the total storage cost, in dollars, that the business paid for the rakes for the 12 months form November through October?
+2647	Enrollment in City College in 1980 was $${83}\frac1 3$$ percent of enrollment in 1990. What was the percent increase in the college’s enrollment from 1980 to 1990?
+2648	The operation $$○$$ is defined by the equation $$x ○ y$$ = $$\frac{x-y} {x+y}$$, where $${y}!=-{x}$$. If $$3 ○ y = 5 ○ 4$$, then y =
+2650	If Henry were to add 5 gallons of water to a tank that is already $$\frac3 4$$ full of water, the tank would be $$\frac7 8$$ full. How many gallons of water would the tank hold if it were full?
+2653	On an aerial photograph, the surface of a pond appears as circular region of radius $$\frac7 {16}$$ inch. If a distance of 1 inch on the photograph corresponds to an actual distance of 2 miles, which of the following is the closest estimate of the actual surface area of the pond, in square miles?
+2655	If $${3}^{6x}=8,100$$, what is the value of $$({3}^{x-1})^{3}$$ ?
+2666	If a and b are positive integers such that $$a - b$$ and $$\frac a b$$ are both even integers, which of the following must be an odd integer?
+2668	A total of n trucks and cars are parked in a lot. If the number of cars is $$\frac1 4$$ the number of rucks,and $$\frac2 3$$ of the trucks are pickups, how many pickups, in terms of n, are parked in the lot?
+2681	If n is the product of the integers from1 to 20 inclusive, what is the greatest integer k for which $${2}^{k}$$ is a factor of n?
+2686	If $${10}^{50}-{74}$$ is written as an integer in base 10 notation, what is the sum of the digits in that integer?
+2687	Ann, Carol, and Judy paid a total of $45 for their dinner at a restaurant. If Ann paid $$\frac2 5$$ of the total amount, Carol paid $17, and Judy paid the rest, what fraction of the total amount did Judy pay?
+2690	If $$x ＞ 0$$, then $$\frac1 {\sqrt{2x}+\sqrt{x}}$$ =
+2693	Running at their respective constant rates, machine X takes 2 days longer to produce w widgets than machine Y. At these rates, if the two machines together produce $$\frac5 4$$ w widgets in 3 days, how many days would it take machine X alone to produce 2w widgets?
+2694	If $${n}={8}^{11}-{8}$$, what is the units digit of n?
+2695	For any positive integer n, the sum of the first n positive integers equals $$\frac{n(n+1)} 2$$. What is the sum of all the even integers between 99 and 301?
+2702	<p>If S is the sum of the reciprocals of the consecutive integers from 91 to 100, inclusive, which of the following is less than S?[br/]I.$$\frac1 8$$[br/]II.$$\frac1 9$$[br/]III. $$\frac1 {10}$$</p>
+2705	An equilateral triangle that has an area of $${9}\sqrt{3}$$is inscribed in a circle. What is the area of the circle?
+2708	Which of the following is equal to $$\frac{2^{12}-2^6} {2^6-2^3}$$?
+2716	If $$\frac {0.5} {\frac1 6}=\frac1 x$$, what is the value of x ?
+2718	What is the greatest prime factor of $${2}^{100}-{2}^{96}$$ ?
+2722	$${4}^{3}+{4}^{3}+{4}^{3}+{4}^{3}$$ =
+2724	If n is the greatest positive integer for which $${2}^{n}$$ is a factor of $$10!$$, then n =
+2731	If $${x}^{2}-{2}＜{0}$$, which of the following specifies all the possible values of x ?
+2735	If $${2}{x}^{2}-{y}^{2}={2}{x}{y}$$, then $$({x}+{y})^{2}=$$
+2745	In a certain English class, $$\frac1 4$$ of the number of girls is equal to $$\frac1 6$$ of the total number of students. What is the ratio of the number of boys to the number of girls in the class?
+2751	When positive integer x is divided by positive integer y, the remainder is 9. If $$\frac x y=96.12$$, what is the value of y?
+2754	The operation $$⊙$$ is defined for all nonzero numbers a and b by $$a ⊙ b =\frac a b-\frac b a$$. If x and y are nonzero numbers, which of the following statements must be true?[br/]I.$$x ⊙ xy = x(1 ⊙ y)$$[br/]II.$$x ⊙ y = -(y ⊙ x)$$[br/]III.$$\frac1 x ⊙ \frac1 y$$ =$$ y ⊙ x$$
+2756	<p>$${C}{n \choose m}=\frac{m!}{[(m-n)!n!]}$$ for nonnegative integers m and n, $$m \ge n$$. If $${C}{3 \choose 5}={C}{x \choose 5}$$ and $$x \neq 3$$, what is the value of x?</p>
+2762	The value of $$({9}\cdot{10}^{7})({9}\cdot{10}^{8})$$ is closest to which of the following?
+2763	Of the goose eggs laid at a certain pond, $$\frac2 3$$ hatched, and $$\frac3 4$$ of the geese that hatched from those eggs survived the first month. Of the geese that survived the first month, $$\frac3 5$$ did not survive the first year. If 120 geese survived the first year and if no more than one goose hatched from each egg, how many goose eggs were laid at the pond?
+2766	What is the value of $$|x|$$ ?[br/](1)$$x = -|x|$$[br/](2)$${x}^{2}$$ = 4
+2767	Is r greater than 0.27?[br/](1)r is greater than$$\frac1 4$$[br/](2)r is equal to$$\frac3 {10}$$
+2771	If r and s are positive integers, r is what percent Of s[br/](1)r=$$\frac3 4s$$[br/](2)r+s=$$\frac{75} {100}$$
+2775	Does the product jkmn equal 1?[br/](1)$$\frac{jk} {mn}=1$$[br/](2)$$j=\frac1 k$$ and $$m=\frac1 n$$
+2782	Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the same time, water is pumped out of the tank at a constant rate through an outlet pipe. At what rate, in gallons per minute, is the amount of water in the tank increasing?[br/](1)The amount of water initially in the tank is 200 gallons.[br/](2)Water is pumped into the tank at a rate of 10 gallons per minute and out of the tank at a rate of 10 gallons every $${2}\frac1 2$$ minutes.
+2784	Does 2m-3n = 0?[br/](1)$${m}!={0}$$[br/](2)6m = 9n
+2791	Is x an integer?[br/](1)$$\frac x 2$$ is an integer.[br/](2)2x is an integer.
+2792	What is the value of x?[br/](1)2x + 1 = 0[br/](2)$$({x}+{1})^{2}={x}^{2}$$
+2793	What is the value of$$\frac1 k+\frac1 r$$[br/](1)k+r=20[br/](2)kr = 64
+2794	If x is equal to one of the numbers $$\frac1 4$$,$$\frac3 8$$ or $$\frac2 5$$what is the value of x ?[br/](1)$$\frac1 4＜x＜\frac1 2$$[br/](2)$$\frac1 3＜x＜\frac3 5$$
+2797	What number is 15 percent of x ?[br/](1)18 is 6 percent of x.[br/](2)$$\frac2 3$$ of x is 200.
+2803	What is the value of integer n ?[br/](1)n(n+1) = 6[br/](2)$${2}^{2}{n}$$ = 16
+2809	What is the tenths digit in the decimal representation of a certain number?[br/](1)The number is less than $$\frac1 3$$[br/](2)The number is greater than $$\frac1 4$$
+2810	If the two floors in a certain building are 9 feet apart, how many steps are there in a set of stairs that extends from the first floor to the second floor of the building?[br/](1)Each step is $$\frac3 4$$ foot high.[br/](2)Each step is 1 foot wide.
+2811	If $${x}{y}!={0}$$, is $$\frac x y＜0$$ ?[br/](1)x=-y[br/](2)-x = -(-y)
+2813	If x and y are positive, is $$\frac x y$$ greater than 1 ?[br/](1)$$xy＞1$$[br/](2)$$x-y＞0$$
+2815	If x,y, and z are nonzero numbers, is xz - 12?[br/](1)$${x}^{2}yz= 12xy$$[br/](2)$$\frac{z}{4}=\frac{3}{x}$$
+2817	What is the value of n in the equation $$-25 + 19 + n = s$$?[br/](1)$$s = 2$$[br/](2)$$\frac{n}{s} = 4$$
+2819	What is the value of $$xy$$?[br/](1)$$y=x+1$$[br/](2)$$y={x}^{2} + 1$$
+2820	What is the value of $$\frac1 x+\frac1 y$$?[br/](1)x+ y= 14[br/](2)xy=24
+2823	If $$\sqrt {\frac x y}=n$$ what is the value of $$x$$?[br/](1)$$yn=10$$[br/](2)$$y=40$$ and $$n=\frac1 4$$
+2825	What is the number of members of Oub X who are at least 35 years of age?[br/](1)Exactly $$\frac3 4$$ of the members of Club x are under 35 years of age.[br/](2)The 64 women in Club x constitute 40 percent of the club's membership.
+2827	Is $$x＞y$$?[br/](1)$$x = y + 2$$[br/](2)$$\frac x 2 = y-1$$
+2828	If m is an integer, is m odd?[br/](1)$$\frac m 2$$ is not an even integer.[br/](2)m - 3 is an even integer.
+2832	Paula and Sandy were among those people who sold raffle tickets to raise money for Club X. If Paula and Sandy sold a total of 100 of the tickets, how many of the tickets did Paula sell?[br/](1)Sandy sold $$\frac2 3$$ as many of the raffle tickets as Paula did.[br/](2)Sandy sold 8 percent of all the raffle tickets sold for Club X.
+2842	While on a straight road, Car X and Car Y are traveling at different constant rates. If Car X is now 1 mile ahead of Car Y, how many minutes from now will Car X be 2 miles ahead of Car Y ?[br/](1)Car X is traveling at 50 miles per hour and Car Y is traveling at 40 miles per hour.[br/](2)Three minutes ago Car X was $$\frac1 2$$ mile ahead of Car Y.
+2845	A box contains only red chips, white chips, and blue chips. If a chip is randomly selected from the box, what is the probability that the chip will be either white or blue?[br/](1)The probability that the chip will be blue is $$\frac1 5$$[br/](2)The probability that the chip will be red is $$\frac1 3$$
+2846	[img]DS1183.jpg[/img][br/]If the successive tick marks shown on the number line above are equally spaced and if x and y are the numbers designating the end points of intervals as shown, what is the value of y ?[br/](1)$$x=\frac1 2$$[br/](2)$$y-x =\frac2 3$$
+2847	On a company-sponsored cruise, $$\frac2 3$$ of the passengers were company employees and the remaining passengers were their guests. If $$\frac3 4$$ of the company-employee passengers were managers, what was the number of company-employee passengers who were NOT managers?[br/](1)There were 690 passengers on the cruise.[br/](2)There were 230 passengers who were guests of the company employees.
+2851	What was the revenue that a theater received from the sale of 400 tickets, some of which were sold at the full price and the remainder of which were sold at a reduced price?[br/](1)The number of tickets sold at the full price was $$\frac1 4$$of the total number of tickets sold.[br/](2)The full price of a ticket was $25.
+2854	By what percent did the median household income in Country Y decrease from 1970 to 1980?[br/](1)In 1970 the median household income in Country Y was$$\frac2 3$$ of the median household income in Country X.[br/](2)In 1980 the median household income in Country Y was $$\frac1 2$$ of the median household income in Country X.
+2860	What is the value of $${5}{x}^{2}+ 4x - 1$$?[br/](1)$$x(x+2) = 0$$[br/](2)$$x=0$$
+2864	If S is the infinite sequence $${S}_{1}={9}$$, $${S}_{2}={99}$$, $${s}_{3}={999}$$ . . ., $${S}_{k}={10}^{k}-{1}$$, . . ., is every term in S divisble by the prime number p ?[br/](1)p is greater than 2.[br/](2)At least one term in sequence S is divisble by p.
+2865	[img]DS11102.jpg[/img][br/]Quadrilateral RSTU shown above is a site plan for a parking lot in which side RU is parallel to side ST and RU is longer than ST. What is the area of the parking lot?[br/](1)$$RU = 80$$ meters[br/](2)$$TU = 20\sqrt{10}$$ meters
+2866	If n and k are greater than zero, is$$\frac n k$$ an integer[br/](1)n and k are both integers.[br/](2)$${n}^{2}$$ and $${k}^{2}$$ are both integers.
+2870	Any decimal that has only a finite number of nonzero digits is a terminating decimal. For example, 24, 0.82, and 5.096 are three terminating decimals. If r and s are positive integers and the ratio $$\frac r s $$ is expressed as a decimal, is $$\frac r s$$ a terminating decimal?[br/](1)$$90 ＜ r ＜ 100$$[br/](2)$$s = 4$$
+2874	The price per share of Stock X increased by 10 percent over the same time period that the price per share of Stock Y decreased by 10 percent. The reduced price per share of Stock Y was what percent of the original price per share of Stock X ?[br/](1)The increased price per share of Stock X was equal to the original price per share of Stock Y.[br/](2)The increase in the price per share of Stock X was $$\frac{10} {11}$$ the decrease in the price per share of Stock Y.
+2875	Is k greater than t?[br/](1)$$kt = 24$$[br/](2)$${k}^{2}＞{t}^{2}$$
+2876	[img]DS11113.jpg[/img][br/]In the figure above, if the area of triangular region D is 4, what is the length of a side of square region A ?[br/](1)The area of square region B is 9.[br/](2)The area of square region C is $$\frac{64}{9}$$
+2877	<p>If x is to be selected at random from set T,what is the probability that $$\frac{1}{4}{x}-{5}<{0}$$ ?[br/](1)T is a set of 8 integers.[br/](2)T is contained in the set of integers from 1 to 25, inclusive.</p>
+2879	what is the value of $$({a}+{b})^{2}$$[br/](1)$$ab=0$$[br/](2)$$({a}-{b})^{2}=36$$
+2880	[img]ds2880.jpg[/img][br/]In the figure above,what is the ratio $$\frac{KN}{MN})$$?[br](1)The perimeter of rectangle $$KLMN$$ is 30 meters[br](2)The tfree small rectangles have the same dimensions
+2881	If n s a positive integer, is $$\frac{150}{n}$$ an integer?[br/](1)$$n ＜ 7$$[br/](2)n is a prime number
+2882	Is $$2x- 3y ＜ {x}^{2}$$?[br/](1)$$2x-3y=-2$$[br/](2)$$x＞2$$ and $$y＞0$$
+2884	If $$\frac{x}{2}=\frac{3}{y}$$,is x less than y?[br/](1)$${y}\ge{3}$$[br/](2)$${y}\le{4}$$
+2885	If v and w are different integers, does v=0?[br/](1)$${v}{w}={v}^{2}$$[br/](2)$$w=2$$
+2888	If r and s are positive integers, is $$\frac{r}{s}$$ an integer?[br/](1)Every factor of s is also a factor of r.[br/](2)Every prime factor of s is also a prime factor of r.
+2889	If $$z^n=1$$, what is the value of z?[br/](1)n is a nonzero integer.[br/](2)$$z ＞ 0$$
+2890	$${S}=\frac{\frac{2}{n}}{\frac{1}{x}+\frac{2}{3x}}$$[br/]In the expression above, if $${x}{n}!={0}$$, what is the value of S?[br/](1)x = 2n[br/](2)$$n =\frac{1}{2}$$
+2891	If x is an integer, is $$x |x| ＜ {2}^{X}$$ ?[br/](1)$$x ＜ 0$$[br/](2)$$x = -10$$
+2892	If n is a positive integer, is the value of b - a at least twice the value of $${3}^{n}-{2}^{n}$$ ?[br/](1)$$a ={2}^{n+1}$$ and $$b={3}^{n+1}$$[br/](2)$$n = 3$$
+2894	Is$${5}^{k}$$less than 1,000 ?[br/](1)$${5}^{k+1}＞3,000$$[br/](2)$${5}^{k-1}={5}^{k}-500$$
+2897	If mand nare positive integers, is $$\sqrt{n-m}$$ an integer?[br/](1)$$n ＞ m + 15$$[br/](2)$$n = m(m + 1)$$
+2898	If $$x ＜ 0$$, is $$y ＞ 0$$ ?[br/](1)$$\frac{x}{y}＜{0}$$[br/](2)$$y-x＞0$$
+2899	[img]DS11136.jpg[/img][br/]What is the circumference of the circle above with center 0 ?[br/](1)The perimeter of $$\Delta OXZ$$ is $$20+10\sqrt 2$$[br/](2)The length of arc $$XYZ$$ is $$5\pi$$.
+2900	What is the value of $${a}^{4}-{b}^{4}$$?[br/](1)$${a}^{2}-{b}^{2}$$= 16[br/](2)$$a+b=8$$
+2902	If $${x}!=-{y}$$,is$$\frac{x-y}{x+y}＞1$$[br/](1)$$x＞0$$[br/](2)$$y＜0$$
+2905	If x is an integer, is $${9}^{x}+{9}^{-x}=b$$ ?[br/](1)$${3}^{x}+{3}^{-x}=\sqrt{b+2}$$[br/](2)$$x ＞ 0$$
+2906	<p>If $$m ＞ 0$$ and $$n ＞ 0$$, is $$\frac{m+x}{n+x}＞\frac m n$$[br/](1)$$m＜n$$[br/](2)$$x＞0$$</p>
+2907	If n is a positive integer, is$${(\frac{1}{10})}^{n}＜0.01$$[br/](1)$$n＞2$$[br/](2)$$(\frac{1}{10})^{n-1}＜0.1$$
+2908	Is $$\frac{1}{p}＞\frac{r}{r^2+2}$$?[br/](1)P=r[br/](2)$$r＞0$$
+2909	Is n an integer?[br/](1)$${n}^{2}$$ is an integer.[br/](2)$$\sqrt{n}$$ is an integer.
+2910	If n is a positive integer, is $$n^3 - n$$ divisible by 4 ?[br/](1)$$n = 2k + 1$$, where k is an integer.[br/](2)$$n^2 + n$$ is divisible by 6.
+2912	If x, y, and z are positive integers, is x - y odd?[br/](1)$$x = z^2$$[br/](2)$$y = (z-1)^2$$
+2915	[img]DS11152.jpg[/img][br/]If arc PQR above is a semicircle, what is the length of diameter $$\overline{PR}$$ ?[br/](1)a = 4[br/](2)b = 1
+2917	Is x negative?[br/](1)$${x}^{3}({l}-{x}^{2})＜{0}$$[br/](2)$${x}^{2}-{l}＜{0}$$
+2918	Marcia's bucket can hold a maximum of how many liters of water?[br/](1)The bucket currently contains 9 liters of water.[br/](2)If 3 liters of water are added to the bucket when it is half full of water, the amount of water in thebucket will increase by $$\frac1 3$$
+2922	If Pat saved $600 of his earnings last month, how much did Pat earn last month?[br/](1)Pat spent $$\frac{1}{2}$$ of his earnings last month for living expenses and saved $$\frac{1}{3}$$ of the remainder.[br/](2)Of his earnings last month, Pat paid twice as much in taxes as he saved.
+2924	If Car X followed Car Y across a certain bridge that is $$\frac{1}{2}$$ mile long, how many seconds did it take Car X to travel across the bridge?[br/](1)Car X drove onto the bridge exactly 3 seconds after Car Y drove onto the bridge and drove off the bridge exactly 2 seconds after Car Y drove off the bridge.[br/](2)Car Y traveled across the bridge at a constant speed of 30 miles per hour.
+2930	If n is an integer, is n even?[br/](1)$$n^2 - 1$$ is an odd integer.[br/](2)3n + 4 is an even integer.
+2940	If $${p}_{1}$$ and $${p}_{2}$$ are the populations and $${r}_{1}$$ and $${r}_{2}$$ are the numbers of representatives of District 1 and District 2, respectively, the ratio of the population to the number of representatives is greater for which of the two districts?[br/](1)$${P}_{1}＞{P}_{2}$$[br/](2)$${r}_{2}＞{r}_{1}$$
+2943	Robots X, Y, and Z each assemble components at their respective constant rates. If $${r}_{x}$$ is the ratio of Robot X's constant rate to Robot Z's constant rate and $${r}_{y}$$ is the ratio of Robot Y's constant rate to Robot Z's constant rate, is Robot Z's constant rate the greatest of the three?[br/](1)$${r}_{x}＜{r}_{y}$$[br/](2)$${r}_{y}＜ 1$$
+2944	If r is a constant and $${a}_{n}$$ = rn for all positive integers n, for how many values of n is $${a}_{n} ＜ 100$$ ?[br/](1)$${a}_{50} = 500$$[br/](2)$${a}_{100}+{a}_{105} = 2,050$$
+2945	If r is represented by the decimal 0.t5, what is the digit t?[br/](1)$$r＜\frac{1}{3}$$[br/](2)$$r＜\frac{1}{10}$$
+2954	If a total of 84 students are enrolled in two sections of a calculus course, how many of the 84 students are female?[br/](1)$$\frac{2}{3}$$ of tne students in Section 1 are female.[br/](2)$$\frac{1}{2}$$ of tne students in Section 2 are male.
+2966	Leo can buy a certain computer for $${P}_{1}$$ dollars in State A, where the sales tax is $${t}_{1}$$ percent, or he can buy the same computer for $${p}_{2}$$ dollars in State B, where the sales tax is $${t}_{2}$$ percent. Is the total cost of the computer greater in State A than in State B ?[br/](1)$${t}_{1}＞{t}_{2}$$[br/](2)$${p}_{1}{t}_{1}＞{p}_{2}{t}_{2}$$
+2967	If $$r ＞ 0$$ and $$s ＞ 0$$, is$$\frac{r}{s}＜\frac{s}{r}$$ ?[br/](1)$$\frac{r}{3s}=\frac{1}{4}$$[br/](2)$$s = r + 4$$
+2971	Last year, if Arturo spent a total of $12,000 on his mortgage payments, real estate taxes, and home insurance, how much did he spend on his real estate taxes?[br/](1)Last year, the total amount that Arturo spent on his real estate taxes and home insurance was $$33\frac{1}{3}$$ percent of the amount that he spent on his mortgage payments.[br/](2)Last year, the amount that Arturo spent on his real estate taxes was 20 percent of the total amount he spent on his mortgage payments and home insurance.
+2982	If x and y are integers, is xy even?[br/](1)$$x = y+1$$[br/](2)$$\frac{x}{y}$$is an even integer.
+3005	If n is a positive integer and $$k = {5.1}*{10}^{n}$$, what is the value of k ?[br/](1)$$6,000 ＜ k ＜ 500,000$$[br/](2)$${k}^{2}={2.601}*{10}^{9}$$
+3009	If n and k are positive integers, is $$\sqrt{n+k}＞2\sqrt{n}$$?[br/](1)$$k ＞ 3n$$[br/](2)$$n + k＞ 3n$$
+3011	What is the value of $$\frac{(2t+t-x)}{(t-x)}$$[br/](1)$$\frac{2t}{t-x}=3$$[br/](2)t-x=5
+3013	For which of the following values of n is $$\frac{(100+n)}{n}$$ NOT an integer?
+3018	[img]PS1107.jpg[/img][br/]On the graph above, when $$x=\frac{1}{2}$$, y=2; and when x = 1, y = 1. The graph is symmetric with respect to the vertical line at x = 2. According to the graph, when x = 3, y =
+3019	When $$\frac{1}{10}$$ percent of 5,000 is subtracted from $$\frac{1}{10}$$ of 5,000, the difference is
+3020	Which of the following is the value of $$\sqrt{\sqrt[3]{0.000064}}$$?
+3022	On Monday, a person mailed 8 packages weighing an average (arithmetic mean) of $$12\frac{3}{8}$$ pounds, and on Tuesday, 4 packages weighing an average of $$15\frac{1}{4}$$ pounds. What was the average weight, in pounds, of all the packages the person mailed on both days
+3025	which of the following CANNOT be a value of $$\frac{1}{x-1}$$
+3027	What is the combined area, in square inches, of the front and back of a rectangular sheet of paper measuring $$8\frac{1}{2}$$ inches by 11 inches?
+3029	The ratio 2 to $$\frac{1}{3}$$ is equal to the ratio
+3037	If the quotient $$\frac{a}{b}$$ is positive,which of the following must be true?
+3040	$$\sqrt{(16)(20)+(8)(32)}$$
+3046	If $$\frac{1.5}{0.2+x}$$=5,then x=
+3049	If 4 is one solution of the equation $${x}^{2} + 3x + k = 10$$, where k is a constant, what is the other solution?
+3051	$$\frac{({29}^{2}+{29})}{29}$$=
+3054	$$\frac{(0.3)^5}{(0.3)^3}$$
+3060	$$(\sqrt{7}+\sqrt{7})^{2}$$
+3064	<p>Of the following, which is the closest approximation of $$\frac{0.52\times0.49}{1.998}$$</p>
+3066	if $$y= 4 + (x-3)^2$$, then y is lowest when x=
+3068	Fermat primes are prime numbers that can be written in the form $${2}^{k}+{1}$$, where k is an integer and a power of 2. Which of the following is NOT a Fermat prime
+3069	If $${x}^{2}={2}{y}^{3}$$ and 2y = 4, what is the value of $${x}^{2}+{y}^{2}$$?
+3080	If$${y}(\frac{3x-5}{2})={y}$$ and $$y\neq0$$,then x=
+3083	At least $$\frac{2}{3}$$ of the 40 members of a committee must vote in favor of a resolution for it to pass. What is the greatest number of members who could vote against the resolution and still have it pass?
+3087	Which of the following ratios is most nearly equal to the ratio $$1 +\sqrt{5}$$ to 2?
+3088	<p>$$\frac7{\frac15}+\frac5{\frac17}$$=<p>
+3094	What is the decimal equivalent of $$(\frac{1}{5})^{5}$$ ?
+3095
+3107	$$\frac {1}{2}+[(\frac{2}{3}×\frac{3}{8})÷{4}]-\frac{9}{16}$$
+3109	If x(2x+1)=0 and $$（x+\frac1 2)(2x-3)=0$$,then x =
+3113	If T = $$\frac{5}{9}$$(K - 32), and if T = 290, then K =
+3118	What is the smallest integer n for which $${25}^{n}＞{5}^{12}$$ ?
+3119	If x and y are different prime numbers, each greater than 2, which of the following must betrue?[br/]I $${x}+{y} \neq{91}  $$[br/]II x - y is an even integer.[br/]III $$\frac{x}{y}$$is not an integer.
+3122	if s＞0 and $$\sqrt{\frac{r}8}$$=s,what is r in terms of s ?
+3131	David has d books, which is 3 times as many as Jeff and $$\frac{1}{2}$$ as many as Paula. How many books do the three of them have altogether, in terms of d
+3135	According to a car dealer's sales report, $$\frac{1}{3}$$ of the cars sold during a certain period were sedans and $$\frac{1}{5}$$ of the other cars sold were station wagons. If N station wagons were sold during that period, how many sedans, in terms of N, were sold?
+3136	if $$\frac{p}{q}$$＜1, and p and q are positive integers, which of the following must be greater than 1 ?
+3139	If money is invested at r percent interest, compounded annually, the amount of the investment will double in approximately $$\frac{70}{r}$$ years. If Pat's parents invested $5,000 in a long-term bond that pays 8 percent interest, compounded annually, what will be the approximate total amount of the investment 18 years later, when Pat is ready for college?
+3144	A certain country had a total annual expenditure of $$$1.2 \times {10}^{12}$$ last year. If the population of the country was 240 million last year, what was the per capita expenditure?
+3147	If the operation * is defined by $$x*y=\sqrt{xy}$$ for all positive numbers x and y, then (5 * 45) * 60 =
+3148	A bar over a sequence of digits in a decimal indicates that the sequence repeats indefinitely.What is the value of $$({10}^{4}-{10}^{2})(0.00\overline{12})$$?
+3149	At a loading dock, each worker on the night crew loaded $$\frac{3}{4}$$ as many boxes as each worker on the day crew. If the night crew has $$\frac{4}{5}$$ as many workers as the day crew, what fraction of all the boxes loaded by the two crews did the day crew load?
+3153	Of the 3,600 employees of Company X, $$\frac{1}{3}$$ are clerical. If the clerical staff were to be reduced by $$\frac{1}{3}$$, what percent of the total number of the remaining employees would then be clerical?
+3154	$$\frac{3.003}{2.002}$$
+3155	if $$(4-x)\over({2}+{x})$$= x, what is the value of $${x}^{2}$$ + 3x - 4 ?
+3161	if x=-1,then $$\frac{x^4-x^3+x^2}{x-1}$$
+3165	An empty pool being filled with water at a constant rate takes 8 hours to fill to $$\frac{3}{5}$$ of its capacity. How much more time will it take to finish filling the pool?
+3172	The positive integer n is divisible by 25. If $$\sqrt{n}$$ is greater than 25, which of the following could be the value of $$\frac{n}{25}$$
+3173	$$\frac {1}{1+(\frac{1}{2+\frac1 3})}$$
+3178	if 1+$$\frac{1}{x}$$=2-$$\frac{2}{x}$$,then x=
+3182	If $$({x}-{1})^{2}$$ = 400, which of the following could be the value of x - 5 ?
+3183	Which of the following describes all values of x for which $${1}-{x}^{2}≥{0}$$?
+3184	The probability is $$\frac{1}{2}$$ that a certain coin will turn up heads on any given toss. If the coin is to be tossed three times, what is the probability that on at least one of the tosses the coin will turn up tails?
+3185	Of the final grades received by the students in acertain math course, $$\frac{1}{5}$$ are A's, $$\frac{1}{4}$$ are B's,$$\frac{1}{2}$$ are C's,and the remaining 10 grades are D's. What is the number of students in the course?
+3186	As x increases from 165 to 166, which of the following must increase?[br/]I 2x-5[br/]II $$1-\frac{1}{x}$$[br/]III $${1}\over({x}^{2}-{x})$$
+3191	In a nationwide poll, N people were interviewed.If $$\frac{1}{4}$$ of them answered "yes" to question 1, and of those, $$\frac{1}{3}$$ answered "yes" to question 2, which ofthe following expressions represents the numberof people interviewed who did not answer "yes" to both questions?
+3194	If $$\frac{1}{2}$$ of the air in a tank is removed with each stroke of a vacuum pump, what fraction of the original amount of air has been removed after 4 strokes?
+3199	Drum X is $$\frac{1}{2}$$ full of oil and Drum Y, which has twice the capacity of Drum X, is $$\frac{2}{3}$$ full of oil. If all of the oil in Drum X is poured into Drum Y, then Drum Y will be filled to what fraction of its capacity?
+3200	if x ＞ 0,$$\frac{x}{50}+\frac{x}{25}$$ is what percent of x ?
+3201	If the operation ? is defined for all a and b by the equation a?b=$${a}^{2}\frac{b}{3}$$,then2?(3?-1)
+3203	($$\sqrt{2}+{1})(\sqrt{2}-{1})(\sqrt{3}+{1})(\sqrt{3}-{1})=$$
+3205	What is the units digit of $$({13})^{4}({17})^{2}({29})^{3}$$?
+3209	if $$\frac{1}{2}+\frac{1}{3}+\frac{1}{4}=\frac{13}{x}$$,which of the following must be an integer?[br/]I. $$\frac{x}{8}[br/]$$II. $$\frac{x}{12}$$[br/]III. $$\frac{x}{24}$$
+3213	In the formula V =$${1}\over({2}{r})^{3}$$,if r is halved, then V is multiplied by
+3230	What is the 25th digit to the right of the decimal point in the decimal form of $$\frac{6}{11}$$
+3232	1+$${1}\over{1}+({{1}\over{1}+\frac{1}{3}})$$
+3236	$${(\frac{x+1}{x-1})}^{2}$$If $${x}\neq{0}$$ and $${x}\neq{1}$$, and if x is replaced by $$\frac{1}{x}$$ everywhere in the expression above, then the resulting expression is equivalent to
+3242	Xavier, Yvonne, and Zelda each try independently to solve a problem. If their individual probabilities for success are $$\frac{1}{4}$$,$$\frac{1}{2}$$and $$\frac{5}{8}$$ respectively, what is the probability that Xavier and Yvonne, but not Zelda, will solve theproblem?
+3243	if $$\frac{1}{x}-{{1}\over{x}+{1}}={{1}\over({x}+{4})}$$ then x could be
+3244	$$(\frac{1}{2})^{-3}(\frac{1}{4})^{-2}(\frac{1}{16})^{-1}$$=
+3246	if $${2}\over({1}+\frac{2}{y})$$=1,then y=
+3247	If a, b, and c are consecutive positive integers and $$a ＜ b ＜ c$$, which of the following must be true?I c-a = 2II abc is an even integer.III $$\frac{a+b+c}{3}$$is an integer.
+3252	If the integer n has exactly three positive divisors including, 1 and n, how many positive divisors does $${n}^{2}$$ have
+3255	if $${{(0.0015}×{10}^{m})\over({0.03}×{10}^{k})}={5}×{10}^{7}$$,then m-k=
+3258	P, r, s, t, u[br/]An arithmetic sequence is a sequence in which each term after the first is equal to the sum of the preceding term and a constant. If the list of letters shown above is an arithmetic sequence, which of the following must also be an arithmetic sequence?I 2P, 2r, 2s, 2t, 2uII P-3, r-3, s-3, t-3, u-3III $${P}^{2}$$, $${r}^{2}$$, $${s}^{2}$$, $${t}^{2}$$, $${u}^{2}$$
+3259	Right triangle PQR is to be constructed in the xy-plane so that the right angle is at P and $$\overline{PR}$$ is parallel to the x-axis. The x- and y-coordinates of P, Q, and R are to be integers that satisfy the inequalities $$-4 \le x \le 5$$ and $$6 \le y \le 16$$. How many different triangles with these properties could be constructed?
+3260	If n is a positive integer less than 200 and$$\frac{14n}{60}$$is an integer, then n has how many different positive prime factors?
+3267	0.1+$${0.1}^{2}$$+$${0.1}^{3}$$=
+3272	If n is a prime number greater than 3, what is the remainder when $${n}^{2}$$ is divided by 12 ?
+3273	$${{1}\over({1}+\frac{1}{3})}-{{1}\over({1}+\frac{1}{2})}$$=
+3275	The average distance between the Sun and a certain planet is approximately 2.3 x $${10}^{14}$$ inches. Which of the following is closest to the average distance between the Sun and the planet, in kilometers? (1 kilometer is approximately 3.9 x $${10}^{4}$$ inches.)
+3280	$${1}\over({0.75}-{1})$$=
+3286	The sum $$\frac{7}{8}+\frac{1}{9}$$ is between
+3288	$${1}-(\frac{1}{2}-\frac{2}{3})$$=
+3289	$$\frac{0.3^5}{0.3^3}=$$
+3290	[img]PS1248.jpg[/img][br/]In the figure above, if $${b}{a}{r}{A}{B}||{b}{a}{r}{C}{E}$$, CE = DE, and y = 45, then x =
+3293	$$\sqrt{80}+\sqrt{125}$$=
+3295	Of the following, which is the closest approximation of $${50.2}*\frac{0.49}{199.8}$$
+3304	At a certain instant in time, the number of cars, N, traveling on a portion of a certain highway can be estimated by the formula[br/]N=$$20L{{d}\over({600}+{s}^{2})}$$where L is the number of lanes in the same direction, d is the length of the portion of the highway, in feet, and s is the average speed of the cars, in miles per hour. Based on the formula, what is the estimated number of cars traveling on a $${1}/{2}$$ mile portion of the highway if the highway has 2 lanes in the same direction and the average speed of the cars is 40 miles per hour? (5,280 feet = 1 mile)
+3307	If r = 0.345, s = $$({0.345})^{2}$$, and t =$$\sqrt{0.345}$$, which of the following is the correct ordering of r, s, and t ?
+3310	$$\frac{(0.0036)(2.8)}{(0.04)(0.1)(0.003)}=$$
+3315	If s is the product of the integers from 100 to 200, inclusive, and t is the product of the integers from 100 to 201, inclusive, what is $$\frac{1}{s}+\frac{1}{t}$$ in terms of t?
+3322	If x is the product of the positive integers from 1 to 8, inclusive, and if i, k, m, and p are positive integers such that x =$${2}^{i}{3}^{k}{5}^{m}{7}^{p}$$, then i + k + m + p =
+3323	if $${t}={{1}\over({2}^{9}*{5}^{3})}$$ is expressed as a terminating decimal,how many zeros will t have between the decimal point and the first nonzero digit to the right of the decimal point?
+3325	If n is positive, which of the following is equal to $$\frac{1}{\sqrt{n+1}-\sqrt{n})}$$
+3329	In a certain sequence, the term $${x}_{n}$$, is given by the formula $${x}_{n}={2}{x}_{n-1}-\frac{1}{2}({x}_{n-2})$$ for all $${n}≥{2}$$.if $${x}_{0}$$=3 and $${x}_{1}$$=2, what is the value of $${x}_{3}$$
+3330	If x, y, and k are positive numbers such that $$({{x}\over{x}+{y}})({10})+({{y}\over{x}+{y}})({20})$$=k and if x＜y which of the following could be the value of k?
+3334	if $${m}^{-1}=-\frac{1}{3}$$,then $${m}^{-2}$$ is equal to
+3335	What is the difference between the sixth and the fifth terms of the sequence 2,4, 7,... whose nth term is n + $${2}^{n-1}$$?
+3338	If 5-$$\frac{6}{x}$$=x then x has how many possible values?
+3339	<p>The value of $$({2}^{-14}+{2}^{-15}+{2}^{-16}+{2}^{-17})\over{5}$$ is how many times the value of&nbsp;$${2}^{-17}$$&nbsp;?</p>
+3448	Is the sum of $${p}^{2}$$ and $${q}^{2}$$ greater than 1?[br/](1) p is greater than $$\frac{1}{2}$$.(2) q is greater than $$\frac{1}{2}$$.
+3454	If (y+3)(y-1) – (y-2)(y-1) = r(y-1), what is the value of y?[br/](1) $${r}^{2}={25}$$(2) r = 5
+3455	If x and k are integers and $$（{12}^{x}）（{4}^{2x+1})=（{2}^{k}）（{3}^{2}）$$, what is the value of k?
+3463	If n and k are positive integers, is $$\frac{n}{k}$$ an even integer?(1) n is divisible by 8.(2) k is divisible by 4.
+3465	Which of the following is equal to $$[{{1}\over\sqrt3-\sqrt{2}}]^{2}$$?
+3469	[img]20120325221005723_3469.jpg[/img][br/]In the triangle above, is $$x ＞90$$?[br/](1) $${a}^{2}+{b}^{2}＜{15}$$[br/](2)$$c ＞ 4$$
+3475	The function f is defined for each positive three-digit integer n by $${f}({n})={2}^{x}{3}^{y}{5}^{z}$$, where x, y and z are the hundreds, tens, and units digits of n, respectively. If m and v are three-digit positive integers such that f(m) = 9f(v), then m-v = ?
+3476	If f is the function defined for all k by f(k) = $${k}^{5}\over{16}$$, what is f(2k) in terms of f(k)?
+3478	Working alone at its constant rate, machine K took 3 hours to produce $$\frac{1}{4}$$ of the units produced last Friday. Then machine M started working and the two machines, working simultaneously at their respective constant rates, took 6 hours to produce the rest of the units produced last Friday. How many hours would it have taken machine M, working alone at its constant rate, to produce all of the units produced last Friday?
+3485	If $$\frac{k}{60125}={0.001}$$, what is the units digit of k?
+3486	What is the value of the ratio of x to $${y}^{2}$$?(1) The ratio of $${x}^{2}$$ to y is $${5}\over{3}$$.(2) The ratio of x to 1 is $$\frac{5}{3}$$.
+3491	$$\frac{0.8^{-5}}{0.4^{-4}}=$$
+3494	Is x＜y ?(1) The ratio of x to y is $${7}\over{9}$$.(2) xy＞0
+3501	P, r, s, t, u[br/]An arithmetic sequence is a sequence in which each term after the first is equal to the sum of the preceding term and a constant. If the list of letters shown above is an arithmetic sequence, which of the following must also be an arithmetic sequence?[br/]I 2P, 2r, 2s, 2t, 2u[br/]II P-3, r-3, s-3, t-3, u-3[br/]III $${P}^{2}$$, $${r}^{2}$$, $${s}^{2}$$, $${t}^{2}$$, $${u}^{2}$$
+3502	If $${x}^{2}+{y}^{2}={1}$$, is x + y = 1?[br\](1) xy = 0[br\](2) y = 0
+3505	If x(x - 5)(x + 2) = 0, is x negative?[br/](1) $${x}^{2}–{7}{x}≠{0}$$[br/](2) $${x}^{2}–{2}{x}–{15}≠{0}$$
+3511	If n is an integer and $${x}^{n}–{x}^{-n}={0}$$, what is the value of x ?[br/](1) x is an integer.[br/](2) n ≠ 0
+3512	In the sequence of nonzero numbers $${t}_{1}$$, $${t}_{2}$$, $${t}_{3}$$, …, $${t}_{n}$$, …, $${t}_{n}+{1}=\frac{{t}_{n}}{2}$$ for all positive integers n. What is the value of $${t}_{5}$$?[br/](1) $${t}_{3}=\frac{1}{4}$$[br/](2) $${t}_{1}-{t}_{5}=\frac{15}{16}$$
+3518	The value of $$–{3}+\sqrt{9-k}$$ is positive for which of the following values of k ?[br\]I. -1[br\]II. 0[br\]III. 1
+3520	There were 2 apples and 5 bananas in a basket. After additional apples and bananas were placed in the basket, the ratio of the number of apples to the number of bananas was $$\frac{1}{2}$$. How many apples were added?[br\](1) The number of apples added was $$\frac{2}{3}$$ the number of bananas added.[br\](2) A total of 5 apples and bananas were added.
+3522	[img]20120325233713535_3522.jpg[/img][br\]If $${l}_{1}$$ ║ $${l}_{2}$$ in the figure above, is x = y?[br\](1) p║r and r║t[br\](2) q║s
+3530	For any positive integer x, the 2-height of x is defined to be the greatest nonnegative integer n such that $${2}^{n}$$ is a factor of x. If k and m are positive integers, is the 2-height of k greater than the 2-height of m ?[br\](1) k＞m[br\](2)K/M is an even integer.
+3533	If $${4x}＜{x}＜{x^3}＜{x^2}$$, which of the following is a possible value of x ?
+3536	What was the range of the selling prices of the 30 wallets sold by a certain store yesterday?[br\](1) $$\frac{1}{3}$$ of the wallets had a selling price of $24 each.[br\](2) The lowest selling price of the wallets was $${1}\over{3}$$ the highest selling price of the wallets.
+3541	If p, r, s, and t are nonzero integers, is $$\frac{p}{r}=\frac{s}{t}$$?[br\](1) s = 3p and t = 3r.[br\](2) 3p = 2r and 3s = 2t.
+3542	If $${a}_{1}={1}$$ and $${a}({n}+{1})={1}+{{1}\over{a}^{n}}$$ for all n ≥ 1, what is the value of $${a}_{5}$$ ?
+3546	Which of the following is closest in value to $${9}^{9}–{9}^{2}$$ ?
+3548	Of the following values of n, the value of $$(-\frac{1}{5})^{-n}$$ will be greatest for n =
+3549	For all numbers x, the function f is defined by f(x) = 3x + 1 and the function g is defined by g(x) = $${x}-{1}\over{3}$$ . If c is a positive number, what is the value of g(c)?[br\](1) f(c) = 13[br\](2) f(1) = c
+3552	What is the value of $$({2}{x}–{5})^{3}$$ ?[br\](1) $$({2}{x})^{3}={216}$$[br\](2) $$({2}{x}+{3})^{2}={81}$$
+3556	If g(x) = x + 4 for all x and $$f(x)={{2}{x}^{2}-{5}\over{x}}$$ for all nonzero x, then f(x) = g(x) for which of the following values of x ?
+3557	Is x＞5 ?[br\](1) $${x}^{2}＞{25}$$[br\](2) 2x+7＞0
+3558	Pumping alone at their respective constant rates, one inlet pipe fills an empty tank to $$\frac{1}{2}$$ of capacity in 3 hours and a second inlet pipe fills the same empty tank to $$\frac{2}{3}$$ of capacity in 6 hours. How many hours will it take both pipes, pumping simultaneously at their respective constant rates, to fill the empty tank to capacity?
+3563	If b, c, and d are constants and $${x}^{2}+{b}{x}+{c}=({x}+{d})^{2}$$ for all values of x, what is the value of c?[br\](1) d = 3[br\](2) b = 6
+3564	If a, b, k, and m are positive integers, is $${a}^{k}$$ a factor of $${b}^{m}$$?[br\](1) a is a factor of b.[br\](2) k ≤ m
+3575	If $${2}^{x}+{2}^{x}+{2}^{x}+{2}^{x}={2}^{n}$$, what is x in terms of n?
+3581	If x ≠ 0, then $$({x}+\frac{1}{x})^{2}-({x}-\frac{1}{x})^{2}=$$
+3586	If $$({2}-\sqrt{5}){x}=-{1}$$, then x =
+3593	The operation Θ is defined by $${x}Θ{y}=\frac{1}{x}+\frac{1}{y}$$ for all nonzero numbers x and y. If z is a number greater than 1, which of the following must be true?[br\]I. zΘ(-z) = 0[br\]II.$${z}Θ{{z}\over{z}-{1}}={1}$$[br\]III. $$(\frac{2}{z})Θ(\frac{2}{z})={z}$$
+3596	If $${x}^{3}{y}^{4}={5000}$$, is y = 5?[br\](1) y is a positive integer.[br\](2) x is an integer.
+3597	How many different factors does the integer n have?[br\](1) $${n}={a}^{4}{b}^{3}$$, where a and b are different positive prime numbers.[br\](2) The only positive prime numbers that are factors of n are 5 and 7.
+3602	How many years did Dr. Jones live?[br/](1) If Dr. Jones had become a doctor 10 years earlier than he did, he would have been a doctor for exactly $$\frac{2}{3}$$ of his life.[br/](2) If Dr. Jones had become a doctor 10 years later than he did, he would have been a doctor for exactly $$\frac{1}{3}$$ of his life.
+3603	If f is the function defined by $${f}({x})={x}^{2}({1}-{x})^{2}$$ for all x, then f(1-x) =
+3605	If the average (arithmetic mean) of 5 different numbers is 12, what is the median of the 5 numbers?[br/](1) The median of the 5 numbers is equal to $$\frac{1}{3}$$ of the sum of the 4 numbers other than the median.[br/](2) The sum of the 4 numbers other than the median is equal to 45.
+3607	If $${9}{x}={27}^{y}$$, which of the following expresses x in terms of y?
+3609	An object thrown directly upward is at a height of h feet after t seconds, where $${h}=-{16}({t}-{3})^{2}+{150}$$. At what height, in feet, is the object 2 seconds after it reaches its maximum height?
+3610	If $${x}^{2}–{y}={w}$$, what is the value of x?[br/](1) w + y = 4[br/](2) y = 1
+3615	Which of the following is equal to $${5}^{17}×{4}^{9}$$?
+3617	If x and y are positive integers and y =$${\sqrt{90-x}}$$ , what is the value of y?[br/](1) x ＜8[br/](2) y ＞ 1
+3620	If xy ≠ 0, what is the value of $$\frac{1}{x}+\frac{1}{y}$$ ?[br/](1) $${{1}\over({x}+{y})}=-{1}$$[br/](2) xy=6(x+y)
+3627	If x≠y, is x+y=xy?[br/](1) (1-x)(1-y)=1[br/](2) $${x}^{2}-{y}^{2}={x}^{2}{y}-{x}{y}^{2}$$
+3629	What is the value of the product xy?[br/](1) $$\frac{x}{y}=\frac{1}{5}$$[br/](2) x+y=60
+3632	Of the mutual funds on a select list,  $$\frac{1}{3}$$ have 5-star ratings, and $$\frac{2}{5}$$ of the remaining funds have 4-star ratings. If the remaining 300 funds on the list have 3-star ratings, how many funds are on the list?
+3636	Is $${y}^{2}={0}$$?[br/](1) 3y=0[br/](2) $${y}^{3}={0}$$
+3639	If $$\sqrt{x}$$ is an integer, what is the value of $$\sqrt{x}$$?[br/](1) 11＜x＜17[br/](2) $${2}＜\sqrt{x}＜{5}$$
+3640	If $${P}({r})={8}{{r}\over{1}-{r}}$$, for what value of r does $${P}({r})=\frac{1}{2}{P}(3)$$?
+3645	which of the following is a value of X for which $${X}^{11}-{X}^{3}＞{0}$$
+3648	A farmer produced 750 bushels of a certain crop at a cost of $20 per bushel. If the farmer sold $$\frac{2}{3}$$ of the bushels for double their production cost and sold the remaining bushels at 25 percent above their production cost, what was the farmer's gross profit on the sale of the crop?
+3649	Is $$({X}+{Y})^{3}$$ an even integer?[br/](1) X and Y are integers.[br/](2) XY=9
+3650	If M is a positive integer, then $${M}^{3}$$ has how many digits?[br/](1) M has 3 digits.[br/](2) $${M}^{2}$$ has 5 digits
+3651	If the function f is defined by $${f}({x})={x}^{2}+{{1}\over{x}^{2}}$$ for all nonzero numbers x, then $$f(-\frac{1}{x})=$$
+3652	If x＞1 and y＞1, is x＜y?[br/](1)$${{x}^{2}\over({x}{y}+{x})}<{1}$$[br/](2) $${{x}{y}\over{y}^{2}}-{y}＜{1}$$
+3655	A pump started filling an empty pool with water and continued at a constant rate until the pool was full. At noon the pool was $$\frac{1}{3}$$ full, and $$\frac{11}{4}$$ hours later it was $$\frac{3}{4}$$ full. What was the total number of hours that it took the pump to fill the pool?
+3656	If |M+4|=2, what is the value of M?[br/](1) M＜0[br/](2) $${M}^{2}+{8}{M}+{12}={0}$$
+3664	John, Karen, and Luke collected cans of vegetables for a food drive. The number of cans that John collected was $$\frac{1}{2}$$ the number of cans that Karen collected and $$\frac{1}{3}$$ the number of cans that Luke collected. The number of cans that Luke collected was what fraction of the total number of cans that John, Karen, and Luke collected?
+3665	For all integers x and y, the operation △ is defined by $${x}△{y}=({x}+{2})^{2}+({y}+{3})^{2}$$. What is the value of integer t?[br/](1) t △ 2 = 74[br/](2) 2 △ t = 80
+3668	If x and y are nonzero integers, is 18 a factor of $${x}{y}^{2}$$?[br/](1) x is a multiple of 54.[br/](2) y is a multiple of 6.
+3669	Is $$\frac{t}{3}＞\frac{w}{5}$$?[br/](1) w＞t[br/](2) 5t＞3w
+3676	What is the remainder when the positive integer n is divided by the positive integer k, where k＞1?[br\](1) $${n}=({k}+{1})^{3}$$[br\](2) k = 5
+3677	In a stack of cards, 9 cards are blue and the rest are red. If 2 cards are to be chosen at random from the stack without replacement, the probability that the cards chosen will both be blue is $$\frac{6}{11}$$. What is the number of cards in the stack?
+3679	If k is an integer and $$({0.0025})({0.025})({0.00025})×{10}^{k}$$ is an integer, what is the least possible value of k?
+3682	If xy ≠ 0, what is the value of $${25}{x}^{2}\over{y}^{2}$$?[br\](1) x = 3[br\](2) 5x – 2y = 0
+3693	What is the value of $$a^{-2}b^{-3}$$?[br/](1)$$a^{-3}b^{-2}=36^{-1}$$[br/](2)$$(ab)^{-1}=6^{-1}$$
+
+
+
+
+3696	If $${R}=\frac{P}{Q}$$ , is $$R\le P$$ ?[br\](1) $$P ＞ 50$$[br\](2) $$0 ＜ Q \le 20$$
+3702	If $$x \ge 0$$ and $${x}=\sqrt{8xy-16y^2}$$ , then, in terms of y, x =
+3710	For what percent of those tested for a certain infection was the test accurate; that is, positive for those who had the infection and negative for those who did not have the infection?[br/](1) Of those who tested positive for the infection, $$\frac{1}{8}$$ did not have the infection.[br/](2) Of those tested for the infection, 90 percent tested negative.
+3711	If x ≠ 0, what is the value of $$|{x}|\over{x}$$?[br/](1) x ＞ 0[br/](2) x = 5
+3717	Is x greater than y ?[br\](1) $${x}–{y}^{2}＞{0}$$[br\](2) xy ＜0
+3725	What is the value of $${t}^{-1}$$ ?[br/](1) $${t}^{-2}＜{1}$$[br/](2) $${t}^{-3}=\frac{1}{27}$$
+3727	If n is a positive integer, what is the value of n ?[br\](1) When n is divided by 3, the remainder is 2.[br\](2) When $${n}^{2}$$ is divided by 3, the remainder is 1.
+3728	$$\sqrt{{4.8}*{10}^{9}}$$ is closest in value to
+3730	[img]20120407212931301_3730.jpg[/img][br\]In the figure shown, line segments QS and RT are diameters of the circle. If the distance between Q and R is $${8}\over\sqrt{2}$$ , what is the area of the circle?
+3731	Does the decimal equivalent of $$\frac{p}{q}$$, where p and q are positive integers, contain only a finite number of nonzero digits?[br/](1) p ＞ q[br\](2) q = 8
+3735	If $${x}^{2}={4}$$ and $${y}^{2}={7}$$, then $${x}^{6}–{y}^{4}=$$
+3736	If p, s, and t are positive prime numbers, what is the value of $${p}^{3}{s}^{3}{t}^{3}$$ ?[br/](1) $${p}^{3}{s}{t}={728}$$[br/](2) t = 13
+3737	If x and y are integers, what is the value of $${2}{x}^{6y}-{4}$$ ?[br/](1) $${x}^{2y}={16}$$[br/](2) xy = 4
+3739	Is x ＜ 0 ?[br\](1) $${x}^{3}<{x}^{2}$$[br\](2) $${x}^{3}<{x}^{4}$$
+3744	Which of the following is closest to $${10}^{180}–{10}^{30}$$ ?
+3751	A sum of money was divided between John and Anne such that the ratio of John’s share to Anne’s share was 5 to 3. If John’s share exceeded $$\frac{5}{9}$$ of the sum of money by $50, what was Anne’s share?
+3754	If Diana’s stamp collection, $$\frac{4}{5}$$ of the stamps are Canadian, and $$\frac{3}{7}$$ of the Canadian stamps were issued before 1940. If 192 stamps in Diana’s collection are Canadian stamps that were issued in 1940 or later, how many stamps in her collection are not Canadian?
+3756	If x and y are integers, is y an even integer?[br/](1) $${2}{y}–{x}={x}^{2}–{y}^{2}$$[br/](2) x is an odd integer.
+3757	For any number x, [ x ] denotes the greatest integer less than or equal to x. What is the value of $$[-\frac{10}{4}]$$
+3759	Which of the following is equal to $$\frac{1}{6}*({42})^{6}$$?
+3764	If $1,000 will be deposited in a bank account and I is the dollar amount of interest earned from the original deposit, represented as $${I}={1000\{{({1}+\frac{r}{100})^{n}–{1}}}\}$$, and the annual interest rate is r percent, is $$r ＞ 8$$ percent?[br/](1) The deposit earns a total of $210 in interest in the first 2 years.[br/](2) $$({1}+\frac{r}{100})^{2}＞{1.15}$$
+3766	$$(\frac {1}{4-\sqrt{15}})^{2}=$$
+3769	If q is a positive integer less than 17 and r is the remainder when 17 is divided by q, what is the value of r?[br/](1) q ＞ 10[br/](2) $${q}={2}^{k}$$, where k is a positive integer.
+3776	The sum of the first k positive integers is equal to $$\frac{k(k+1)}{2}$$. What is the sum of the integers from n to m, inclusive, where $$0＜n＜m$$?
+3777	If f is the function defined by f(x) = 2x for x ≥ 0 and $${f}({x})={x}^{2}$$ for x ＜ 0, what is the value of f(c) ?[br/](1) |c|= 2[br/](2) c ＜ 0
+3778	A total of 20 amounts are entered on a spreadsheet that has 5 rows and 4 columns; each of the 20 positions in the spreadsheet contains one amount. The average (arithmetic mean) of the amounts in row i is $${R}_{i}$$ (1 ≤ i ≤ 5). The average of the amounts in column j is Cj (1 ≤ j ≤ 4). What is the average of all 20 amounts on the spreadsheet?[br/](1) $${R}_{1}+{R}_{2}+{R}_{3}+{R}_{4}+{R}_{5}={550}$$[br/](2) $${C}_{1}+{C}_{2}+{C}_{3}+{C}_{4}={440}$$
+3782	If n is an integer, is $${10}^{n}$$ ≤ 0.001 ?[br/](1) n ≤ -2[br/](2) n ＞ -5
+3783	If x + y + z = 0, x + 2y + 3z = 0, and y ≠ 0, then $$\frac{x}{y}$$ =
+3790	The sequence $${a}_{1}$$, $${a}_{2}$$, …, $${a}_{n}$$, … is such that $${a}_{n}=4a_{n–1}–{3}$$ for all integers $$n ＞ 1$$. If $${a}_{3}={x}$$, then $${a}_{1}$$ =
+3791	Of the 60 animals on a certain farm, $$\frac{2}{3}$$ are either pigs or cows. How many of the animals are cows?[br/](1) The farm has more than twice as many cows as it has pigs.[br/](2) The farm has more than 12 pigs.
+3793	In the xy-plane, line n passes through the origin and has slope 4. If points (1, c) and (d, 2) are on line n, what is the value of $$\frac{c}{d}$$?
+3794	For each positive integer n, the integer n* is defined by n* = $${n}^{2}$$ + 1. What is the value of the positive integer k ?[br/](1) When k is divided by 4, the remainder is 1.[br/](2) 18 ≤ k* ≤ 36
+3798	Is $${h}^{2}={h}$$ ?[br/](1) h + h = h[br/](2) h – h = h
+3800	If k is a two-digit positive integer with tens digit x and units digit y, then $${k}^{2}$$ =
+3802	If x and y are positive integers and r is the remainder when $${3}^{4x+2}+{y}$$ is divided by 10, what is the value of r?[br/](1) x = 25[br/](2) y = 1
+3805	What is the value of x?[br/](1) │x+2│≤ 4[br/](2) $${x}^{2}$$ = 36
+3811	If x and y are positive integers, what is the value of $$({x}+{y})^{2}$$?[br/](1) x = y - 3[br/](2) x and y are prime numbers.
+3812	If r and t are positive integers, what is the value of t?[br/](1) $${t}^{r-1}={1}$$[br/](2) $$r ≠ 1$$
+3815	All 48 seniors in a certain high school take one of two English classes. What is the average (arithmetic mean) height of the seniors in this school?[br/](1)In the school, the average height of the seniors in the English class with the larger number of students is 70 inches.[br/](2) In the school, the average height of the seniors in the English class with the smaller number of students is $$\frac4 5$$ of the average height of the seniors in the other English class.
+
+
+
+
+
+
+
+
+3820	If k is a positive integer, what is the remainder when $${2}^{k}$$ is divided by 10 ?[br/](1) k is divisible by 10.[br/](2) k is divisible by 4.
+3822	$${10},{000}^{100}$$ is equivalent to which of the following?[br/]I. $$({100}^{2})({100}^{100})$$[br/]II. $${100}^{200}$$[br/]III. $${10}^{400}$$
+3827	According to a certain estimate, the depth N(t), in centimeters, of the water in a certain tank at t hours past 2:00 in the morning is given by $${N}({t})=-{20}({t}–{5})^{2}+{500}$$ for 0 ≤ t ≤ 10. According to this estimate, at what time in the morning does the depth of the water in the tank reach its maximum?
+3828	If $${25}({5}^{x})={1}$$ then x=
+3833	"What is the maximum integer value of M for which $${12}!\over{2}^{M}$$ is an integer?
+
+"
+3836	If X, Y, and Z are positive integers, is Y＞X?[br/](1) $${Y}^{2}={X}{Z}$$[br/](2) Z-X＞0
+3837	Which of the following expressions can be written as an integer?[br/](1) $$(\sqrt{82}+\sqrt{82})^{2}$$[br/](2) $$({82})(\sqrt{82})$$[br/](3) $$\frac{(\sqrt{82})(\sqrt{82})}{82}$$
+3841	If $${X}^{2}+{Y}^{2}={1}$$, is X+Y=1?[br/](1) XY=0[br/](2) Y=0
+3843	$$(\frac{1}{2})^{-2}\over{2}^{-2}$$
+3850	What is the value of $${x}^{2}{y}{z}+{x}{y}^{2}{z}+{x}{y}{z}^{2}$$[br/](1) x+y+z=18[br/](2) xyz=10
+3853	[img]20120409152101923_3853.jpg[/img][br/]The figure above shows the dimensions of a semicircular cross section of a one-way tunnel. The single traffic lane is 12 feet wide and is equidistant from the sides of the tunnel. If vehicles must clear the top of the tunnel by at least $$\frac{1}{2}$$ foot when they are inside the traffic lane, what should be the limit on the height of vehicles that are allowed to use the tunnel?
+3856	The positive integer k has exactly two positive prime factors, 3 and 7. If k has a total of 6 positive factors, including 1 and k, what is the value of k?[br/](1) $${3}^{2}$$ is a factor of k.[br/](2) $${7}^{2}$$ is NOT a factor of k.
+3857	A certain one-day seminar consisted of a morning session and an afternoon session.&nbsp;&nbsp;If each of the 128 people attending the seminar attended at least one of the two sessions, how many of the people attended the morning session only?[br/](1) $$\frac{3}{4}$$ of the people attended both sessions.[br/](2) $$\frac{7}{8}$$ of the people attended the afternoon session.
+3859	If both x and y are nonzero numbers, what is the value of $$\frac{y}{x}$$?[br/](1) x = 6[br/](2) $${y}^{2}={x}^{2}$$
+3861	Is $${x}＜{0}$$?[br/](1) $$-2x＞0$$[br/](2) $$x^3＜0$$
+3862	A sum of $200,000 from a certain estate was divided among a spouse and three children. How much of the estate did the youngest child receive?[br/](1) The spouse received $$\frac{1}{4}$$ of the sum from the estate, and the oldest child received $$\frac{1}{4}$$ of the remainder.[br/](2) Each of the two younger children received $12,500 more than the oldest child and $62,500 less than the spouse.
+3864	"If a is a positive integer, and if the units digit of $$\mathbf{a}^{2}$$ is 9 and the units digit of $$\mathbf({a}+{1})^{2}$$ is 4, what is the units digit of $$\mathbf({a}+{2})^{2}$$ ?
+
+"
+3865	If $$({2}^{x})({2}^{y})={8}$$and $$({9}^{x})({3}^{y})={81}$$, then (x, y)=
+3866	If $$\frac{x}{y}=\frac{3}{2}$$,then $$\frac{x-y}{x}=$$
+3867	"If $$\mathbf{y}={4}+({x}-{3})^{2}$$, then y is least when x =
+"
+3871	$${1}\over{1}-\mathbf({{1}\over{2}-\frac{1}{3}}\mathbf)$$
+3872	If $$\frac{1}{2}$$ of the money in a certain trust fund was invested in stocks, $$\frac{1}{4}$$ in bonds, $$\frac{1}{5}$$ in a mutual fund, and the remaining $10,000 in a government certificate, what was the total amount of the trust fund?
+3876	$$(-{3})^{-2}=$$
+3882	3 teaspoons = 1 tablespoon[br/]4 tablespoons = $$\frac{1}{4}$$ cup[br/]According to the information above, how many teaspoons are equal to $$\frac{3}{8}$$ cup?
+3885	"The formula $${F}={9}\frac{C}{5}+{32}$$ gives the relationship between the temperature in degrees Fahrenheit, F, and the temperature given in degrees Celsius, C. If the temperature is 85 degrees Fahrenheit, what is the temperature, to the nearest degree, in degrees Celsius?
+"
+3891	At a certain pet shop,$$\frac{1}{3}$$ of the pets are dogs and $$\frac{1}{5}$$ of the pets are birds. How many of the pets are dogs?[br/](1)There are 30 birds at the pet shop.[br/](2)There are 20 more dogs than birds at the pet shop.
+3893	A certain taxi company charges $3.10 for the first $$\frac{1}{5}$$ of a mile plus $0.40 for each additional $$\frac{1}{5}$$ of a mile. What would this company charge for a taxi ride that was 8 miles long?
+3905	If u, v, and w are integers, is u ＞ 0 ?[br/](1) $${u}={v}^{2}+{1}$$[br/](2) $${u}={w}^{4}+{1}$$
+3919	In the finite sequence of positive integers $${K}_{1}$$,$${K}_{2}$$,$${K}_{3}$$....,$${K}_{9}$$each term after the second is the sum of the two terms immediately preceding it. If $${K}_{5}$$= 18, what is the value of $${K}_{9}$$?[br/](1) $${K}_{4}={11}$$[br/](2) $${K}_{6}={29}$$
+3925	"hich of the following must be equal to $$\mathbf{x}^{6}\mathbf{x}^{4}$$
+"
+3931	The total price of a basic computer and a printer was $2,500. If the same printer had been purchased with an enhanced computer whose price was $500 more than the price of the basic computer, then the price of the printer would have been $$\frac{1}{5}$$of that total.[br/]What was the price of the basic computer?
+3934	If m = $$\frac{9}{25}$$,w = $$\frac{15}{32}$$, and m + w + c = 1, which of the following gives the values of m, w, and c in increasing order?
+3941	"Is x between 0 and 1 ?[br/](1) x is between $$-\frac{1}{2}$$ and$$\frac{3}{2}$$[br/](2) $$\frac{3}{4}$$ is $$\frac{1}{4}$$ more than x
+"
+3956	A wooden rod is cut into two pieces. What is the length of the longer piece?[br/](1)Che of the pieces is 20 inches longer than the other piece.[br/](2)The length of the shorter piece is $$\frac{1}{3}$$ the length of the longer piece.
+3957	If x and y are integers and $${3}^{x-4}={3}^{y+2}$$, what is y in terms of x ?
+3958	When $$\frac{2}{3}$$ of the garments in a shipment were inspected, 18 of the garments passed inspection and the remaining 2 garments failed How many of the uninspected garments must pass inspection in order that 90 percent of the garments in the shipment pass?
+3960	Peter and Tom shared the driving on a certain trip. If Peter and Tom both drove for the same amount of time, but Peter only drove $$\frac{2}{5}$$ of the total distance, what was the ratio of Peter's average speed to Tom's average speed?
+3963	If a certain charity collected a total of 360 books, videos, and board games, how many videos did the charity collect?[br/](1)The number of books that the charity collected was 40 percent of the total number of books, videos, and board games that the charity collected.[br/](2)The number of books that the charity collected was $${66}\cdot\frac{2}{3}$$ percent of the total number of videos and board games that charity collected.
+4019	Is $${4}^{x+y}={8}^{10}$$ ?[br/](1) x-y= 9[br/](2) $$\frac{y}{x}=\frac{1}{4}$$
+4020	If x and y are positive, is $$x ＜ 10 ＜ y$$?[br/](1)$$x ＜ y$$ and $$xy = 100$$[br/](2) $$x^2＜100＜y^2$$
+4026	[img]20120425204003769_4026.jpg[/img][br/]In the figure above, is the area of triangular region ABC equal to the area of triangular region DBA ?[br/](1) $$({A}{C})^{2}={2}({A}{D})^{2}$$[br/](2) △ABC is isosceles
+4029	"If x and y are integers, what is the value of x + y ?[br/](1) 3＜$${x}+{y}\over{2}$$＜4[br/](2) 2＜x＜y＜5
+"
+4030	If a, b, c, and d are positive numbers, is $$\frac a b ＜ \frac c d$$ ?[br/](1) 0＜$$({c}-{a})\over({d}-{b})$$[br/](2) $${({a}{d})\over({b}{c})}^{2}＜{{a}{d}\over{b}{c}}$$
+4032	If x and y are integers, is x ＞ y?[br/](1) x+y＞0[br/](2) $${y}^{x}$$ ＜ 0
+4033	If r and s are the roots of the equation $${x}^{2}+{b}{x}+{c}={0}$$, where b and c are constants, is rs ＜ 0 ?[br/](1) b ＜ 0[br/](2) c ＜ 0
+4042	If $$|{y}-\frac{1}{2}|<\frac{11}{2}$$ which of the following could be a value of y?
+4043	At a supermarket John spent $$\frac{1}{2}$$ of his money on fresh fruits and vegetables,$$\frac{1}{3}$$ on meat products, and $$\frac{1}{10}$$ on bakery products. If he spent the remaining $6 on candy, how much did John spend at the supermarket?
+4044	Which of the following equations is NOT equivalent to $${10}{y}^{2}=({x}+{2})({x}-{2})$$?
+4055	Each year for 4 years, a farmer increased the number of trees in a certain orchard by $$\frac{1}{4}$$ of the number of trees in the orchard the preceding year. If all of the trees thrived and there were 6,250 trees in the orchard at the end of the 4-year period, how many trees were in the orchard at the beginning of the 4-year period?
+4056	For the positive integers a, b, and k, $${a}^{k}$$ || b means that $${a}^{k}$$ is a divisor of b, but $${a}^{k+1}$$ is not a divisor of b. If k is a positive integer and $${2}^{k}$$ || 72, then k is equal to
+4057	In a certain district, the ratio of the number of registered Republicans to the number of registered Democrats was $$\frac{3}{5}$$.After 600 additional Republicans and 500 additional Democrats registered, the ratio was $$\frac{4}{5}$$.After these registrations, there were how many more voters in the district registered as Democrats than as Republicans?
+4059	If $${n}={3}^{8}-{2}^{8}$$, which of the following is NOT a factor of n ?
+4063	If 3 ＜ x ＜ 100, for how many values of x is $$\frac{x}{3}$$the square of a prime number?
+4065	If $${n}={33}^{43}+{43}^{33}$$, what is the units digit of n?
+4071	$${{0.99999999}\over{1.0001}}-{{0.99999991}\over{1.0003}}=$$
+4072	List T consists of 30 positive decimals, none of which is an integer, and the sum of the 30 decimals is S. The estimated sum of the 30 decimals, £, is defined as follows. Each decimal in T whose tenths digit is even is rounded up to the nearest integer, and each decimal in T whose tenths digit is odd is rounded down to the nearest integer; E is the sum of the resulting integers. If $$\frac{1}{3}$$ of the decimals in T have a tenths digit that is even, which of the following is a possible value of E - S ?[br/]I.-16[br/]II.6[br/]III.10
+4073	How many of the integers that satisfy the inequality $$({x}+{2}){{x}+{3}\over{x}-{2}}\ge{0}$$ are less than 5 ?
+4123	The sequence$$a_1$$,$$a_2$$,$$a_3$$.....$$a_n$$…is such that $$a_n=\frac{a_{n-1}+a_{n-2}}{2}$$ for all $${n}\ge{3}$$. If $${a}_{3}={4}$$ and $${a}_{5}$$ = 20, what is the value of $${a}_{6}$$ ?
+4128	If a certain toy store's revenue in November was $$\frac{2}{5}$$ of its revenue in December and its revenue in January was $$\frac{1}{4}$$ of its revenue in November, then the store's revenue in December was how many times the average (arithmetic mean) of its revenues in November and January?
+4133	If s and t are positive integers such that $$\frac{s}{t}={64.12}$$ which of the following could be the remainder when s is divided by t ?
+4136	If $$\sqrt{{3}-{2}{x}}=\sqrt{2x}+{1}$$,then $${4}{x}^{2}=$$
+4137	If $${n}=\sqrt{\frac{16}{81}}$$ what is the value of $$\sqrt{n}$$?
+4143	A container in the shape of a right circular cylinder is $$\frac{1}{2}$$ full of water. If the volume of water in the container is 36 cubic inches and the height of the container is 9 inches, what is the diameter of the base of the cylinder, in inches?
+4146	If the units digit of integer n is greater than 2、what is the units digit of n?[br/](1) The units digit of n is the same as the units digit of $${n}^{2}$$.[br/](2) The units digit of n is the same as the units digit of $${n}^{3}$$.
+4152	Is the standard deviation of the set of measurements $${x}_{1}$$,$${x}_{2}$$,$${x}_{3}$$,$${x}_{4}$$,....$${x}_{20}$$ less than 3 ?[br/](1) The variance for the set of measurements is 4.[br/](2) For each measurement, the difference between the mean and that measurement is 2.
+4154	is $${{5}^{x+2}\over{25}}<{1}$$[br/](1) $${5}^{x}＜{1}$$[br/](2) x＜0
+4161	If $${{x}+{y}\over{z}}＞{0}$$, is x < 0?[br/](1) x＜y[br/](2) z＜0
+4162	Does the integer k have at least three different positive prime factors?[br/](1)$$\frac{k}{15}$$ is an integer.[br/](2)$$\frac{k}{10}$$is an integer.
+4164	If m and n are positive integers, is $$\mathbf(\sqrt{m}\mathbf)^{n}$$ an integer?[br/](1)$$\sqrt{m}$$ is an integer.[br/](2)$$\sqrt{n}$$ is an integer.
+4234	If x and y are integers greater than 1, is x a multiple of y?[br/](1)$${3}{y}^{2}+{7}{y}={x}$$[br/](2)$${x}^{2}-{x}$$ is a multiple of y
+4248	[img]20120524134854238_4248.jpg[/img][br/]In the triangle above, what is the value of b?[br/](1)$$c=2\sqrt2$$[br/](2)x = 45
+4250	If x is an integer, is x even?[br/](1) ax is even, where a is an integer.[br/](2)$${x}^{2}-{1}$$ is an odd integer.
+4448	What is the value of integer n ?[br/]1. $${n}={n}{A}$$[br/]2.$${1}^{n}\neq{n}$$
+4458	If $$\frac{4x}{7}{y}={1}$$, then what is the value of 3x + 5y ?[br/]1. x + 4y = 23[br/]2. $${y}^{3}={64}$$
+4459	If $${b}\neq{0}$$, does a equal b ?[br/]1. $${{a}^{{2}^{2}}\over{b}}+{4}={5}$$[br/]2. $${{17}{a}+{4}{b}\over{7}}={3}{a}$$
+4561	Which of the following is NOT equivalent to $${49}{a}^{2}={9}{b}^{2}-{4}$$?
+4630	If $${v}\neq{0}$$,is |w|<|v|?[br/](1)$$\frac{w}{v}<{1}$$[br/](2)$${{w}^{2}\over{v}^{2}}<{1}$$
+4740	What is the value of integer A ?[br/]1. $${n}={n}{A}$$[br/]2.$${1}^{n}\neq{n}$$
+4742	[img]20130221111240.png[/img][br/]What is the area of the region in which squares ABCD and EFGH overlap?[br/]1. EF bisects BC.[br/]2. The distance from point C to point E is $$2\sqrt2$$ and the distance from point C to point F is $$2\sqrt2$$
+4750	If $$\frac{4x}{7y}={1}$$, then what is the value of 3x + 5y ?[br/]1. x + 4y = 23[br/]2. $${y}^{3}={64}$$
+4760	Which if the following is a possible value of y- 4 if $$({3}{y}-{8})^{2}={2},{500}$$?
+4853	Which of the following is NOT equivalent to $${49}({a}^{2})={9}({b}^{2})-{4}$$?
+4887	If a, b, and c are positive integers, with a< b< c on secutive c and b, a, are>[br/](1)$$\frac{1}{a}-\frac{1}{b}=\frac{1}{c}$$[br/](2)$${a}+{c}={b}^{2}-{1}$$
+4922	If $${v}\neq{0}$$,is |w|<|v|?[br/](1)$$\frac{w}{v}<{1}$$[br/](2)$${{w}^{2}\over{v}^{2}}<{1}$$
+5023	What is the value of $$({u}-{1})^{3}$$ if $${u}=\frac{6}{7}+\frac{18}{21}-\frac{12}{14}$$
+5028	How many factors of 80 are greater than $$\sqrt{80}$$?
+5032	If $${N}={{S}\over{1}-{p}{q}}$$ and N,S,p, and q are positive numbers, then in terms of N,S, and q what does p equal?
+5039	In the figure above, two circles with radii equal to 10 units of length overlap such that their centres, $${O}_{1}$$ and $${O}_{2}$$, are 16 units apart. What is the distance between the line joining the centres of the circles and the line drawn through point P parallel to the line connecting the centres?
+5040	In the figure above, two circles with radii equal to 10 units of length overlap such that their centres, $${O}_{1}$$ and $${O}_{2}$$, are 16 units apart. What is the distance between the line joining the centres of the circles and the line drawn through point P parallel to the line connecting the centres?
+5042	[img]20130221114759.png[/img][br/]If the area of rectangle ABCD is $$4\sqrt3$$, then what is the area of the square DEFG?
+5043	$$\frac{1}{\frac{3}{4}-\frac{2}{3}}=$$
+5045	Ray R starts its counter-clockwise revolution around the origin from the point (1,0) in a coordinate graph. After it travels for one full revolution and an additional angle of x, it stops at the aboveillustrated position in the third quadrant. Let D denote the total distance traveled by the original point of (0,1) on ray R. What statements about D are true?[br/]I .$${5}\fracπ{4}＜{D}＜{3}\fracπ{2}$$[br/]II .$$-π＜-{D}＜-\fracπ{2}$$[br/]III .$${13}\fracπ{4}＜{D}＜{7}\fracπ{2}$$
+5049	A certain retailer gets a shipment of items the day after his inventory drops below $$\frac{y}{4}$$ items. Each shipment replenishes the retailer's inventory up to the level y, and it is estimated that the retailer, on average, maintains $$\frac{y}{2}$$ in inventory every month throughout the year. The cost of keeping an item in inventory is $0.5 per month. What is the retailer's annual inventory cost.
+5050	If $$w=\frac{1+x\frac{y}{z^2}}{x+y}$$,$${x}=\frac{z}{2}$$, and $${y}={3}\frac{z}{4}$$,what is the value of w in terms of z?
+5051	A factory worker produced one lot of connecting clips, and initial quality control found that $$\frac{5}{7}$$ of clips in the lot could be used. An assembly plant purchased this lot of clips valuing the lot at $3 per each usable clip. During assembly, it became known that only $$\frac{3}{5}$$ of the clips in the lot were usable. What was price per usable clip that the assembly plant paid for the lot?
+5056	Find an expression equivalent to the one below[br/]$$({0.3667})({0.8333})({0.3333})\over({0.4444})({0.6667})({0.125})$$
+5061	$$\sqrt{\frac{1}{36}+\frac{1}{64}}=$$
+5067	Which of the following is a solution of the equation $${x}^{2}+{14}{x}-{240}\over{x}+{24}$$?
+5068	A certain chemical reaction requires $$\frac{4}{7}$$ units of catalyst for every unit of chemical. How many students can perform an experiment if there are $${20}\frac{4}{7}$$ units of catalyst available in the lab, and only one unit of the chemical is required for each student?
+5076	Mary, Jane, and Lucy are typing a manuscript and are capable of completing the whole manuscript in $${2}\frac{1}{2}$$ hours if they work together. If Mary alone can type the same manuscript in 10 hours, and Jane is capable of typing the complete manuscript in 6 hours, in how many hours can Lucy type the whole manuscript?
+5080	If a + b = 24 and a = 3b, then $$\sqrt{a}+\frac{a}{b}=$$
+5083	During a volcanic eruption the particles of dust precipitate at the rate of $${2}\cdot\frac{1}{4}$$ inches every three hours. If a volcano erupted for the first time for 2 hours and erupted again on the next day from 11:00 to 20:00, what was the total fall-out of particles in inches?
+5084	On the first day of the climb, mountaineers covered $$\frac{5}{7}$$ of the distance to the top, on the second day of the climb, they covered $$\frac{1}{5}$$ of the remaining distance. What fraction of the total climb do the mountaineers have to cover to reach the top on the third day?
+5088	The sum, s, of consecutive integers from 1 to n is given by the formula $${s}={n}{({n}+{1})\over{2}}$$. What is the value of the sum if it is three times as large as the number of integers summed?
+5090	    If $$({625})({7})^{2}={x}({5}^{3})$$, then x = ?
+5091	What is the charge per hour of the $${1}^{s}{t}$$ year associate at a law firm?[br/]1. The $${3}^{r}{d}$$ year associate charges $300 per hour.[br/]2. The $${2}^{n}{d}$$ year associate charges $${1}\cdot\frac{1}{2}$$ times more than the $${1}^{s}{t}$$ year associate, and the $${3}^{r}{d}$$ year associate charges two times more than the $${2}^{n}{d}$$ year.
+5093	Is u > v?[br/]1.$${0}<{u}<\frac{5}{6}$$[br/]2.$$\frac{2}{3}<{v}<{1.0}$$
+5098	Is p > q?[br/]1. $${p}^{3}>{q}^{3}$$[br/]2. $${p}-{q}>{0}$$
+5102	If the ratio of job applicants with a doctorate degree to job applicants with an MBA degree for positions at Company G in 1999 was $$\frac{1}{5}$$ what was the ratio of applicants with a doctorate to applicants with an MBA for positions at company G in 2003?[br/]1. Company G received 20,000 more MBA applicants in 2003 than in 1999.[br/]2. Company G received 2,000 more Ph.D. applicants in 2003 than in 1999.
+5104	Because of economies of scale, the cost of production of the second gadget is half the first one which costs c dollars to produce. The production of the third gadget costs half of the second, etc. What is the value of c?[br/]1. The sum of the costs of the third and fourth gadgets is $9.[br/]2. The sum of the costs of the second and the ninth gadget is $${24}\cdot{{2}^{7}+{1}\over{2}^{8}}$$ dollars.
+5110	If z is an integer, is $$\frac{z}{3}$$ an odd integer?[br/]1. z is a multiple of 3.[br/]2. z is a multiple of 9.a
+5111	[img]20130221114252.png[/img][br/]△BAC = △ACD,and the length of AC is 4. What is the area of the quadrilateral ABCD above?[br/]1. AB = 2 and $$BC = 2\sqrt3$$[br/]2. $$x°= 60$$
+
+
+
+
+5113	Does q have a distinct value?[br/]1. $$({2}{q}-{3})^{2}={q}^{2}$$[br/]2. $$\sqrt{l2-q}={3}$$
+5114	If the product of a and b is strictly positive, is the sum of a and b greater than zero?[br/]1. $${b}＞{a}^{4}$$[br/]2. b = 5a
+5115	If 6a + b = 48, what is the value of b?[br/]1. $${4}{a}^{2}={50}$$[br/]2. $${4}{a}={b}+{2}$$
+5120	What is the value of u?[br/]1.$$\frac{7}{u}-{4}={10}$$[br/]2.$$\frac{32}{16}=\frac{1}{u}$$
+5121	If $${u}={v}^{4}$$, what is the value of $$\frac{v}{u}$$ ?[br/]1. y = 16[br/]2. uv =32
+5124	Is the integer y even?[br/]1. y - 7 is odd.[br/]2. $$\frac{y}{\frac{1}{2}}$$ is even.
+5125	If $${x}!={0}$$, is x equal to - 1?[br/]1. $${x}^{5}={x}$$[br/]2. $${x}{2}=-{x}$$
+5128	If △ denotes an operation with two real numbers, what is the value of x△y ?[br/]1. $${x}△{y}={{x}^{3}\over{y}}+{{y}^{2}\over{x}}$$ for all x and y.[br/]2. x = 3 and y = 5
+5137	What is the value $${a}^{3}-{b}^{3}$$?[br/]1. $${a}^{2}+{a}{b}+{b}^{2}={0}$$[br/]2. a-b = 3b
+5138	Is uv > 0?[br/]1.$$({u}^{2})({v}^{3})<{0}$$[br/]2.$${u}({v}^{2})<{0}$$
+5140	Is $$\frac{u}{v}$$ equal to 15?[br/]1. $$\frac{u}{v}+{5}={20}$$[br/]2. $$\frac{u}{v}-{5}={20}$$a
+5143	John, Pete, and Tim are running 100-meter races to prepare for a championship. Each of the runners won at least one of the heats. Which one of the three runners won the most races?[br/]1. Tim won $$\frac{3}{7}$$ as many races as Pete.[br/]2. Pete won $$\frac{7}{3}$$ as many races as John.
+5147	Is ε equal to the average (arithmetic mean) of ζ,η,ψ,ξ and ν?[br/]1.ζ+η+ψ+ε+ν=5ξ[br/]2.$$ζ+η+ψ+ε+ν\over{10}=\fracξ{2}$$
+5148	What is the value of t?[br/]1.$${T}({T}-{1})^{2}={4}{T}$$[br/]2.T is an integer.
+5154	If x and y are positive integers, is $${x}+{y}^{2}$$ odd?[br/]1. y is odd.[br/]2. x is odd.
+5157	What is the capacity of a fire reservoir, in thousands of cubic meters of water, which is currently filled up to three quarters of its capacity?[br/]1. If $${3}*{10}^{3}$$ thousand cubic meters of water were pumped into the reservoir, it would be filled to $$\frac{7}{8}$$ of its capacity.[br/]2. If $${6}*{10}^{3}$$ thousand cubic meters of water were removed from the reservoir, if would be filled to $$\frac{1}{2}$$ of its capacity.
+5158	If u is a multiple of prime number is u a multiple of $${v}^{2}$$?[br/]1. v<6[br/]2. u = 42
+5159	How many thousands of gallons of water does a reservoir have?[br/]1. If $$、frac{1}{3}$$ of the water in the reservoir were released, then the reservoir would be filled to $$\frac{1}{2}$$ of its capacity.[br/]2. If 60 thousand gallons of water were pumped into the reservoir, it would be filled to capacity.
+5160	If $${u}{v}!={0}$$,what is the value of $$({u}^{4})({v}^{3})-({u}{v})^{3}\over({u}^{4})({v}^{4})$$ ?[br/]1. u = 3[br/]2. v = 27
+5162	Ice hockey teams R and U played against each other in the final games of numerous championships. Which of the teams won more than $$\frac{1}{2}$$ of these games?[br/]1. The total number of games teams R and U played against each other in finals is 30.[br/]2. Team R scored 128 goals in these matches, and Team U scored 203 goals in these matches.
+5163	A software company contracted its sister network technologies firm to upgrade its network and storage equipment. The sister firm charged the software company only for equipment and labor. What fraction of the total amount paid for the upgrade was the labor charge?[br/]1. labor cost was $10,000 less than the total cost of the upgrade.[br/]2. Without the labor charge, the total cost of the upgrade would have been only $$\frac{5}{6}$$ as much.
+5165	Does a = b?[br/]1.$$\frac{a}{b}=\frac{b}{a}$$[br/]2.$$({a}-{b})^{2}={a}^{2}-{b}^{2}$$
+5196	$$\frac{1}{{\frac{1}{3}}+\frac{1}{6}}=$$
+5200	$$\frac{2}{\frac{3}{4}}=$$
+5204	$$\frac{(\sqrt{10,000})^{2}}{1000}=$$
+5205	$$\sqrt75+\sqrt{75}=$$
+5207	$$({5}*{l}{0}^{2})+({6}*{l}{0}^{3})+({8}*{l}{0}^{5})=$$
+5210	If x= 4, what is the value of $$-{5}({x}^{2})$$?
+5211	Of the animals in a certain zoo, $$\frac{1}{3}$$ are zebras, $$\frac{1}{6}$$ are giraffes, $$\frac{1}{5}$$ are orangutans, and the rest is comprised of 36 hyenas. How many zebras are in the zoo?
+5213	$$\frac{(\sqrt{900})^{3}}{3}=$$
+5214	If $$\frac{3}{5}$$ of p = 30, what is $$\frac{2}{5}$$ of p?
+5221	George baked a total of 125 pizzas for 7 straight days, beginning on Saturday.[br/]He baked $$\frac{3}{5}$$ of the pizzas the first day, and $$\frac{3}{5}$$ of the remaining pizzas the second day. If each successive day he baked fewer pizzas than the previous day, what is the maximum number of pizzas he could have baked on Wednesday?
+5225	    A motorcycle travels at a speed of x kilometers per p hours. How many meters will it travel in s seconds, in terms of s, p and x. ($${x}{p}{s}\neq{0}$$; 1 kilometer = 1000 meters)?
+5230	What is the value of positive integer n?[br/](1).$${10}^{n}={10},{000}$$[br/](2).$$\frac{1}{10^n}={0.0001}$$
+5234	Does Mary or Susan earn a higher salary?[br/](1) Susan's salary is 150% of Mary's salary.[br/](2) Mary's salary is 66$${2}/{3}$$ of Susan's salary.
+5236	What is the value of y?[br/](1)4y-3 = y + 1[br/](2)$${1}-\frac{2}{y}={4}$$
+5238	Is the value of $${a}^{3}+{3}{a}{b}$$ equal to 0?[br/](1)a = 0[br/](2)b = 0
+5239	If km does not equal 0, is $$\frac{k}{m}＜{0}$$?[br/](1)$$k + m =0$$[br/](2)$$-k-m =0$$
+5241	Is n an integer?[br/](1) 3n is an integer[br/](2) $$\sqrt{n}$$ is an integer
+5242	What is the value of the integer n?[br/](1)$${n}\le{23}$$[br/](2) $${23}\le{n}$$
+5248	Thomas poured water into a pitcher that was already $$\frac{1}{4}$$ full of water. How many ounces of water did Thomas pour into the pitcher?[br/](1) Thomas added enough water to fill the pitcher to $$\frac{7}{8}$$ of its capacity.[br/](2) Before Thomas poured the water into the pitcher, the pitcher contained 2 ounces of water.
+5249	If a and b are positive integers, is $${2}{\sqrt{a+b}}>{4}\sqrt{b}$$?[br/](1)b>3a[br/](2)a + b>3
+5250	Is $${a}-{b}\ge{3}$$?[br/](1)$$a\ge8$$[br/](2)$$b\le5$$
+5255	What is the value of x?[br/](1).$${{1}\over{x}^{2}}=\frac{1}{16}$$[br/](2).$$\frac{1}{2}{x}=\frac{1}{8}$$
+5262	The total charge for an automobile repair at a certain garage is determined by the formula $${R}={115}+(\frac{5}{3})*{w}$$ , where R is the total charge in dollars, and w is the wholesale value of parts necessary for the repair. If a repair requires parts with a wholesale value of $300, what is the total charge, in dollars, for the repair?
+5264	    If $${S}=(\frac{1}{a})*({a}+{b})$$, b = 9 and $${a}=\frac{1}{3}$$, then S =
+5267	What is the value of x if $${{x}^{6}+{4}{x}^{5}-{x}-{4}\over{x}+{4}}=-{244}$$?
+5269	If a is an integer, is a < 4 ?[br/](1) $${10}^{-2a+2}<{0.001}.$$[br/](2) $${10}^{-2a}<{0.0001}.$$
+5271	If x and y are integers, and $${y}={x}^{3}$$, does x = y?[br/](1) y is a factor of x.[br/](2) x is a multiple of y.
+5330	Balls with consecutive integers from 0 to x are placed in a bowl. Peter draws a ball from the bowl and records the number. Without replacing the first ball, he draws a second ball from the bowl. If the probability that Peter does NOT draw an odd numbered ball on either draw is $${\frac12}{42}$$, what integer is on the highest numbered ball?
+5331	If positive integer $${n}\le{3}$$ and n is the number of times a coin is flipped, what is the value of n?[br/](1) The probability of getting heads exactly once is $$\frac{1}{2}$$.[br/](2) The probability of getting at least one tail is greater than $$\frac{1}{2}$$.
+5343	If a is an integer and 0 < a < 7 and $${b}={a}^{7}$$, then what is the value of b?[br/](1) $${a}^{—3}$$ > 0.01[br/](2) $${a}^{2}$$ has a units digit of 6.
+5344	If $${{x}({x}-{2})({x}^{2}-{1})\over{x}+{5}}={0}$$, which of the following is the set of solutions for x?
+5591	Which if the following is a possible value of y- 4 if $$({3}{y}-{8})^{2}={2},{500}$$?
+20320	If $${d}={{1}\over{2}^{3}×{5}^{7}}$$ is expressed as a terminating decimal, how many nonzero digits will d have?
+20735	In a certain animal population, for each of the first 3 months of life, the probability that an animal will die during that month is $$\frac{1}{10}$$. For a group of 200 newborn members of the population, approximately how many would b expected to survive the first 3 month of life?
+20736	X, Y and Z each try independently to solve a problem. If their individual probabilities for success are $$\frac{1}{4}$$, $$\frac{1}{2}$$ and $$\frac{5}{8}$$, respectively, what is the probability that X and Y, but not Z, will solve the problem?
+20744	n township K, $$\frac{1}{5}$$ of the housing units are equipped with cable television. If $$\frac{1}{10}$$ of the housing units, including $$\frac{1}{3}$$ of those that are equipped with cable television, are equipped with video I cassette recorders, what fraction of the housing units have neither cable television nor videocassette recorders?
+20745	x≠y，is $$({x}+{y})^{2}\over({x}-{y})^{2}$$？[br/](1) xy=5 [br/](2)$${x}^{2}+{y}^{2}={5}{x}{y}$$
+20746	$$\frac{594}{625}$$
+20748	If xy = -6, what is the value of xy (x +y )?[br/](1) x - y = 5 [br/](2) $${x}{y}^{2}={18}$$
+20756	wx≠0，is $${|(|{w}|-{x})|\over|{x}|}＞{0}$$？[br/]1：x＜0 [br/]2：y≠0
+20857	一个企业给所有员工发工资,问中位数是否大于平均数?[br/]1  Median is $$\frac{1}{10}$$of total wage[br/]2  9个员工
+20949	从A市到C市途径B市有上下车，到C市的时候剩$$\frac{1}{4}$$(狗主编造)的人，问A市上车的有多少人？[br/]1 B市下车比上车多2人[br/]2 B市下的人占总数的$$\frac{1}{4}$$
+20951	$$({2}^{m}+{5}^{m}){K}$$问有几位数？[br/]1 m=7[br/]2 k＜20
+21990	$$\frac{1}{3}$$+$$\frac{1}{2}$$-$$\frac{5}{6}$$+$$\frac{1}{5}$$+$$\frac{1}{4}$$-$$\frac{9}{20}$$=
+21997	If 2x + y = 7 and x + 2y = 5, then $${x}+{y}\over{3}$$=
+22007	If $$\frac{x}{y}$$=$$\frac{c}{d}$$ and $$\frac{d}{c}$$=$$\frac{b}{a}$$, which of the following must be true?[br/]I. $$\frac{y}{x}$$ = $$\frac{b}{a}$$[br/]II. $$\frac{x}{a}$$ = $$\frac{y}{b}$$[br/]III. $$\frac{y}{a}$$ = $$\frac{x}{b}$$
+22009	The cost C, in dollars, to remove p percent of a certain pollutant from a pond is estimated by using the formula $${c}={{100},{000}{p}\over{100}-{p}}$$. According to this estimate, how much more would it cost to remove 90 percent of the pollutant from the pond than it would cost to remove 80 percent of the pollutant?
+22015	Each of the marbles in a jar is either red or white or blue. If one marble is to be selected at random from the jar, what is the probability that the marble will be blue?[br/](1) There are a total of 24 marbles in the jar, 8 of which are red.[br/](2) The probability that the marble selected will be white is $$\frac{1}{2}$$.
+22020	Is x = $$\frac{1}{y}$$ ?[br/](1) xy = 1[br/](2) $${1}\over{x}{y}$$= 1
+22022	What is the value of $${w}^{−2}$$?[br/](1) $${w}^{−1}$$ = $$\frac{1}{2}$$[br/](2) $${w}^{3}$$ = 8
+22025	If a and b are positive integers, is $$\frac{a}{b}$$ < $$\frac{9}{11}$$ ?[br/](1) $$\frac{a}{b}$$ < 0.818[br/](2) $$\frac{b}{a}$$> 1.223
+22026	If x and y are positive integers, what is the value of $$\sqrt{x}+\sqrt{y}$$ ?[br/](1) x + y = 15[br/](2) $$\sqrt{xy})$$= 6
+22027	A certain truck uses $$\frac{1}{12}$$ + $${k}{v}^{2}$$ gallons of fuel per mile when its speed is v miles per hour, where k is a constant. At what speed should the truck travel so that it uses $$\frac{5}{12}$$ gallon of fuel per mile?[br/]The value of k is $$\frac{1}{10800}$$[br/]When the truck travels at 30 miles per hour, it uses $$\frac{1}{6}$$ gallon of fuel per mile.
+22028	If x = 2t and $${y}=\frac{t}{3}$$, what is the value of $${x}^{2}-{y}^{2}$$?[br/]$${t}^{2}$$ − 3 = 6[br/]$${t}^{3}$$ = −27
+22029	If n is an integer, is $$({0.1})^{n}$$ greater than $$({10})^{n}$$?[br/](1) n > −10[br/](2) n < 10
+22033	Is zp negative?[br/](1) $${p}{z}^{4}$$= < 0[br/]p + $${z}^{4}$$ = 14
+22038	If $${2}^{x+y}$$ = $${4}^{8}$$, what is the value of y?[br/](1) $${x}^{2}$$ = 81[br/](2) x − y = 2
+22050	If 0 < a < b < c, which of the following statements must be true?[br/]I. 2a > b + c[br/]II. c - a > b - a[br/]III. $$\frac{c}{a}$$ < $$\frac{b}{a}$$
+22055	Which of the following fractions is closest to $$\frac{1}{2}$$?
+22056	If p ≠ 0 and p - $${1}-{p}^{2}\over{p}$$ = $$\frac{r}{p}$$, the r =
+22057	If mn ≠ 0 and 25 percent of n equals 37$$\frac{1}{2}$$ percent of m, what is the value of $${12}{n}\over{m}$$?
+22059	For a party, three solid cheese balls with diameters of 2 inches, 4 inches, and 6 inches, respectively, were combined to form a single cheese ball. What was the approximate diameter, in inches, of the new cheese ball?(The volume of a sphere is $$\frac{4}{3}π{r}^{3}$$, where r is the radius.)
+22062	[img]OG17-PS-116.png[/img][br/]If $$\frac1 3$$ of the total number of marbles in the three bags listed in the table above are blue, how many marbles are there in bag Q?
+22065	If there are fewer than 8 zeros between the decimal point and the first nonzero digit in the decimal expansion of $$(\frac{t}{1000})^{4}$$, which of the following numbers could be the value of t?[br/]I. 3[br/]II. 5[br/]III. 9
+22068	Which of the following equations has 1 + $$\sqrt{2}$$ as one of its roots?
+22069	    A sequence of numbers $${a}_{1}$$, $${a}_{2}$$, $${a}_{3}$$, ... is defined as follows:$${a}_{1}$$ = 3, $${a}_{2}$$ = 5, and every term in the sequence after $${a}_{2}$$ is the product of all terms in the sequence preceding it, e.g., $${a}_{3}$$ = ($${a}_{1}$$)($${a}_{2}$$) and $${a}_{4}$$ =($${a}_{1}$$)($${a}_{2}$$)($${a}_{3}$$). If $${a}_{n}$$ = t and n > 2, what is the value of $${a}_{n+2}$$ in terms of t?
+22071	[img]OG17-DS-231.png[/img][br/]In the figure above, point D is on $$\overline {AC}$$. What is the detree measure of $$\angle BAC$$?[br/]The measure of $$\angle BDC$$ is 60°.[br/]The detree measure of $$\angle BAC$$ is less than the degree measure of $$\angle BDC$$.
+22073	If u > 0 and v > 0, which is greater, $${u}^{v}$$ or $${v}^{u}$$?[br/](1) u = 1[br/](2)v > 2
+22074	What is the value of t ?[br/](1) s + t = 6 + s[br/](2) $${t}^{3}$$ = 216
+22076	Is w + $${h}^{4}$$ positive?[br/](1) h is positive.[br/](2) w is positive.
+22084	If y ≠ 2xz, what is the value of $${2}{x}{z}+{y}{z}\over{2}{x}{z}-{y}$$?[br/](1) 2x + y = 3[br/](2) z = 2
+22091	On the number line, point R has coordinate r and point T has coordinate t. Is $$t＜0$$?[br/](1) $$-1＜r＜0$$[br/](2) The distance between R and T is equal to $${r}^{2}$$.
+22093	If x is a positive integer, what is the value of $$\sqrt{x+24}$$ - $$\sqrt{x}$$ ?[br/](1) $$\sqrt{x}$$ is an integer.[br/](2) $$\sqrt{x+24}$$ is an integer.
+22118	    If $$(\frac{1}{5})^{m}(\frac{1}{4})^{18}={{1}\over{{2}({10})^{35}}}$$, then m =
+22119	The value of $$\frac{10^9-10^4} {10^8-10^5})$$ is closest to which of the following?
+22124	$$({8}^{2})({3}^{3})({2}^{4})\over{96}^{2}$$
+22128	If a = 1 and b = -2, then (2$${a}^{2}$$ + b)(x + y) + (a + b)(x - y) =
+22131	if a ＞b＞0, then $${\sqrt{{a}^{2}-{b}^{2}}}$$=?
+22133	If xy = 1, what is the value of $${2}^{({x}+{y})^{2}}\over{2}^{({x}-{y})^{2}}$$ ?
+22136	If $${x}^{4}+{y}^{4}$$ = 100, then the greatest possible value of x is between
+22140	for any integer k from 1 to 10, inclusion, the kth of a certain sequence is given by $$(-1)^{k+1}(\frac1 {2^k})$$.  If T is the sum of the first 10 terms of the sequence, then T is:
+
+
+
+
+22147	If x ≠0, then $$(\sqrt x)^2\over{x}$$
+22148	$$\sqrt{576800}$$ is between
+22150	Which of the following is an integer?[br/]I. $$\frac{12!}{6!}$$[br/]II. $$\frac{12!}{8!}$$[br/]III. $${12!}\over{7}!{5}!$$
+22156	If n is a multiple of 5 and n = $${p}^{2}{q}$$, where p and q are prime numbers, which of the following must be a multiple of 25 ?
+22163	For how many integers n is $${2}^{n}={n}^{2}$$ ?
+22176	If each term in the sum $${a}_{1}$$ + $${a}_{2}$$ + . . . + $${a}_{n}$$ is either 7 or 77 and the sum equals 350,which of the following could be equal to n ?
+22181	Which of the following is equal to $${x}^{18}$$ for all positive values of x ?
+22198	. In the arithmetic sequence $${t}_{1}$$, $${t}_{2}$$, $${t}_{3}$$, . . . , $${t}_{n}$$, . . . , $${t}_{1}$$ = 23 and $${t}_{n}$$ = $${t}_{n}$$ - 1 - 3 for each n > 1. What is the value of n when $${t}_{n}$$ = -4 ?
+22203	If 0 < x < 1, what is the median of the values x, $${x}^{-1}$$, $${x}^{2}$$, $$\sqrt{x}$$, and $${x}^{3}$$?
+22209	Of the following integers, which if the closest approximation to $$(\sqrt{2}+\sqrt{5})^{2}$$
+22212	Which of the following is equal to the value of $${2}^{5}+{2}^{5}+{3}^{5}+{3}^{5}+{3}^{5}$$ ?
+22224	If $${5}^{21}{4}^{11}={2}({10})^{n}$$ what is the value of n ?
+22230	$$\frac{(2^{4-1})^{2}}{2^{3-2}}=$$
+22231	If $${M}={4}^{\frac{1}{2}}+{4}^\frac{1}{3}+{4}^\frac{1}{4}$$, then the value of M is
+22234	If $${2}^{x}-{2}^{x-2}={3}({2}^{13})$$, what is the value of x ?
+22236	The perimeter of a certain isosceles right triangle is 16+16$$\sqrt{2}$$. What is the length of the hypotenuse of the triangle?
+22239	Which of the following must be equal to $${x}^{6}{x}^{4}$$ ?
+22240	If n and y are positive integers and 450y = $${n}^{3}$$, which of the following must be an integer?[br/]Ⅰ. $${y}\over{3}*{2}^{2}*{5}$$[br/]Ⅱ. $${y}\over{3}^{2}*{2}*{5}$$[br/]Ⅲ. $${y}\over{3}*{2}*{5}^{2}$$
+22242	If x＞$${y}^{2}$$＞$${z}^{4}$$, which of the following statements could be true?[br/]I. x＞y＞z[br/]II. z＞y＞x[br/]III. x＞z＞y
+22244	If x is positive, which of the following could be the correct ordering of $$\frac1 x$$, 2x, and $${x}^{2}$$[br/]I. $${x}^{2}＜2x＜\frac1 x$$[br/]II. $$x^2＜\frac1 x＜2x$$[br/]III.$$2x＜x^2＜\frac1 x$$
+22249	The main ingredient in a certain prescription drug capsule costs $500.00 per kilogram. If each capsule contains 600 milligrams of the ingredient, what is the cost of the ingredient in a capsule? (1 kilogram = $${10}^{6}$$ milligrams)
+22260	Which of the following equations is NOT equivalent to $${4}{x}^{2}={y}^{2}-{9}$$
+22265	How many different prime numbers are factors of the positive integer n ?[br/](1) Four different prime numbers are factors of 2n.[br/](2) Four different prime numbers are factors of $${n}^{2}$$.

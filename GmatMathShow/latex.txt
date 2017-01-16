@@ -1,0 +1,649 @@
+QUESTION_ID:2360		 p ＞ \frac1 2		\displaystylep ＞ \frac1 2
+QUESTION_ID:2361		 \frac {{3}^{-{(x+y)}}} {{3}^{-{(x-y)}}}		\displaystyle{v}{m}{t}≠{0}
+QUESTION_ID:2363		f (n) = a^n		\displaystyle{f}({n})={a}^{n}
+QUESTION_ID:2364		(x - y)^4		\displaystyle({x}-{y})^{4}
+QUESTION_ID:2365		1/16		\displaystyle{1}/{16}
+QUESTION_ID:2367		k^4 <=0		\displaystyle{k}^{4}<={0}
+QUESTION_ID:2381		2^(x+y)		\displaystyle{2}^({x}+{y})
+QUESTION_ID:2383		y =|x| + x		\displaystyle{y}=|{x}|+{x}
+QUESTION_ID:2385		x^2 ＞ 9		\displaystyle{x}^{2}＞{9}
+QUESTION_ID:2386		1/n		\displaystyle{1}/{n}
+QUESTION_ID:2388		p/n		\displaystyle{p}/{n}
+QUESTION_ID:2390		3/2		\displaystyle{3}/{2}
+QUESTION_ID:2393		1/15		\displaystyle{1}/{15}
+QUESTION_ID:2397		3/5		\displaystyle{3}/{5}
+QUESTION_ID:2398		10\sqrt3		\displaystyle{10}\sqrt{3}
+QUESTION_ID:2402		(a/b) (c/d) ＞ c/b		\displaystyle({a}/{b})({c}/{d})＞{c}/{b}
+QUESTION_ID:2406		xy ＞ x^2y^2		\displaystyle{x}{y}＞{x}^{2}{y}^{2}
+QUESTION_ID:2407		x = (3y)/4		\displaystyle{x}=({3}{y})/{4}
+QUESTION_ID:2410		x^2 + y^2 ＞ 6		\displaystyle{x}^{2}+{y}^{2}＞{6}
+QUESTION_ID:2413		x ≠ 0		\displaystyle{x}≠{0}
+QUESTION_ID:2415		5/6		\displaystyle{5}/{6}
+QUESTION_ID:2416		xy/100 ＜ x - y		\displaystyle{x}{y}/{100}＜{x}-{y}
+QUESTION_ID:2417		(m + v)^2 = 25		\displaystyle({m}+{v})^{2}={25}
+QUESTION_ID:2418		n = (900)/(1+c2^(-t))		\displaystyle{n}=({900})/({1}+{c}{2}^(-{t}))
+QUESTION_ID:2419		n/36		\displaystyle{n}/{36}
+QUESTION_ID:2423		3^x + 1		\displaystyle{3}^{x}+{1}
+QUESTION_ID:2425		(n + 2)^n = 125		\displaystyle({n}+{2})^{n}={125}
+QUESTION_ID:2430		x/3		\displaystyle{x}/{3}
+QUESTION_ID:2434		(x + 2)^2 = 169		\displaystyle({x}+{2})^{2}={169}
+QUESTION_ID:2435		3/7		\displaystyle{3}/{7}
+QUESTION_ID:2436		1/3		\displaystyle{1}/{3}
+QUESTION_ID:2439		(3^(-(x + y))) /( 3^(-(x - y)))		\displaystyle({3}^(-({x}+{y})))/({3}^(-({x}-{y})))
+QUESTION_ID:2442		(BC)/(AB) = 3/4		\displaystyle({B}{C})/({A}{B})={3}/{4}
+QUESTION_ID:2447		x/600 = y/300		\displaystyle{x}/{600}={y}/{300}
+QUESTION_ID:2449		(16/5, 12/5)		\displaystyle({16}/{5},{12}/{5})
+QUESTION_ID:2451		k/6 + m/4 = t/12		\displaystyle{k}/{6}+{m}/{4}={t}/{12}
+QUESTION_ID:2453		x^2 + 3x + c = (x + a)(x + b)		\displaystyle{x}^{2}+{3}{x}+{c}=({x}+{a})({x}+{b})
+QUESTION_ID:2455		d_1		\displaystyle{d}_{1}
+QUESTION_ID:2460		x^5		\displaystyle{x}^{5}
+QUESTION_ID:2462		x^2 + y^2		\displaystyle{x}^{2}+{y}^{2}
+QUESTION_ID:2463		y/x=5/4		\displaystyle{y}/{x}={5}/{4}
+QUESTION_ID:2474		x/y ＜ 1		\displaystyle{x}/{y}＜{1}
+QUESTION_ID:2475		2^x*2^K=4		\displaystyle{2}^{x}*{2}^{K}={4}
+QUESTION_ID:2476		(X^2-Y^2)/(X+Y)=1		\displaystyle({X}^{2}-{Y}^{2})/({X}+{Y})={1}
+QUESTION_ID:2482		r^2+s^2		\displaystyle{r}^{2}+{s}^{2}
+QUESTION_ID:2491		s^4v^3x^7＜ 0		\displaystyle{s}^{4}{v}^{3}{x}^{7}＜{0}
+QUESTION_ID:2499		30^n		\displaystyle{30}^{n}
+QUESTION_ID:2500		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2505		xy^2z^3		\displaystyle{x}{y}^{2}{z}^{3}
+QUESTION_ID:2512		x^2		\displaystyle{x}^{2}
+QUESTION_ID:2514		p^r		\displaystyle{p}^{r}
+QUESTION_ID:2520		3^x5^y = 1,125		\displaystyle{3}^{x}{5}^{y}={1},{125}
+QUESTION_ID:2522		D(t) = 10,000 {1+(r/100)}^t		\displaystyle{D}({t})={10},{000}{{1}+({r}/{100})}^{t}
+QUESTION_ID:2528		(25x^2)/(y^2)		\displaystyle({25}{x}^{2})/({y}^{2})
+QUESTION_ID:2531		v^3 - k^3		\displaystyle{v}^{3}-{k}^{3}
+QUESTION_ID:2536		(a^(-1) + b^(-1) )^(-1)		\displaystyle({a}^(-{1})+{b}^(-{1}))^(-{1})
+QUESTION_ID:2538		xy != 0		\displaystyle{x}{y}!={0}
+QUESTION_ID:2542		(4.8(10^9))/(1.6(10^3))=		\displaystyle({4.8}({10}^{9}))/({1.6}({10}^{3}))=
+QUESTION_ID:2544		4/3		\displaystyle{4}/{3}
+QUESTION_ID:2545		1/3		\displaystyle{1}/{3}
+QUESTION_ID:2546		3^(8n+ 3) + 2		\displaystyle{3}^({8}{n}+{3})+{2}
+QUESTION_ID:2547		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2548		3^k		\displaystyle{3}^{k}
+QUESTION_ID:2551		1.3*10^17		\displaystyle{1.3}*{10}^{17}
+QUESTION_ID:2553		x_1		\displaystyle{x}_{1}
+QUESTION_ID:2565		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2566		f(x) = - 1/x		\displaystyle{f}({x})=-{1}/{x}
+QUESTION_ID:2569		xy != 0		\displaystyle{x}{y}!={0}
+QUESTION_ID:2570		k^k = k		\displaystyle{k}^{k}={k}
+QUESTION_ID:2571		a_1		\displaystyle{a}_{1}
+QUESTION_ID:2573		2/5		\displaystyle{2}/{5}
+QUESTION_ID:2578		xy != 0		\displaystyle{x}{y}!={0}
+QUESTION_ID:2579		18sqrt2		\displaystyle{18}{s}{q}{r}{t}{2}
+QUESTION_ID:2580		a_1		\displaystyle{a}_{1}
+QUESTION_ID:2582		x != 0		\displaystyle{x}!={0}
+QUESTION_ID:2583		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2584		f(x)=\sqrt(x-10)		\displaystyle{f}({x})=\sqrt{{x}-{10}}
+QUESTION_ID:2587		x^3y^4=2000		\displaystyle{x}^{3}{y}^{4}={2000}
+QUESTION_ID:2603		2/3		\displaystyle{2}/{3}
+QUESTION_ID:2604		99,999^2 - 1^2 =		\displaystyle{99},{999}^{2}-{1}^{2}=
+QUESTION_ID:2606		(2^k)(5^(k-1))		\displaystyle({2}^{k})({5}^({k}-{1}))
+QUESTION_ID:2607		\sqrt x = 25		\displaystyle
+QUESTION_ID:2608		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2616		x Δ y = x + x/y		\displaystyle{x}Δ{y}={x}+{x}/{y}
+QUESTION_ID:2621		sqrt[2sqrt63 + 2/(8+3sqrt7)] =		\displaystyle{s}{q}{r}{t}[{2}{s}{q}{r}{t}{63}+{2}/({8}+{3}{s}{q}{r}{t}{7})]=
+QUESTION_ID:2622		a_1		\displaystyle{a}_{1}
+QUESTION_ID:2625		k^※		\displaystyle{k}^※
+QUESTION_ID:2628		5^x - 5^(x - 3) = (124)(5^y)		\displaystyle{5}^{x}-{5}^({x}-{3})=({124})({5}^{y})
+QUESTION_ID:2634		(7x)/3 + a = 8		\displaystyle({7}{x})/{3}+{a}={8}
+QUESTION_ID:2640		x/2		\displaystyle{x}/{2}
+QUESTION_ID:2647		83\frac1 3		\displaystyle{83}\frac {1} {3}
+QUESTION_ID:2648		(x-y)/(x+y)		\displaystyle({x}-{y})/({x}+{y})
+QUESTION_ID:2650		3/4		\displaystyle{3}/{4}
+QUESTION_ID:2653		7/16		\displaystyle{7}/{16}
+QUESTION_ID:2655		3^(6x) = 8,100		\displaystyle{3}^({6}{x})={8},{100}
+QUESTION_ID:2666		a/b		\displaystyle{a}/{b}
+QUESTION_ID:2668		1/4		\displaystyle{1}/{4}
+QUESTION_ID:2681		2^k		\displaystyle{2}^{k}
+QUESTION_ID:2686		10^50-74		\displaystyle{10}^{50}-{74}
+QUESTION_ID:2687		2/5		\displaystyle{2}/{5}
+QUESTION_ID:2690		1/(sqrt(2x)+sqrtx)		\displaystyle{1}/({s}{q}{r}{t}({2}{x})+{s}{q}{r}{t}{x})
+QUESTION_ID:2693		5/4		\displaystyle{5}/{4}
+QUESTION_ID:2694		n = 8^11-8		\displaystyle{n}={8}^{11}-{8}
+QUESTION_ID:2695		[n(n+1)]/2		\displaystyle[{n}({n}+{1})]/{2}
+QUESTION_ID:2702		1/8		\displaystyle{1}/{8}
+QUESTION_ID:2705		9sqrt3		\displaystyle{9}{s}{q}{r}{t}{3}
+QUESTION_ID:2708		(2^12-2^6)/(2^6-2^3)		\displaystyle({2}^{12}-{2}^{6})/({2}^{6}-{2}^{3})
+QUESTION_ID:2716		0.5/(1/6)=1/x		\displaystyle{0.5}/({1}/{6})={1}/{x}
+QUESTION_ID:2718		2^100 - 2^96		\displaystyle{2}^{100}-{2}^{96}
+QUESTION_ID:2722		4^3+4^3+4^3+4^3		\displaystyle{4}^{3}+{4}^{3}+{4}^{3}+{4}^{3}
+QUESTION_ID:2724		2^n		\displaystyle{2}^{n}
+QUESTION_ID:2731		x^2 - 2 ＜ 0		\displaystyle{x}^{2}-{2}＜{0}
+QUESTION_ID:2735		2x^2 - y^2 = 2xy		\displaystyle{2}{x}^{2}-{y}^{2}={2}{x}{y}
+QUESTION_ID:2745		1/4		\displaystyle{1}/{4}
+QUESTION_ID:2751		x/y = 96.12		\displaystyle{x}/{y}={96.12}
+QUESTION_ID:2754		a/b - b/a		\displaystyle{a}/{b}-{b}/{a}
+QUESTION_ID:2756		C_(m,n) = (m!) / [(m-n)! n!]		\displaystyle{C}_({m},{n})=({m}!)/[({m}-{n})!{n}!]
+QUESTION_ID:2762		(9*10^7)(9*10^8)		\displaystyle({9}*{10}^{7})({9}*{10}^{8})
+QUESTION_ID:2763		2/3		\displaystyle{2}/{3}
+QUESTION_ID:2766		x^2		\displaystyle{x}^{2}
+QUESTION_ID:2767		1/4		\displaystyle{1}/{4}
+QUESTION_ID:2771		3/4s		\displaystyle{3}/{4}{s}
+QUESTION_ID:2775		jk/(mn)=1		\displaystyle{j}{k}/({m}{n})={1}
+QUESTION_ID:2782		2\1/2		\displaystyle{2}{1}/{2}
+QUESTION_ID:2784		m!=0		\displaystyle{m}!={0}
+QUESTION_ID:2791		x/2		\displaystyle{x}/{2}
+QUESTION_ID:2792		(x+1)^2=x^2		\displaystyle({x}+{1})^{2}={x}^{2}
+QUESTION_ID:2793		1/k+1/r		\displaystyle{1}/{k}+{1}/{r}
+QUESTION_ID:2794		1/4		\displaystyle{1}/{4}
+QUESTION_ID:2797		2/3		\displaystyle{2}/{3}
+QUESTION_ID:2803		2^2n		\displaystyle{2}^{2}{n}
+QUESTION_ID:2809		1/3		\displaystyle{1}/{3}
+QUESTION_ID:2810		3/4		\displaystyle{3}/{4}
+QUESTION_ID:2811		xy!= 0		\displaystyle{x}{y}!={0}
+QUESTION_ID:2813		x/y		\displaystyle{x}/{y}
+QUESTION_ID:2815		x^2		\displaystyle{x}^{2}
+QUESTION_ID:2817		n/s		\displaystyle{n}/{s}
+QUESTION_ID:2819		x^2		\displaystyle{x}^{2}
+QUESTION_ID:2820		1/x+1/y		\displaystyle{1}/{x}+{1}/{y}
+QUESTION_ID:2823		sqrtx/y		\displaystyle{s}{q}{r}{t}{x}/{y}
+QUESTION_ID:2825		3/4		\displaystyle{3}/{4}
+QUESTION_ID:2827		x/2		\displaystyle{x}/{2}
+QUESTION_ID:2828		m/2		\displaystyle{m}/{2}
+QUESTION_ID:2832		2/3		\displaystyle{2}/{3}
+QUESTION_ID:2842		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2845		1/5		\displaystyle{1}/{5}
+QUESTION_ID:2846		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2847		2/3		\displaystyle{2}/{3}
+QUESTION_ID:2851		1/4		\displaystyle{1}/{4}
+QUESTION_ID:2854		2/3		\displaystyle{2}/{3}
+QUESTION_ID:2860		5x^2		\displaystyle{5}{x}^{2}
+QUESTION_ID:2864		S_1 = 9		\displaystyle{S}_{1}={9}
+QUESTION_ID:2865		sqrt(10)		\displaystyle{s}{q}{r}{t}({10})
+QUESTION_ID:2866		n/k		\displaystyle{n}/{k}
+QUESTION_ID:2870		r/s		\displaystyle{r}/{s}
+QUESTION_ID:2874		10/11		\displaystyle{10}/{11}
+QUESTION_ID:2875		k^2＞t^2		\displaystyle{k}^{2}＞{t}^{2}
+QUESTION_ID:2876		64/9		\displaystyle{64}/{9}
+QUESTION_ID:2877		1/4x - 5 ＜ 0		\displaystyle{1}/{4}{x}-{5}＜{0}
+QUESTION_ID:2879		(a+b)^2		\displaystyle({a}+{b})^{2}
+QUESTION_ID:2880		(KN)/(MN)		\displaystyle({K}{N})/({M}{N})
+QUESTION_ID:2881		150/n		\displaystyle{150}/{n}
+QUESTION_ID:2882		x^2		\displaystyle{x}^{2}
+QUESTION_ID:2884		x/2=3/y		\displaystyle{x}/{2}={3}/{y}
+QUESTION_ID:2885		vw=v^2		\displaystyle{v}{w}={v}^{2}
+QUESTION_ID:2888		r/s		\displaystyle{r}/{s}
+QUESTION_ID:2889		z^n		\displaystyle{z}^{n}
+QUESTION_ID:2890		S=(2/n)/(1/x+2/(3x))		\displaystyle{S}=({2}/{n})/({1}/{x}+{2}/({3}{x}))
+QUESTION_ID:2891		2^X		\displaystyle{2}^{X}
+QUESTION_ID:2892		3^n - 2^n		\displaystyle{3}^{n}-{2}^{n}
+QUESTION_ID:2894		5^k		\displaystyle{5}^{k}
+QUESTION_ID:2897		sqrt(n - m)		\displaystyle{s}{q}{r}{t}({n}-{m})
+QUESTION_ID:2898		x/y＜0		\displaystyle{x}/{y}＜{0}
+QUESTION_ID:2899		10sqrt2		\displaystyle{10}{s}{q}{r}{t}{2}
+QUESTION_ID:2900		a^4 - b^4		\displaystyle{a}^{4}-{b}^{4}
+QUESTION_ID:2902		x!=-y		\displaystyle{x}!=-{y}
+QUESTION_ID:2905		9^x + 9^(-x)		\displaystyle{9}^{x}+{9}^(-{x})
+QUESTION_ID:2906		(m+x)/(n+x)＞m/n		\displaystyle({m}+{x})/({n}+{x})＞{m}/{n}
+QUESTION_ID:2907		(1/10)^n		\displaystyle({1}/{10})^{n}
+QUESTION_ID:2908		1/p＞r/(r^2+2)		\displaystyle{1}/{p}＞{r}/({r}^{2}+{2})
+QUESTION_ID:2909		n^2		\displaystyle{n}^{2}
+QUESTION_ID:2910		n^3		\displaystyle{n}^{3}
+QUESTION_ID:2912		z^2		\displaystyle{z}^{2}
+QUESTION_ID:2915		barPR		\displaystyle{b}{a}{r}{P}{R}
+QUESTION_ID:2917		x^3(l-x^2)＜0		\displaystyle{x}^{3}({l}-{x}^{2})＜{0}
+QUESTION_ID:2918		1/3		\displaystyle{1}/{3}
+QUESTION_ID:2922		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2924		1/2		\displaystyle{1}/{2}
+QUESTION_ID:2930		n^2		\displaystyle{n}^{2}
+QUESTION_ID:2940		p_1		\displaystyle{p}_{1}
+QUESTION_ID:2943		r_x		\displaystyle{r}_{x}
+QUESTION_ID:2944		a_n		\displaystyle{a}_{n}
+QUESTION_ID:2945		1/3		\displaystyle{1}/{3}
+QUESTION_ID:2954		2/3		\displaystyle{2}/{3}
+QUESTION_ID:2966		P_1		\displaystyle{P}_{1}
+QUESTION_ID:2967		r/s＜s/r		\displaystyle{r}/{s}＜{s}/{r}
+QUESTION_ID:2971		1/3		\displaystyle{1}/{3}
+QUESTION_ID:2982		x/y		\displaystyle{x}/{y}
+QUESTION_ID:3005		5.1 * 10^n		\displaystyle{5.1}*{10}^{n}
+QUESTION_ID:3009		sqrt (n+k)＞2sqrtn		\displaystyle{s}{q}{r}{t}({n}+{k})＞{2}{s}{q}{r}{t}{n}
+QUESTION_ID:3011		(2t+t-x)/(t-x)		\displaystyle({2}{t}+{t}-{x})/({t}-{x})
+QUESTION_ID:3013		(100+n)/n		\displaystyle({100}+{n})/{n}
+QUESTION_ID:3018		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3019		1/10		\displaystyle{1}/{10}
+QUESTION_ID:3020		sqrt(root(3)(0.000064)		\displaystyle{s}{q}{r}{t}({r}{o}{o}{t}({3})({0.000064})
+QUESTION_ID:3022		12(3)/(8)		\displaystyle{12}({3})/({8})
+QUESTION_ID:3025		1/(x-1)		\displaystyle{1}/({x}-{1})
+QUESTION_ID:3027		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3029		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3037		a/b		\displaystyle{a}/{b}
+QUESTION_ID:3040		sqrt((16)(20)+(8)(32))		\displaystyle{s}{q}{r}{t}(({16})({20})+({8})({32}))
+QUESTION_ID:3046		1.5/(0.2+x)		\displaystyle{1.5}/({0.2}+{x})
+QUESTION_ID:3049		x^2		\displaystyle{x}^{2}
+QUESTION_ID:3051		(29^2+29)/29		\displaystyle({29}^{2}+{29})/{29}
+QUESTION_ID:3054		(0.3)^5/(0.3)^3		\displaystyle({0.3})^{5}/({0.3})^{3}
+QUESTION_ID:3060		(sqrt7+sqrt7)^2		\displaystyle({s}{q}{r}{t}{7}+{s}{q}{r}{t}{7})^{2}
+QUESTION_ID:3064		0.52*0.49/1.998		\displaystyle{0.52}*{0.49}/{1.998}
+QUESTION_ID:3066		(x-3)^2		\displaystyle({x}-{3})^{2}
+QUESTION_ID:3068		2^k + 1		\displaystyle{2}^{k}+{1}
+QUESTION_ID:3069		x^2 = 2y^3		\displaystyle{x}^{2}={2}{y}^{3}
+QUESTION_ID:3080		y((3x-5)/2)=y		\displaystyle{y}(({3}{x}-{5})/{2})={y}
+QUESTION_ID:3083		2/3		\displaystyle{2}/{3}
+QUESTION_ID:3087		sqrt5		\displaystyle{s}{q}{r}{t}{5}
+QUESTION_ID:3088		(7)/(1/5)+(5)/(1/7)		\displaystyle({7})/({1}/{5})+({5})/({1}/{7})
+QUESTION_ID:3094		(1/5)^5		\displaystyle({1}/{5})^{5}
+QUESTION_ID:3095		(90-8(20/4))/(1/2)		\displaystyle({90}-{8}({20}/{4}))/({1}/{2})
+QUESTION_ID:3107		1/2+[(2/3×3/8)÷4]-9/16		\displaystyle{1}/{2}+[({2}/{3}×{3}/{8})÷{4}]-{9}/{16}
+QUESTION_ID:3109		(x+1/2)(2x-3)=0		\displaystyle({x}+{1}/{2})({2}{x}-{3})={0}
+QUESTION_ID:3113		5/9		\displaystyle{5}/{9}
+QUESTION_ID:3118		25^n ＞ 5^12		\displaystyle{25}^{n}＞{5}^{12}
+QUESTION_ID:3119		x+y!=91		\displaystyle{x}+{y}!={91}
+QUESTION_ID:3122		sqrt(r/s)		\displaystyle{s}{q}{r}{t}({r}/{s})
+QUESTION_ID:3131		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3135		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3136		p/q		\displaystyle{p}/{q}
+QUESTION_ID:3139		70/r		\displaystyle{70}/{r}
+QUESTION_ID:3144		10^12		\displaystyle{10}^{12}
+QUESTION_ID:3147		sqrt(xy)		\displaystyle{s}{q}{r}{t}({x}{y})
+QUESTION_ID:3148		(10^4 - 10^2) (0.00bar12)		\displaystyle({10}^{4}-{10}^{2})({0.00}{b}{a}{r}{12})
+QUESTION_ID:3149		3/4		\displaystyle{3}/{4}
+QUESTION_ID:3153		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3154		3.003/2.002		\displaystyle{3.003}/{2.002}
+QUESTION_ID:3155		(4-x)/(2+x)		\displaystyle({4}-{x})/({2}+{x})
+QUESTION_ID:3161		(x^4-x^3+x^2)/(x-1)		\displaystyle({x}^{4}-{x}^{3}+{x}^{2})/({x}-{1})
+QUESTION_ID:3165		3/5		\displaystyle{3}/{5}
+QUESTION_ID:3172		sqrtn		\displaystyle{s}{q}{r}{t}{n}
+QUESTION_ID:3173		1/(1+(1/(2+1/3)))		\displaystyle{1}/({1}+({1}/({2}+{1}/{3})))
+QUESTION_ID:3178		1/x		\displaystyle{1}/{x}
+QUESTION_ID:3182		(x-1)^2		\displaystyle({x}-{1})^{2}
+QUESTION_ID:3183		1-x^2≥0		\displaystyle{1}-{x}^{2}≥{0}
+QUESTION_ID:3184		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3185		1/5		\displaystyle{1}/{5}
+QUESTION_ID:3186		1/x		\displaystyle{1}/{x}
+QUESTION_ID:3191		1/4		\displaystyle{1}/{4}
+QUESTION_ID:3194		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3199		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3200		x/50+x/25		\displaystyle{x}/{50}+{x}/{25}
+QUESTION_ID:3201		a^2b/3		\displaystyle{a}^{2}{b}/{3}
+QUESTION_ID:3203		(sqrt2+1)(sqrt2-1)(sqrt3+1)(sqrt3-1)=		\displaystyle({s}{q}{r}{t}{2}+{1})({s}{q}{r}{t}{2}-{1})({s}{q}{r}{t}{3}+{1})({s}{q}{r}{t}{3}-{1})=
+QUESTION_ID:3205		(13)^4(17)^2(29)^3		\displaystyle({13})^{4}({17})^{2}({29})^{3}
+QUESTION_ID:3209		1/2+1/3+1/4=13/x		\displaystyle{1}/{2}+{1}/{3}+{1}/{4}={13}/{x}
+QUESTION_ID:3213		1/((2r)^3)		\displaystyle{1}/(({2}{r})^{3})
+QUESTION_ID:3230		6/11		\displaystyle{6}/{11}
+QUESTION_ID:3232		1/(1+(1/(1+1/3)))		\displaystyle{1}/({1}+({1}/({1}+{1}/{3})))
+QUESTION_ID:3236		((x+1)/(x-1))^2		\displaystyle(({x}+{1})/({x}-{1}))^{2}
+QUESTION_ID:3242		1/4		\displaystyle{1}/{4}
+QUESTION_ID:3243		1/x - 1/(x+1)=1/(x+4)		\displaystyle{1}/{x}-{1}/({x}+{1})={1}/({x}+{4})
+QUESTION_ID:3244		(1/2)^(-3)(1/4)^(-2)(1/16)^(-1)		\displaystyle({1}/{2})^(-{3})({1}/{4})^(-{2})({1}/{16})^(-{1})
+QUESTION_ID:3246		2/(1+2/y)		\displaystyle{2}/({1}+{2}/{y})
+QUESTION_ID:3247		(a+b+c)/3		\displaystyle({a}+{b}+{c})/{3}
+QUESTION_ID:3252		n^2		\displaystyle{n}^{2}
+QUESTION_ID:3255		(0.0015×10^m)/(0.03×10^k)=5×10^7		\displaystyle({0.0015}×{10}^{m})/({0.03}×{10}^{k})={5}×{10}^{7}
+QUESTION_ID:3258		P^2		\displaystyle{P}^{2}
+QUESTION_ID:3259		bar(PR)		\displaystyle{b}{a}{r}({P}{R})
+QUESTION_ID:3260		(14n)/60		\displaystyle({14}{n})/{60}
+QUESTION_ID:3267		0.1^2		\displaystyle{0.1}^{2}
+QUESTION_ID:3272		n^2		\displaystyle{n}^{2}
+QUESTION_ID:3273		1/(1+1/3)-1/(1+1/2)		\displaystyle{1}/({1}+{1}/{3})-{1}/({1}+{1}/{2})
+QUESTION_ID:3275		10^14		\displaystyle{10}^{14}
+QUESTION_ID:3280		1/(0.75-1)		\displaystyle{1}/({0.75}-{1})
+QUESTION_ID:3286		7/8 + 1/9		\displaystyle{7}/{8}+{1}/{9}
+QUESTION_ID:3288		1-(1/2- 2/3)		\displaystyle{1}-({1}/{2}-{2}/{3})
+QUESTION_ID:3289		0.3^5/0.3^3=		\displaystyle{0.3}^{5}/{0.3}^{3}=
+QUESTION_ID:3290		barAB||barCE		\displaystyle{b}{a}{r}{A}{B}||{b}{a}{r}{C}{E}
+QUESTION_ID:3293		sqrt80+sqrt125		\displaystyle{s}{q}{r}{t}{80}+{s}{q}{r}{t}{125}
+QUESTION_ID:3295		50.2*0.49/199.8		\displaystyle{50.2}*{0.49}/{199.8}
+QUESTION_ID:3304		20Ld/(600+s^2)		\displaystyle{20}{L}{d}/({600}+{s}^{2})
+QUESTION_ID:3307		(0.345)^2		\displaystyle({0.345})^{2}
+QUESTION_ID:3310		((0.0036)(2.8))/((0.04)(0.1)(0.003))=		\displaystyle(({0.0036})({2.8}))/(({0.04})({0.1})({0.003}))=
+QUESTION_ID:3315		1/s+1/t		\displaystyle{1}/{s}+{1}/{t}
+QUESTION_ID:3322		2^i3^k5^m7^p		\displaystyle{2}^{i}{3}^{k}{5}^{m}{7}^{p}
+QUESTION_ID:3323		t=1/(2^9*5^3)		\displaystyle{t}={1}/({2}^{9}*{5}^{3})
+QUESTION_ID:3325		1/(sqrt(n+1)-sqrtn)		\displaystyle{1}/({s}{q}{r}{t}({n}+{1})-{s}{q}{r}{t}{n})
+QUESTION_ID:3329		x_n		\displaystyle{x}_{n}
+QUESTION_ID:3330		(x/(x+y))(10)+(y/(x+y))(20)		\displaystyle({x}/({x}+{y}))({10})+({y}/({x}+{y}))({20})
+QUESTION_ID:3334		m^(-1)=-1/3		\displaystyle{m}^(-{1})=-{1}/{3}
+QUESTION_ID:3335		2^(n-1)		\displaystyle{2}^({n}-{1})
+QUESTION_ID:3338		6/x		\displaystyle{6}/{x}
+QUESTION_ID:3339		(2^(-14)+2^(-15)+2^(-16)+2^(-17))/5		\displaystyle({2}^(-{14})+{2}^(-{15})+{2}^(-{16})+{2}^(-{17}))/{5}
+QUESTION_ID:3448		p^2		\displaystyle{p}^{2}
+QUESTION_ID:3454		r^2=25		\displaystyle{r}^{2}={25}
+QUESTION_ID:3455		（12^x）（4^(2x+1)） = （2^k）（3^2）		\displaystyle（{12}^{x}）（{4}^({2}{x}+{1})）=（{2}^{k}）（{3}^{2}）
+QUESTION_ID:3463		n/k		\displaystyle{n}/{k}
+QUESTION_ID:3465		[1/(sqrt3-sqrt2)]^2		\displaystyle[{1}/({s}{q}{r}{t}{3}-{s}{q}{r}{t}{2})]^{2}
+QUESTION_ID:3469		a^2+b^2＜15		\displaystyle{a}^{2}+{b}^{2}＜{15}
+QUESTION_ID:3475		f(n)=2^x3^y5^z		\displaystyle{f}({n})={2}^{x}{3}^{y}{5}^{z}
+QUESTION_ID:3476		(k^5)/(16)		\displaystyle({k}^{5})/({16})
+QUESTION_ID:3478		1/4		\displaystyle{1}/{4}
+QUESTION_ID:3485		k/60125=0.001		\displaystyle{k}/{60125}={0.001}
+QUESTION_ID:3486		y^2		\displaystyle{y}^{2}
+QUESTION_ID:3491		(0.8^(-5))/(0.4^(-4))=		\displaystyle({0.8}^(-{5}))/({0.4}^(-{4}))=
+QUESTION_ID:3494		7/9		\displaystyle{7}/{9}
+QUESTION_ID:3501		2^n		\displaystyle{2}^{n}
+QUESTION_ID:3502		x^2+y^2=1		\displaystyle{x}^{2}+{y}^{2}={1}
+QUESTION_ID:3505		x^2 – 7x ≠ 0		\displaystyle{x}^{2}–{7}{x}≠{0}
+QUESTION_ID:3511		x^n–x^(-n)=0		\displaystyle{x}^{n}–{x}^(-{n})={0}
+QUESTION_ID:3512		t_1		\displaystyle{t}_{1}
+QUESTION_ID:3518		–3+sqrt(9-k)		\displaystyle–{3}+{s}{q}{r}{t}({9}-{k})
+QUESTION_ID:3520		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3522		l_1		\displaystyle{l}_{1}
+QUESTION_ID:3530		2^n		\displaystyle{2}^{n}
+QUESTION_ID:3533		4x＜x＜x^3＜x^2		\displaystyle{4}{x}＜{x}＜{x}^{3}＜{x}^{2}
+QUESTION_ID:3536		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3541		p/r=s/t		\displaystyle{p}/{r}={s}/{t}
+QUESTION_ID:3542		a_1=1		\displaystyle{a}_{1}={1}
+QUESTION_ID:3546		9^9–9^2		\displaystyle{9}^{9}–{9}^{2}
+QUESTION_ID:3548		(-1/5)^(-n)		\displaystyle(-{1}/{5})^(-{n})
+QUESTION_ID:3549		(x-1)/3		\displaystyle({x}-{1})/{3}
+QUESTION_ID:3552		(2x–5)^3		\displaystyle({2}{x}–{5})^{3}
+QUESTION_ID:3556		f(x)=(2x^2-5)/x		\displaystyle{f}({x})=({2}{x}^{2}-{5})/{x}
+QUESTION_ID:3557		x^2＞25		\displaystyle{x}^{2}＞{25}
+QUESTION_ID:3558		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3563		x^2 + bx + c = (x + d)^2		\displaystyle{x}^{2}+{b}{x}+{c}=({x}+{d})^{2}
+QUESTION_ID:3564		a^k		\displaystyle{a}^{k}
+QUESTION_ID:3575		2^x + 2^x + 2^x + 2^x = 2^n		\displaystyle{2}^{x}+{2}^{x}+{2}^{x}+{2}^{x}={2}^{n}
+QUESTION_ID:3581		(x+1/x)^2-(x- 1/x)^2 =		\displaystyle({x}+{1}/{x})^{2}-({x}-{1}/{x})^{2}=
+QUESTION_ID:3586		(2 -sqrt5)x = -1		\displaystyle({2}-{s}{q}{r}{t}{5}){x}=-{1}
+QUESTION_ID:3593		xΘy=1/x+1/y		\displaystyle{x}Θ{y}={1}/{x}+{1}/{y}
+QUESTION_ID:3596		x^3y^4=5000		\displaystyle{x}^{3}{y}^{4}={5000}
+QUESTION_ID:3597		n=a^4b^3		\displaystyle{n}={a}^{4}{b}^{3}
+QUESTION_ID:3602		2/3		\displaystyle{2}/{3}
+QUESTION_ID:3603		f(x)=x^2(1-x)^2		\displaystyle{f}({x})={x}^{2}({1}-{x})^{2}
+QUESTION_ID:3605		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3607		9x=27^y		\displaystyle{9}{x}={27}^{y}
+QUESTION_ID:3609		h=-16(t-3)^2+150		\displaystyle{h}=-{16}({t}-{3})^{2}+{150}
+QUESTION_ID:3610		x^2–y=w		\displaystyle{x}^{2}–{y}={w}
+QUESTION_ID:3615		5^(17)× 4^9		\displaystyle{5}^({17})×{4}^{9}
+QUESTION_ID:3617		sqrt(90-x)		\displaystyle{s}{q}{r}{t}({90}-{x})
+QUESTION_ID:3620		1/x + 1/y		\displaystyle{1}/{x}+{1}/{y}
+QUESTION_ID:3627		x^2-y^2=x^2y-xy^2		\displaystyle{x}^{2}-{y}^{2}={x}^{2}{y}-{x}{y}^{2}
+QUESTION_ID:3629		x/y=1/5		\displaystyle{x}/{y}={1}/{5}
+QUESTION_ID:3632		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3636		y^2=0		\displaystyle{y}^{2}={0}
+QUESTION_ID:3639		sqrtx		\displaystyle{s}{q}{r}{t}{x}
+QUESTION_ID:3640		P(r)=8r/(1-r)		\displaystyle{P}({r})={8}{r}/({1}-{r})
+QUESTION_ID:3645		X^11-X^3＞0		\displaystyle{X}^{11}-{X}^{3}＞{0}
+QUESTION_ID:3648		2/3		\displaystyle{2}/{3}
+QUESTION_ID:3649		(X+Y)^3		\displaystyle({X}+{Y})^{3}
+QUESTION_ID:3650		M^3		\displaystyle{M}^{3}
+QUESTION_ID:3651		f(x)=x^2+1/x^2		\displaystyle{f}({x})={x}^{2}+{1}/{x}^{2}
+QUESTION_ID:3652		(x^2)/(xy+x)＜1		\displaystyle({x}^{2})/({x}{y}+{x})＜{1}
+QUESTION_ID:3655		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3656		M^2+8M+12=0		\displaystyle{M}^{2}+{8}{M}+{12}={0}
+QUESTION_ID:3664		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3665		x△y = (x+2)^2+(y+3)^2		\displaystyle{x}△{y}=({x}+{2})^{2}+({y}+{3})^{2}
+QUESTION_ID:3668		xy^2		\displaystyle{x}{y}^{2}
+QUESTION_ID:3669		t/3＞w/5		\displaystyle{t}/{3}＞{w}/{5}
+QUESTION_ID:3676		n = (k+1)^3		\displaystyle{n}=({k}+{1})^{3}
+QUESTION_ID:3677		6/11		\displaystyle{6}/{11}
+QUESTION_ID:3679		(0.0025)(0.025)(0.00025)×10^k		\displaystyle({0.0025})({0.025})({0.00025})×{10}^{k}
+QUESTION_ID:3682		(25x^2)/(y^2)		\displaystyle({25}{x}^{2})/({y}^{2})
+QUESTION_ID:3693		a^(-2)b^(-3)		\displaystyle{a}^(-{2}){b}^(-{3})
+QUESTION_ID:3696		R = P/Q		\displaystyle{R}={P}/{Q}
+QUESTION_ID:3702		x =sqrt(8xy-16y^2)		\displaystyle{x}={s}{q}{r}{t}({8}{x}{y}-{16}{y}^{2})
+QUESTION_ID:3710		1/8		\displaystyle{1}/{8}
+QUESTION_ID:3711		(|x|)/(x)		\displaystyle(|{x}|)/({x})
+QUESTION_ID:3717		x – y^2 ＞ 0		\displaystyle{x}–{y}^{2}＞{0}
+QUESTION_ID:3725		t^(-1)		\displaystyle{t}^(-{1})
+QUESTION_ID:3727		n^2		\displaystyle{n}^{2}
+QUESTION_ID:3728		sqrt(4.8*10^9)		\displaystyle{s}{q}{r}{t}({4.8}*{10}^{9})
+QUESTION_ID:3730		(8)/(sqrt2)		\displaystyle({8})/({s}{q}{r}{t}{2})
+QUESTION_ID:3731		p/q		\displaystyle{p}/{q}
+QUESTION_ID:3735		x^2 = 4		\displaystyle{x}^{2}={4}
+QUESTION_ID:3736		p^3s^3t^3		\displaystyle{p}^{3}{s}^{3}{t}^{3}
+QUESTION_ID:3737		2x^(6y) - 4		\displaystyle{2}{x}^({6}{y})-{4}
+QUESTION_ID:3739		x^3 ＜ x^2		\displaystyle{x}^{3}＜{x}^{2}
+QUESTION_ID:3744		10^(180) – 10^(30)		\displaystyle{10}^({180})–{10}^({30})
+QUESTION_ID:3751		5/9		\displaystyle{5}/{9}
+QUESTION_ID:3754		4/5		\displaystyle{4}/{5}
+QUESTION_ID:3756		2y – x = x^2 – y^2		\displaystyle{2}{y}–{x}={x}^{2}–{y}^{2}
+QUESTION_ID:3757		-(10)/(4)		\displaystyle-({10})/({4})
+QUESTION_ID:3759		1/6 * (42)^6		\displaystyle{1}/{6}*({42})^{6}
+QUESTION_ID:3764		I = 1000 {(1 + r/100)^n – 1}		\displaystyle{I}={1000}{({1}+{r}/{100})^{n}–{1}}
+QUESTION_ID:3766		（1/(4-sqrt(15))）^2=		\displaystyle（{1}/({4}-{s}{q}{r}{t}({15}))）^{2}=
+QUESTION_ID:3769		q = 2^k		\displaystyle{q}={2}^{k}
+QUESTION_ID:3776		(k（k+1）)/2		\displaystyle({k}（{k}+{1}）)/{2}
+QUESTION_ID:3777		f(x) = x^2		\displaystyle{f}({x})={x}^{2}
+QUESTION_ID:3778		R_i		\displaystyle{R}_{i}
+QUESTION_ID:3782		10^n		\displaystyle{10}^{n}
+QUESTION_ID:3783		x/y		\displaystyle{x}/{y}
+QUESTION_ID:3790		a_1		\displaystyle{a}_{1}
+QUESTION_ID:3791		2/3		\displaystyle{2}/{3}
+QUESTION_ID:3793		c/d		\displaystyle{c}/{d}
+QUESTION_ID:3794		n^2		\displaystyle{n}^{2}
+QUESTION_ID:3798		h^2 = h		\displaystyle{h}^{2}={h}
+QUESTION_ID:3800		k^2		\displaystyle{k}^{2}
+QUESTION_ID:3802		3^(4x + 2) + y		\displaystyle{3}^({4}{x}+{2})+{y}
+QUESTION_ID:3805		x^2		\displaystyle{x}^{2}
+QUESTION_ID:3811		(x+y)^2		\displaystyle({x}+{y})^{2}
+QUESTION_ID:3812		t^(r-1) = 1		\displaystyle{t}^({r}-{1})={1}
+QUESTION_ID:3815		4/5		\displaystyle{4}/{5}
+QUESTION_ID:3820		2^k		\displaystyle{2}^{k}
+QUESTION_ID:3822		10,000^(100)		\displaystyle{10},{000}^({100})
+QUESTION_ID:3827		N(t) = -20(t – 5)^2 + 500		\displaystyle{N}({t})=-{20}({t}–{5})^{2}+{500}
+QUESTION_ID:3828		25(5^x)=1		\displaystyle{25}({5}^{x})={1}
+QUESTION_ID:3833		(12!)/(2^M)		\displaystyle({12}!)/({2}^{M})
+QUESTION_ID:3836		Y^2=XZ		\displaystyle{Y}^{2}={X}{Z}
+QUESTION_ID:3837		(82^(1/2)+82^(1/2))^2		\displaystyle({82}^({1}/{2})+{82}^({1}/{2}))^{2}
+QUESTION_ID:3841		X^2+Y^2=1		\displaystyle{X}^{2}+{Y}^{2}={1}
+QUESTION_ID:3843		((1/2)^(-2))/(2^(-2))		\displaystyle(({1}/{2})^(-{2}))/({2}^(-{2}))
+QUESTION_ID:3850		x^2yz+xy^2z+xyz^2		\displaystyle{x}^{2}{y}{z}+{x}{y}^{2}{z}+{x}{y}{z}^{2}
+QUESTION_ID:3853		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3856		3^2		\displaystyle{3}^{2}
+QUESTION_ID:3857		3/4		\displaystyle{3}/{4}
+QUESTION_ID:3859		y/x		\displaystyle{y}/{x}
+QUESTION_ID:3861		x＜0		\displaystyle{x}＜{0}
+QUESTION_ID:3862		1/4		\displaystyle{1}/{4}
+QUESTION_ID:3864		a^2		\displaystyle{a}^{2}
+QUESTION_ID:3865		(2^x)(2^y) = 8		\displaystyle({2}^{x})({2}^{y})={8}
+QUESTION_ID:3866		x/y=3/2		\displaystyle{x}/{y}={3}/{2}
+QUESTION_ID:3867		y = 4 + (x - 3)^2		\displaystyle{y}={4}+({x}-{3})^{2}
+QUESTION_ID:3871		1/[1 - (1/(2 - 1/3))]		\displaystyle{1}/[{1}-({1}/({2}-{1}/{3}))]
+QUESTION_ID:3872		1/2		\displaystyle{1}/{2}
+QUESTION_ID:3876		(-3)^(-2)=		\displaystyle(-{3})^(-{2})=
+QUESTION_ID:3882		1/4		\displaystyle{1}/{4}
+QUESTION_ID:3885		F = 9C/5 + 32		\displaystyle{F}={9}{C}/{5}+{32}
+QUESTION_ID:3891		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3893		1/5		\displaystyle{1}/{5}
+QUESTION_ID:3905		u = v^2 + 1		\displaystyle{u}={v}^{2}+{1}
+QUESTION_ID:3919		K_1		\displaystyle{K}_{1}
+QUESTION_ID:3925		x^6x^4		\displaystyle{x}^{6}{x}^{4}
+QUESTION_ID:3931		1/5		\displaystyle{1}/{5}
+QUESTION_ID:3934		9/25		\displaystyle{9}/{25}
+QUESTION_ID:3941		-1/2		\displaystyle-{1}/{2}
+QUESTION_ID:3956		1/3		\displaystyle{1}/{3}
+QUESTION_ID:3957		3^(X-4) = 3^(y+2)		\displaystyle{3}^({X}-{4})={3}^({y}+{2})
+QUESTION_ID:3958		2/3		\displaystyle{2}/{3}
+QUESTION_ID:3960		2/5		\displaystyle{2}/{5}
+QUESTION_ID:3963		66*2/3		\displaystyle{66}*{2}/{3}
+QUESTION_ID:4019		4^(x+y) = 8^(10)		\displaystyle{4}^({x}+{y})={8}^({10})
+QUESTION_ID:4020		x^2 ＜ 100 ＜ y^2		\displaystyle{x}^{2}＜{100}＜{y}^{2}
+QUESTION_ID:4026		(AC)^2 = 2(AD)^2		\displaystyle({A}{C})^{2}={2}({A}{D})^{2}
+QUESTION_ID:4029		(x+y)/2		\displaystyle({x}+{y})/{2}
+QUESTION_ID:4030		(c-a)/(d-b)		\displaystyle({c}-{a})/({d}-{b})
+QUESTION_ID:4032		y^x		\displaystyle{y}^{x}
+QUESTION_ID:4033		x^2 + bx + c = 0		\displaystyle{x}^{2}+{b}{x}+{c}={0}
+QUESTION_ID:4042		|y- 1/2|＜11/2		\displaystyle|{y}-{1}/{2}|＜{11}/{2}
+QUESTION_ID:4043		1/2		\displaystyle{1}/{2}
+QUESTION_ID:4044		10y^2 = (x + 2)(x-2)		\displaystyle{10}{y}^{2}=({x}+{2})({x}-{2})
+QUESTION_ID:4055		1/4		\displaystyle{1}/{4}
+QUESTION_ID:4056		a^k		\displaystyle{a}^{k}
+QUESTION_ID:4057		3/5		\displaystyle{3}/{5}
+QUESTION_ID:4059		n = 3^8-2^8		\displaystyle{n}={3}^{8}-{2}^{8}
+QUESTION_ID:4063		x/3		\displaystyle{x}/{3}
+QUESTION_ID:4065		n = 33^43+43^33		\displaystyle{n}={33}^{43}+{43}^{33}
+QUESTION_ID:4071		0.99999999/1.0001 - 0.99999991/1.0003=		\displaystyle{0.99999999}/{1.0001}-{0.99999991}/{1.0003}=
+QUESTION_ID:4072		1/3		\displaystyle{1}/{3}
+QUESTION_ID:4073		(x + 2)(x + 3)/(x-2) ≥ 0		\displaystyle({x}+{2})({x}+{3})/({x}-{2})≥{0}
+QUESTION_ID:4123		a_1		\displaystyle{a}_{1}
+QUESTION_ID:4128		2/5		\displaystyle{2}/{5}
+QUESTION_ID:4133		s/t=64.12		\displaystyle{s}/{t}={64.12}
+QUESTION_ID:4136		sqrt(3-2x)=sqrt(2x)+1		\displaystyle{s}{q}{r}{t}({3}-{2}{x})={s}{q}{r}{t}({2}{x})+{1}
+QUESTION_ID:4137		n=sqrt(16/81)		\displaystyle{n}={s}{q}{r}{t}({16}/{81})
+QUESTION_ID:4143		1/2		\displaystyle{1}/{2}
+QUESTION_ID:4146		n^2		\displaystyle{n}^{2}
+QUESTION_ID:4152		x_1		\displaystyle{x}_{1}
+QUESTION_ID:4154		(5^(x+2))/25 ＜ 1		\displaystyle({5}^({x}+{2}))/{25}＜{1}
+QUESTION_ID:4161		(x+y)/z ＞ 0		\displaystyle({x}+{y})/{z}＞{0}
+QUESTION_ID:4162		k/15		\displaystyle{k}/{15}
+QUESTION_ID:4164		(sqrtm)^n		\displaystyle({s}{q}{r}{t}{m})^{n}
+QUESTION_ID:4234		3y^2+7y=x		\displaystyle{3}{y}^{2}+{7}{y}={x}
+QUESTION_ID:4248		c=2sqrt2		\displaystyle{c}={2}{s}{q}{r}{t}{2}
+QUESTION_ID:4250		x^2-1		\displaystyle{x}^{2}-{1}
+QUESTION_ID:4448		n = nA		\displaystyle{n}={n}{A}
+QUESTION_ID:4458		4x/7y = 1		\displaystyle{4}{x}/{7}{y}={1}
+QUESTION_ID:4459		b!=0		\displaystyle{b}!={0}
+QUESTION_ID:4561		49a^2 = 9b^2 - 4		\displaystyle{49}{a}^{2}={9}{b}^{2}-{4}
+QUESTION_ID:4630		v!=0		\displaystyle{v}!={0}
+QUESTION_ID:4740		n = nA		\displaystyle{n}={n}{A}
+QUESTION_ID:4742		2sqrt2		\displaystyle{2}{s}{q}{r}{t}{2}
+QUESTION_ID:4750		(4x)/(7y)=1		\displaystyle({4}{x})/({7}{y})={1}
+QUESTION_ID:4760		(3y- 8)^2 = 2,500		\displaystyle({3}{y}-{8})^{2}={2},{500}
+QUESTION_ID:4853		49(a^2) = 9(b^2) - 4		\displaystyle{49}({a}^{2})={9}({b}^{2})-{4}
+QUESTION_ID:4887		1/a-1/b=1/c		\displaystyle{1}/{a}-{1}/{b}={1}/{c}
+QUESTION_ID:4922		v!=0		\displaystyle{v}!={0}
+QUESTION_ID:5023		(u-1)^3		\displaystyle({u}-{1})^{3}
+QUESTION_ID:5028		sqrt80		\displaystyle{s}{q}{r}{t}{80}
+QUESTION_ID:5032		N=S/(1-pq)		\displaystyle{N}={S}/({1}-{p}{q})
+QUESTION_ID:5039		O_1		\displaystyle{O}_{1}
+QUESTION_ID:5040		3/8		\displaystyle{3}/{8}
+QUESTION_ID:5042		4sqrt3		\displaystyle{4}{s}{q}{r}{t}{3}
+QUESTION_ID:5043		1/(3/4-2/3)=		\displaystyle{1}/({3}/{4}-{2}/{3})=
+QUESTION_ID:5045		5π/4 < D < 3π/2		\displaystyle{5}π/{4}<{D}<{3}π/{2}
+QUESTION_ID:5049		y/4		\displaystyle{y}/{4}
+QUESTION_ID:5050		w=(1+xy/(z^2))/(x+y)		\displaystyle{w}=({1}+{x}{y}/({z}^{2}))/({x}+{y})
+QUESTION_ID:5051		5/7		\displaystyle{5}/{7}
+QUESTION_ID:5056		[(0.3667)(0.8333)(0.3333)]/[(0.4444)(0.6667)(0.125)]		\displaystyle[({0.3667})({0.8333})({0.3333})]/[({0.4444})({0.6667})({0.125})]
+QUESTION_ID:5061		sqrt(1/36+1/64)=		\displaystyle{s}{q}{r}{t}({1}/{36}+{1}/{64})=
+QUESTION_ID:5067		(x^2+14x-240)/(x+24)		\displaystyle({x}^{2}+{14}{x}-{240})/({x}+{24})
+QUESTION_ID:5068		4/7		\displaystyle{4}/{7}
+QUESTION_ID:5076		2\1/2		\displaystyle{2}{1}/{2}
+QUESTION_ID:5080		sqrta+a/b=		\displaystyle{s}{q}{r}{t}{a}+{a}/{b}=
+QUESTION_ID:5083		2*1/4		\displaystyle{2}*{1}/{4}
+QUESTION_ID:5084		5/7		\displaystyle{5}/{7}
+QUESTION_ID:5088		s=n(n+1)/2		\displaystyle{s}={n}({n}+{1})/{2}
+QUESTION_ID:5090		(625)(7)^2 = x(5^3)		\displaystyle({625})({7})^{2}={x}({5}^{3})
+QUESTION_ID:5091		1^st		\displaystyle{1}^{s}{t}
+QUESTION_ID:5093		0 < u < 5/6		\displaystyle{0}<{u}<{5}/{6}
+QUESTION_ID:5098		p^3 > q^3		\displaystyle{p}^{3}>{q}^{3}
+QUESTION_ID:5102		1/5		\displaystyle{1}/{5}
+QUESTION_ID:5104		24*(2^7+1)/2^8		\displaystyle{24}*({2}^{7}+{1})/{2}^{8}
+QUESTION_ID:5110		z/3		\displaystyle{z}/{3}
+QUESTION_ID:5111		BC = 2sqrt3		\displaystyle{B}{C}={2}{s}{q}{r}{t}{3}
+QUESTION_ID:5113		(2q - 3)^2 = q^2		\displaystyle({2}{q}-{3})^{2}={q}^{2}
+QUESTION_ID:5114		b > a^4		\displaystyle{b}>{a}^{4}
+QUESTION_ID:5115		4a^2 = 50		\displaystyle{4}{a}^{2}={50}
+QUESTION_ID:5120		7/u-4=10		\displaystyle{7}/{u}-{4}={10}
+QUESTION_ID:5121		u = v^4		\displaystyle{u}={v}^{4}
+QUESTION_ID:5124		y/1/2		\displaystyle{y}/{1}/{2}
+QUESTION_ID:5125		x!=0		\displaystyle{x}!={0}
+QUESTION_ID:5128		x△y =x^3/y+y^2/x		\displaystyle{x}△{y}={x}^{3}/{y}+{y}^{2}/{x}
+QUESTION_ID:5137		a^3-b^3		\displaystyle{a}^{3}-{b}^{3}
+QUESTION_ID:5138		(u^2)(v^3)< 0		\displaystyle({u}^{2})({v}^{3})<{0}
+QUESTION_ID:5140		u/v		\displaystyle{u}/{v}
+QUESTION_ID:5143		3/7		\displaystyle{3}/{7}
+QUESTION_ID:5147		(ζ+η+ψ+ε+ν)/10=ξ/2		\displaystyle(ζ+η+ψ+ε+ν)/{10}=ξ/{2}
+QUESTION_ID:5148		T(T-1)^2=4T		\displaystyle{T}({T}-{1})^{2}={4}{T}
+QUESTION_ID:5154		x + y^2		\displaystyle{x}+{y}^{2}
+QUESTION_ID:5157		3*10^3		\displaystyle{3}*{10}^{3}
+QUESTION_ID:5158		v^2		\displaystyle{v}^{2}
+QUESTION_ID:5159		1/3		\displaystyle{1}/{3}
+QUESTION_ID:5160		uv!=0		\displaystyle{u}{v}!={0}
+QUESTION_ID:5162		1/2		\displaystyle{1}/{2}
+QUESTION_ID:5163		5/6		\displaystyle{5}/{6}
+QUESTION_ID:5165		a/b=b/a		\displaystyle{a}/{b}={b}/{a}
+QUESTION_ID:5196		1/(1/3+1/6)=		\displaystyle{1}/({1}/{3}+{1}/{6})=
+QUESTION_ID:5200		2/(3/4)=		\displaystyle{2}/({3}/{4})=
+QUESTION_ID:5204		(sqrt10,000)^2/1000=		\displaystyle({s}{q}{r}{t}{10},{000})^{2}/{1000}=
+QUESTION_ID:5205		sqrt75+sqrt75=		\displaystyle{s}{q}{r}{t}{75}+{s}{q}{r}{t}{75}=
+QUESTION_ID:5207		(5*l0^2)+(6*l0^3)+(8*l0^5)=		\displaystyle({5}*{l}{0}^{2})+({6}*{l}{0}^{3})+({8}*{l}{0}^{5})=
+QUESTION_ID:5210		-5(x^2)		\displaystyle-{5}({x}^{2})
+QUESTION_ID:5211		1/3		\displaystyle{1}/{3}
+QUESTION_ID:5213		(sqrt900)^3/3=		\displaystyle({s}{q}{r}{t}{900})^{3}/{3}=
+QUESTION_ID:5214		3/5		\displaystyle{3}/{5}
+QUESTION_ID:5221		3/5		\displaystyle{3}/{5}
+QUESTION_ID:5225		xps != 0		\displaystyle{x}{p}{s}!={0}
+QUESTION_ID:5230		10^n=10,000		\displaystyle{10}^{n}={10},{000}
+QUESTION_ID:5234		2/3		\displaystyle{2}/{3}
+QUESTION_ID:5236		1-2/y=4		\displaystyle{1}-{2}/{y}={4}
+QUESTION_ID:5238		a^3 + 3ab		\displaystyle{a}^{3}+{3}{a}{b}
+QUESTION_ID:5239		k/m< 0		\displaystyle{k}/{m}<{0}
+QUESTION_ID:5241		sqrtn		\displaystyle{s}{q}{r}{t}{n}
+QUESTION_ID:5242		n <= 23		\displaystyle{n}<={23}
+QUESTION_ID:5248		1/4		\displaystyle{1}/{4}
+QUESTION_ID:5249		2sqrt(a+b) > 4sqrtb		\displaystyle{2}{s}{q}{r}{t}({a}+{b})>{4}{s}{q}{r}{t}{b}
+QUESTION_ID:5250		a-b>=3		\displaystyle{a}-{b}>={3}
+QUESTION_ID:5255		1/(x^2)=1/16		\displaystyle{1}/({x}^{2})={1}/{16}
+QUESTION_ID:5262		R = 115 + (5/3)*w		\displaystyle{R}={115}+({5}/{3})*{w}
+QUESTION_ID:5264		S = (1/a)*(a + b)		\displaystyle{S}=({1}/{a})*({a}+{b})
+QUESTION_ID:5267		(x^6+4x^5-x-4)/(x+4)=-244		\displaystyle({x}^{6}+{4}{x}^{5}-{x}-{4})/({x}+{4})=-{244}
+QUESTION_ID:5269		10^(-2a + 2) < 0.001.		\displaystyle{10}^(-{2}{a}+{2})<{0.001}.
+QUESTION_ID:5271		y = x^3		\displaystyle{y}={x}^{3}
+QUESTION_ID:5330		12/42		\displaystyle{12}/{42}
+QUESTION_ID:5331		n <= 3		\displaystyle{n}<={3}
+QUESTION_ID:5343		b = a^7		\displaystyle{b}={a}^{7}
+QUESTION_ID:5344		(x(x-2)(x^2-1))/(x+5)=0		\displaystyle({x}({x}-{2})({x}^{2}-{1}))/({x}+{5})={0}
+QUESTION_ID:5591		(3y- 8)^2 = 2,500		\displaystyle({3}{y}-{8})^{2}={2},{500}
+QUESTION_ID:20320		d=1/(2^3×5^7)		\displaystyle{d}={1}/({2}^{3}×{5}^{7})
+QUESTION_ID:20735		1/10		\displaystyle{1}/{10}
+QUESTION_ID:20736		1/4		\displaystyle{1}/{4}
+QUESTION_ID:20744		1/5		\displaystyle{1}/{5}
+QUESTION_ID:20745		(x+y)^2/(x-y)^2		\displaystyle({x}+{y})^{2}/({x}-{y})^{2}
+QUESTION_ID:20746		594/625		\displaystyle{594}/{625}
+QUESTION_ID:20748		xy^2=18		\displaystyle{x}{y}^{2}={18}
+QUESTION_ID:20756		(|(|w|-x)|)/|x|＞0		\displaystyle(|(|{w}|-{x})|)/|{x}|＞{0}
+QUESTION_ID:20857		1/10		\displaystyle{1}/{10}
+QUESTION_ID:20949		1/4		\displaystyle{1}/{4}
+QUESTION_ID:20951		(2^m+5^m)K		\displaystyle({2}^{m}+{5}^{m}){K}
+QUESTION_ID:21990		1/3		\displaystyle{1}/{3}
+QUESTION_ID:21997		(x+y)/3		\displaystyle({x}+{y})/{3}
+QUESTION_ID:22007		x/y		\displaystyle{x}/{y}
+QUESTION_ID:22009		c=(100,000p)/(100-p)		\displaystyle{c}=({100},{000}{p})/({100}-{p})
+QUESTION_ID:22015		1/2		\displaystyle{1}/{2}
+QUESTION_ID:22020		1/y		\displaystyle{1}/{y}
+QUESTION_ID:22022		w^(−2)		\displaystyle{w}^(−{2})
+QUESTION_ID:22025		a/b		\displaystyle{a}/{b}
+QUESTION_ID:22026		sqrtx+sqrty		\displaystyle{s}{q}{r}{t}{x}+{s}{q}{r}{t}{y}
+QUESTION_ID:22027		1/12		\displaystyle{1}/{12}
+QUESTION_ID:22028		y=t/3		\displaystyle{y}={t}/{3}
+QUESTION_ID:22029		(0.1)^n		\displaystyle({0.1})^{n}
+QUESTION_ID:22033		pz^4		\displaystyle{p}{z}^{4}
+QUESTION_ID:22038		2^(x + y)		\displaystyle{2}^({x}+{y})
+QUESTION_ID:22050		c/a		\displaystyle{c}/{a}
+QUESTION_ID:22055		1/2		\displaystyle{1}/{2}
+QUESTION_ID:22056		(1-p^2)/p		\displaystyle({1}-{p}^{2})/{p}
+QUESTION_ID:22057		1/2		\displaystyle{1}/{2}
+QUESTION_ID:22059		4/3πr^3		\displaystyle{4}/{3}π{r}^{3}
+QUESTION_ID:22062		1/3		\displaystyle{1}/{3}
+QUESTION_ID:22065		(t/1000)^4		\displaystyle({t}/{1000})^{4}
+QUESTION_ID:22068		sqrt2		\displaystyle{s}{q}{r}{t}{2}
+QUESTION_ID:22069		a_1		\displaystyle{a}_{1}
+QUESTION_ID:22071		overlineAC		\displaystyle{o}{v}{e}{r}{l}{i}{n}{e}{A}{C}
+QUESTION_ID:22073		u^v		\displaystyle{u}^{v}
+QUESTION_ID:22074		t^3		\displaystyle{t}^{3}
+QUESTION_ID:22076		h^4		\displaystyle{h}^{4}
+QUESTION_ID:22084		(2xz + yz)/(2xz - y)		\displaystyle({2}{x}{z}+{y}{z})/({2}{x}{z}-{y})
+QUESTION_ID:22091		r^2		\displaystyle{r}^{2}
+QUESTION_ID:22093		sqrt(x + 24)		\displaystyle{s}{q}{r}{t}({x}+{24})
+QUESTION_ID:22118		(1/5)^m(1/4)^18 = 1/{2(10)^35}		\displaystyle({1}/{5})^{m}({1}/{4})^{18}={1}/{{2}({10})^{35}}
+QUESTION_ID:22119		(10^9 -10^4 )		\displaystyle({10}^{9}-{10}^{4})
+QUESTION_ID:22124		((8^2)(3^3)(2^4))/(96^2)		\displaystyle(({8}^{2})({3}^{3})({2}^{4}))/({96}^{2})
+QUESTION_ID:22128		a^2		\displaystyle{a}^{2}
+QUESTION_ID:22131		sqrt(a^2 -b^2)		\displaystyle{s}{q}{r}{t}({a}^{2}-{b}^{2})
+QUESTION_ID:22133		2^{(x+y)^2} / 2^{(x-y)^2}		\displaystyle{2}^{({x}+{y})^{2}}/{2}^{({x}-{y})^{2}}
+QUESTION_ID:22136		x^4 + y^4		\displaystyle{x}^{4}+{y}^{4}
+QUESTION_ID:22140		(-1)^(k+1)		\displaystyle(-{1})^({k}+{1})
+QUESTION_ID:22147		sqrt(x^2)/x		\displaystyle{s}{q}{r}{t}({x}^{2})/{x}
+QUESTION_ID:22148		sqrt576800		\displaystyle{s}{q}{r}{t}{576800}
+QUESTION_ID:22150		(12!)/(6!)		\displaystyle({12}!)/({6}!)
+QUESTION_ID:22156		p^2q		\displaystyle{p}^{2}{q}
+QUESTION_ID:22163		2^n = n^2		\displaystyle{2}^{n}={n}^{2}
+QUESTION_ID:22176		a_1		\displaystyle{a}_{1}
+QUESTION_ID:22181		x^18		\displaystyle{x}^{18}
+QUESTION_ID:22198		t_1		\displaystyle{t}_{1}
+QUESTION_ID:22203		x^(-1)		\displaystyle{x}^(-{1})
+QUESTION_ID:22209		(sqrt2+sqrt5)^2		\displaystyle({s}{q}{r}{t}{2}+{s}{q}{r}{t}{5})^{2}
+QUESTION_ID:22212		2^5+ 2^5 + 3^5 + 3^5 + 3^5		\displaystyle{2}^{5}+{2}^{5}+{3}^{5}+{3}^{5}+{3}^{5}
+QUESTION_ID:22224		5^(21)4^(11) = 2(10)^n		\displaystyle{5}^({21}){4}^({11})={2}({10})^{n}
+QUESTION_ID:22230		{2^(4-1)}^2/2^(3-2)=		\displaystyle{{2}^({4}-{1})}^{2}/{2}^({3}-{2})=
+QUESTION_ID:22231		M=4^(1/2)+4^(1/3)+4^(1/4)		\displaystyle{M}={4}^({1}/{2})+{4}^({1}/{3})+{4}^({1}/{4})
+QUESTION_ID:22234		2^x - 2^(x - 2) = 3(2^13)		\displaystyle{2}^{x}-{2}^({x}-{2})={3}({2}^{13})
+QUESTION_ID:22236		sqrt2		\displaystyle{s}{q}{r}{t}{2}
+QUESTION_ID:22239		x^6x^4		\displaystyle{x}^{6}{x}^{4}
+QUESTION_ID:22240		n^3		\displaystyle{n}^{3}
+QUESTION_ID:22242		y^2		\displaystyle{y}^{2}
+QUESTION_ID:22244		x^2		\displaystyle{x}^{2}
+QUESTION_ID:22249		10^6		\displaystyle{10}^{6}
+QUESTION_ID:22260		4x^2=y^2-9		\displaystyle{4}{x}^{2}={y}^{2}-{9}
+QUESTION_ID:22265		n^2		\displaystyle{n}^{2}

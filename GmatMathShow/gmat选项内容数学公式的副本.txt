@@ -1,0 +1,19 @@
+5147	Is ε equal to the average (arithmetic mean) of ζ,η,ψ,ξ and ν?[br/]1.ζ+η+ψ+ε+ν=5ξ[br/]2.$$ζ+η+ψ+ε+ν\over{10}=\fracξ{2}$$
+3665	For all integers x and y, the operation △ is defined by $${x}△{y}=({x}+{2})^{2}+({y}+{3})^{2}$$. What is the value of integer t?[br/](1) t △ 2 = 74[br/](2) 2 △ t = 80
+3593	The operation Θ is defined by $${x}Θ{y}=\frac{1}{x}+\frac{1}{y}$$ for all nonzero numbers x and y. If z is a number greater than 1, which of the following must be true?[br\]I. zΘ(-z) = 0[br\]II.$${z}Θ{{z}\over{z}-{1}}={1}$$[br\]III. $$(\frac{2}{z})Θ(\frac{2}{z})={z}$$
+3522	[img]20120325233713535_3522.jpg[/img][br\]If $${l}_{1}$$ ║ $${l}_{2}$$ in the figure above, is x = y?[br\](1) p║r and r║t[br\](2) q║s
+3505	If x(x - 5)(x + 2) = 0, is x negative?[br/](1) $${x}^{2}–{7}{x}≠{0}$$[br/](2) $${x}^{2}–{2}{x}–{15}≠{0}$$
+3244	$$(\frac{1}{2})^{-3}(\frac{1}{4})^{-2}(\frac{1}{16})^{-1}$$= missing =
+3255	if $${{(0.0015}×{10}^{m})\over({0.03}×{10}^{k})}={5}×{10}^{7}$$,then m-k=
+2851	What was the revenue that a theater received from the sale of 400 tickets, some of which were sold at the full price and the remainder of which were sold at a reduced price?[br/](1)The number of tickets sold at the full price was $$\frac1 4$$of the total number of tickets sold.[br/](2)The full price of a ticket was $25.
+2754	The operation $$⊙$$ is defined for all nonzero numbers a and b by $$a ⊙ b =\frac a b-\frac b a$$. If x and y are nonzero numbers, which of the following statements must be true?[br/]I.$$x ⊙ xy = x(1 ⊙ y)$$[br/]II.$$x ⊙ y = -(y ⊙ x)$$[br/]III.$$\frac1 x ⊙ \frac1 y$$ =$$ y ⊙ x$$
+2625	For any integer k greater than 1, the symbol $${k}^※$$ denotes the product of all the fractions of the form $$\frac1 t$$, where t is an integer between 1 and k, inclusive. What is the value of $$\frac{{5}^※} {{4}^※}$$?
+2648	The operation $$○$$ is defined by the equation $$x ○ y$$ = $$\frac{x-y} {x+y}$$, where $${y}!=-{x}$$. If $$3 ○ y = 5 ○ 4$$, then y =
+5045	Ray R starts its counter-clockwise revolution around the origin from the point (1,0) in a coordinate graph. After it travels for one full revolution and an additional angle of x, it stops at the aboveillustrated position in the third quadrant. Let D denote the total distance traveled by the original point of (0,1) on ray R. What statements about D are true?[br/]I .$${5}\frac\pi {4}＜{D}＜{3}\frac\pi {2}$$[br/]II .$$-\pi ＜-{D}＜-\frac\pi {2}$$[br/]III .$${13}\frac\pi {4}＜{D}＜{7}\frac\pi {2}$$
+3805	What is the value of x?[br/](1) │x+2│≤ 4[br/](2) $${x}^{2}$$ = 36
+3794	For each positive integer n, the integer n* is defined by n* = $${n}^{2}$$ + 1. What is the value of the positive integer k ?[br/](1) When k is divided by 4, the remainder is 1.[br/](2) 18 ≤ k* ≤ 36
+3777	If f is the function defined by f(x) = 2x for x ≥ 0 and $${f}({x})={x}^{2}$$ for x ＜ 0, what is the value of f(c) ?[br/](1) |c|= 2[br/](2) c ＜ 0
+3581	If $$x\neq$$ 0, then $$({x}+\frac{1}{x})^{2}-({x}-\frac{1}{x})^{2}=$$
+20756	wx\neq 0，is $${|(|{w}|-{x})|\over|{x}|} >{0}$$？[br/]1：x<0 [br/]2：y≠0
+22084	If y ≠ 2xz, what is the value of $${2}{x}{z}+{y}{z}\over{2}{x}{z}-{y}$$?[br/](1) 2x + y = 3[br/](2) z = 2
+22084	If y ≠ 2xz, what is the value of $$\frac{{2}{x}{z}+{y}{z}}{{2}{x}{z}-{y}}$$?[br/](1) 2x + y = 3[br/](2) z = 2
