@@ -139,7 +139,7 @@
     
     BOOL odd_even_check = [latex hasPrefix:kMathOriSin];
     NSArray *temp = [latex componentsSeparatedByString:kMathOriSin];
-    NSMutableArray *temp_paragraph_strings = [NSMutableArray arrayWithCapacity:1];
+    NSMutableArray<NSString *> *temp_paragraph_strings = [NSMutableArray arrayWithCapacity:1];
     for (NSString *t in temp) {
         if (t.length > 0) {
             [temp_paragraph_strings addObject:t];
@@ -165,7 +165,7 @@
                 property = kPropertySignMath;
             }
         }
-        [paragraph_strings addObject:@{kParagraph: temp_paragraph_strings[i],
+        [paragraph_strings addObject:@{kParagraph: [temp_paragraph_strings[i] stringByReplacingOccurrencesOfString:@"$" withString:@"\\$"],//将美元符号保留，例如 $5,000 表示5000美元
                                        kProperty: property,
                                        kLocation: @(location)}];
         location += [temp_paragraph_strings[i] length];
