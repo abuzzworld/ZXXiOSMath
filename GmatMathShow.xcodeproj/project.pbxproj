@@ -60,6 +60,9 @@
 		6ABAA02D1E2CDFE600FA42A9 /* gmat题目.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA02B1E2CDFE500FA42A9 /* gmat题目.txt */; };
 		6ABAA02E1E2CDFE600FA42A9 /* gmat选项.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA02C1E2CDFE500FA42A9 /* gmat选项.txt */; };
 		6ABAA0301E2CE05900FA42A9 /* gmat题目1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA02F1E2CE05900FA42A9 /* gmat题目1.txt */; };
+		6ABAA0331E2DC94100FA42A9 /* CheckOutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAA0321E2DC94100FA42A9 /* CheckOutVC.m */; };
+		6ABAA0351E2DCA3000FA42A9 /* CheckOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA0341E2DCA3000FA42A9 /* CheckOutView.xib */; };
+		6ABAA0381E2DCB7500FA42A9 /* CheckOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAA0371E2DCB7500FA42A9 /* CheckOutView.m */; };
 		A7831CFE1E27E59C00ABEDA1 /* EHMathCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */; };
 		A7831CFF1E27E59C00ABEDA1 /* EHMathCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */; };
 		A7831D011E27EA6600ABEDA1 /* gmat选项内容数学公式的副本.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7831D001E27EA6600ABEDA1 /* gmat选项内容数学公式的副本.txt */; };
@@ -147,6 +150,11 @@
 		6ABAA02B1E2CDFE500FA42A9 /* gmat题目.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmat题目.txt"; sourceTree = "<group>"; };
 		6ABAA02C1E2CDFE500FA42A9 /* gmat选项.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmat选项.txt"; sourceTree = "<group>"; };
 		6ABAA02F1E2CE05900FA42A9 /* gmat题目1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmat题目1.txt"; sourceTree = "<group>"; };
+		6ABAA0311E2DC94100FA42A9 /* CheckOutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOutVC.h; sourceTree = "<group>"; };
+		6ABAA0321E2DC94100FA42A9 /* CheckOutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckOutVC.m; sourceTree = "<group>"; };
+		6ABAA0341E2DCA3000FA42A9 /* CheckOutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckOutView.xib; sourceTree = "<group>"; };
+		6ABAA0361E2DCB7500FA42A9 /* CheckOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOutView.h; sourceTree = "<group>"; };
+		6ABAA0371E2DCB7500FA42A9 /* CheckOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckOutView.m; sourceTree = "<group>"; };
 		A7831CFB1E27E59C00ABEDA1 /* EHMathCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHMathCell2.h; sourceTree = "<group>"; };
 		A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHMathCell2.m; sourceTree = "<group>"; };
 		A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHMathCell2.xib; sourceTree = "<group>"; };
@@ -199,10 +207,15 @@
 				6A46C1091E278E9C00DB195D /* LocalMathVCV.m */,
 				6A46C11D1E28C33B00DB195D /* TestVC.h */,
 				6A46C11E1E28C33B00DB195D /* TestVC.m */,
+				6ABAA0311E2DC94100FA42A9 /* CheckOutVC.h */,
+				6ABAA0321E2DC94100FA42A9 /* CheckOutVC.m */,
 				6A46C10B1E278ECD00DB195D /* OptionsVC.h */,
 				6A46C10C1E278ECD00DB195D /* OptionsVC.m */,
 				6A46C0FA1E2733D900DB195D /* EHMathSample.h */,
 				6A46C0FB1E2733D900DB195D /* EHMathSample.m */,
+				6ABAA0361E2DCB7500FA42A9 /* CheckOutView.h */,
+				6ABAA0371E2DCB7500FA42A9 /* CheckOutView.m */,
+				6ABAA0341E2DCA3000FA42A9 /* CheckOutView.xib */,
 				6ABAA0221E2C88D700FA42A9 /* EHGoToView.h */,
 				6ABAA0231E2C88D700FA42A9 /* EHGoToView.m */,
 				6ABAA0251E2C88E700FA42A9 /* EHGoToView.xib */,
@@ -408,6 +421,7 @@
 				6A46C0A61E272FD100DB195D /* Assets.xcassets in Resources */,
 				6A46C1131E27925A00DB195D /* gmat题目内容数学公式.txt in Resources */,
 				6ABAA01F1E2C779000FA42A9 /* gmat 数学公式-题目的副本.txt in Resources */,
+				6ABAA0351E2DCA3000FA42A9 /* CheckOutView.xib in Resources */,
 				6A46C11C1E28A7F500DB195D /* gmat选项公式内容.txt in Resources */,
 				6ABAA0261E2C88E700FA42A9 /* EHGoToView.xib in Resources */,
 				6A46C0BD1E2730F900DB195D /* math.html in Resources */,
@@ -439,6 +453,7 @@
 				6A46C09E1E272FD100DB195D /* ViewController.m in Sources */,
 				6A46C10D1E278ECD00DB195D /* OptionsVC.m in Sources */,
 				6A46C11F1E28C33B00DB195D /* TestVC.m in Sources */,
+				6ABAA0331E2DC94100FA42A9 /* CheckOutVC.m in Sources */,
 				6A46C0BB1E2730A800DB195D /* README.md in Sources */,
 				6A46C0EF1E27317000DB195D /* UIColor+HexString.m in Sources */,
 				6A46C10A1E278E9C00DB195D /* LocalMathVCV.m in Sources */,
@@ -446,6 +461,7 @@
 				6A46C0A41E272FD100DB195D /* GmatMathShow.xcdatamodeld in Sources */,
 				6A46C0EA1E27317000DB195D /* MTTypesetter.m in Sources */,
 				A7831CFE1E27E59C00ABEDA1 /* EHMathCell2.m in Sources */,
+				6ABAA0381E2DCB7500FA42A9 /* CheckOutView.m in Sources */,
 				6A46C0EB1E27317000DB195D /* MTFont.m in Sources */,
 				6A46C0E31E27317000DB195D /* MTMathAtomFactory.m in Sources */,
 				6A46C09B1E272FD100DB195D /* AppDelegate.m in Sources */,

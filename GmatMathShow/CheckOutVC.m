@@ -1,30 +1,30 @@
 //
-//  OptionsVC.m
+//  CheckOutVC.m
 //  GmatMathShow
 //
-//  Created by KMF-ZXX on 2017/1/12.
+//  Created by KMF-ZXX on 2017/1/17.
 //  Copyright © 2017年 com.enhance.zxx. All rights reserved.
 //
 
-#import "OptionsVC.h"
+#import "CheckOutVC.h"
 #import "EHMathSample.h"
-#import "EHMathCell2.h"
-#import "EHGoToView.h"
+#import "EHMathCell.h"
+#import "CheckOutView.h"
 
 #define kMathCellIdentifier @"kMathCellIdentifier"
 #define kMathFontSize 18
 
-@interface OptionsVC () <UITableViewDataSource, UITableViewDelegate>
+@interface CheckOutVC () <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray<EHMathSample *> *dataSource;
 @property (nonatomic, strong) EHMathManager *mathManager;
 @property (nonatomic, strong) NSArray<NSString *> *srcOriTxt;
 @property (nonatomic, strong) NSMutableArray<NSString *> *srcFinalTxt;
 @property (nonatomic, strong) UILabel *oriStrLbl;
-@property (nonatomic, strong) EHGoToView *gotoView;
+@property (nonatomic, strong) CheckOutView *checkOutView;
 @end
 
-@implementation OptionsVC
+@implementation CheckOutVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,30 +37,19 @@
     _mathManager.defaultFontName = MathFontTypeLatinmodern;
     _dataSource = @[].mutableCopy;
     [self.view addSubview:self.tableView];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"goto" style:UIBarButtonItemStylePlain target:self action:sel_registerName("goInputNum")];
-    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"gmat选项" ofType:@"txt"];
-    NSString *txt = [NSString stringWithContentsOfFile:srcPath encoding:NSUTF8StringEncoding error:nil];
-    _srcOriTxt = [txt componentsSeparatedByString:@"\n"];
-    _srcFinalTxt = [NSMutableArray arrayWithCapacity:1];
-    for (NSString *t in _srcOriTxt) {
-        if (t.length <= 1) {
-            continue;
-        }
-        [_srcFinalTxt addObject:t];
-        NSArray<NSString *> *temp = [t componentsSeparatedByString:@"\t"];
-        NSLog(@"%@",temp[1]);
-        EHMathSample *mathSample = [EHMathSample sampleWithDict:@{@"num": temp[0],
-                                                                  @"num2": temp[1],
-                                                                  @"content": [_mathManager parseLatex:temp[2]],
-                                                                  @"size": [NSValue valueWithCGSize:_mathManager.rect]}];
-        [_dataSource addObject:mathSample];
-    }
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"input" style:UIBarButtonItemStylePlain target:self action:sel_registerName("goInputNum")];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"clearMaths" style:UIBarButtonItemStylePlain target:self action:sel_registerName("clearMaths")];
+}
+- (void)clearMaths
+{
+    [_dataSource removeAllObjects];
+    [_tableView reloadData];
 }
 - (void)goInputNum
 {
-    self.gotoView.hidden = FALSE;
-    [self.view bringSubviewToFront:_gotoView];
-    [_gotoView popKeyboard];
+    self.checkOutView.hidden = FALSE;
+    [self.view bringSubviewToFront:_checkOutView];
+    [_checkOutView popKeyboard];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -68,7 +57,7 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    EHMathCell2 *cell = [tableView dequeueReusableCellWithIdentifier:kMathCellIdentifier];
+    EHMathCell *cell = [tableView dequeueReusableCellWithIdentifier:kMathCellIdentifier];
     cell.mathSmaple = _dataSource[indexPath.row];
     return cell;
 }
@@ -108,7 +97,7 @@
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 49);
-        [_tableView registerNib:[UINib nibWithNibName:@"EHMathCell2" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:kMathCellIdentifier];
+        [_tableView registerNib:[UINib nibWithNibName:@"EHMathCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:kMathCellIdentifier];
     }
     return _tableView;
 }
@@ -129,25 +118,25 @@
     }
     return _oriStrLbl;
 }
-- (EHGoToView *)gotoView
+- (CheckOutView *)checkOutView
 {
-    if (!_gotoView) {
+    if (!_checkOutView) {
         
         __weak typeof(self)bself = self;
-        _gotoView = [EHGoToView gotoView:^(NSString *inputNum) {
-            NSInteger index = [bself binSearch:[inputNum integerValue]];
-            if (index > 0) {
-                NSIndexPath *indexpath = [NSIndexPath indexPathForRow:index inSection:0];
-                [bself.tableView scrollToRowAtIndexPath:indexpath atScrollPosition:UITableViewScrollPositionTop animated:TRUE];
-            }
-            bself.gotoView.hidden = TRUE;
+        _checkOutView = [CheckOutView checkOutView:^(NSString *checkout) {
+            EHMathSample *mathSample = [EHMathSample sampleWithDict:@{@"num": @"9527",
+                                                                      @"content": [bself.mathManager parseLatex:checkout],
+                                                                      @"size": [NSValue valueWithCGSize:bself.mathManager.rect]}];
+            [bself.dataSource addObject:mathSample];
+            [bself.tableView reloadData];
+            bself.checkOutView.hidden = TRUE;
         } cancel:^{
-            bself.gotoView.hidden = TRUE;
+            bself.checkOutView.hidden = TRUE;
         }];
-        [self.view addSubview:_gotoView];
-        _gotoView.hidden = TRUE;
-        _gotoView.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 49 - 64);
+        [self.view addSubview:_checkOutView];
+        _checkOutView.hidden = TRUE;
+        _checkOutView.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 49 - 64);
     }
-    return _gotoView;
+    return _checkOutView;
 }
 @end
