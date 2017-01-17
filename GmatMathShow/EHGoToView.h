@@ -12,4 +12,5 @@
 
 + (EHGoToView *)gotoView:(void(^)(NSString *inputNum))inputNum cancel:(void(^)())cancel;
 - (void)cancelKeyboard;
+- (void)popKeyboard;
 @end

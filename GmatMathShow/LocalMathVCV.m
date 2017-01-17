@@ -38,7 +38,7 @@
     _dataSource = @[].mutableCopy;
     [self.view addSubview:self.tableView];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"goto" style:UIBarButtonItemStylePlain target:self action:sel_registerName("goInputNum")];
-    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"gmat 数学公式-题目1" ofType:@"txt"];
+    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"gmat题目1" ofType:@"txt"];
     NSString *txt = [NSString stringWithContentsOfFile:srcPath encoding:NSUTF8StringEncoding error:nil];
     _srcOriTxt = [txt componentsSeparatedByString:@"\n"];
     _srcFinalTxt = [NSMutableArray arrayWithCapacity:1];
@@ -61,6 +61,7 @@
         EHMathSample *mathSample = [EHMathSample sampleWithDict:@{@"num": numStr,
                                                                   @"content": [_mathManager parseLatex:contentStr],
                                                                   @"size": [NSValue valueWithCGSize:_mathManager.rect]}];
+//        NSLog(@"%@", mathSample.dataNum);
         [_dataSource addObject:mathSample];
     }
 }
@@ -68,6 +69,7 @@
 {
     self.gotoView.hidden = FALSE;
     [self.view bringSubviewToFront:_gotoView];
+    [_gotoView popKeyboard];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

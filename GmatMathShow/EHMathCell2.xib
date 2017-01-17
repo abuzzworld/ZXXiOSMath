@@ -19,9 +19,9 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iq6-Dw-EmE">
-                        <rect key="frame" x="0.0" y="0.0" width="40" height="43.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="70" height="43.5"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="40" id="Ncy-8A-cRG"/>
+                            <constraint firstAttribute="width" constant="70" id="Ncy-8A-cRG"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <nil key="textColor"/>
@@ -35,16 +35,16 @@
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt2-ID-Rnf">
-                        <rect key="frame" x="45" y="0.0" width="50" height="43.5"/>
+                        <rect key="frame" x="75" y="0.0" width="70" height="43.5"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="50" id="VIq-IG-ZKZ"/>
+                            <constraint firstAttribute="width" constant="70" id="VIq-IG-ZKZ"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="33R-RO-CCU" customClass="MTMathUILabel">
-                        <rect key="frame" x="120" y="5" width="190" height="34"/>
+                        <rect key="frame" x="155" y="5" width="155" height="34"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </subviews>
@@ -55,7 +55,7 @@
                     <constraint firstItem="Iq6-Dw-EmE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="DqC-C1-0tY"/>
                     <constraint firstItem="33R-RO-CCU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="EeW-Ge-LgW"/>
                     <constraint firstAttribute="bottom" secondItem="wt2-ID-Rnf" secondAttribute="bottom" id="F8m-ZU-ziZ"/>
-                    <constraint firstItem="33R-RO-CCU" firstAttribute="leading" secondItem="wt2-ID-Rnf" secondAttribute="trailing" constant="25" id="ZD2-Lz-zG5"/>
+                    <constraint firstItem="33R-RO-CCU" firstAttribute="leading" secondItem="wt2-ID-Rnf" secondAttribute="trailing" constant="10" id="ZD2-Lz-zG5"/>
                     <constraint firstAttribute="bottom" secondItem="fM2-LH-PZn" secondAttribute="bottom" id="fft-bI-zgO"/>
                     <constraint firstItem="wt2-ID-Rnf" firstAttribute="leading" secondItem="Iq6-Dw-EmE" secondAttribute="trailing" constant="5" id="pbb-cq-eRl"/>
                     <constraint firstItem="Iq6-Dw-EmE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qva-Bc-7Ly"/>

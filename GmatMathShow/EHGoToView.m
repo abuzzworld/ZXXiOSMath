@@ -23,6 +23,10 @@
     gotoV.cancel = cancel;
     return gotoV;
 }
+- (void)popKeyboard
+{
+    [_inputTF becomeFirstResponder];
+}
 - (void)cancelKeyboard
 {
     [_inputTF resignFirstResponder];

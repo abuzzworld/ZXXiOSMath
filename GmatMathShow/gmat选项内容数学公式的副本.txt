@@ -1,3 +1,14 @@
+22084	If$$ y \neq 2xz$$, what is the value of $$\frac{2xz+yz}{2xz-y}$$?[br/](1) 2x + y = 3[br/](2) z = 2
+20745	$$x \neq y$$，is $$\frac{({x}+{y})^{2}}{({x}-{y})^{2}}$$？[br/](1) xy=5 [br/](2)$${x}^{2}+{y}^{2}={5}{x}{y}$$
+3213	In the formula V =$${{1}\over({2}{r})^{3}}$$,if r is halved, then V is multiplied by
+3232	$$1+{{1}\over{1}+({{1}\over{1}+\frac{1}{3}})}$$
+3155	if $${(4-x)\over({2}+{x})}$$= x, what is the value of $${x}^{2}$$ + 3x - 4 ?
+22084	If$$ y \neq 2xz$$, what is the value of $${{2}{x}{z}+{y}{z}\over{2}{x}{z}-{y}}$$?[br/](1) 2x + y = 3[br/](2) z = 2
+5160	If $${u}{v}!={0}$$,what is the value of $$({u}^{4})({v}^{3})-({u}{v})^{3}\over({u}^{4})({v}^{4})$$ ?[br/]1. u = 3[br/]2. v = 27
+4154	is $${\frac{{5}^{x+2}}{25}}<{1}$$[br/](1) $${5}^{x}<{1}$$[br/](2) $$x<0$$
+4459	abcd  ddd alla dd $${{a}^{{2}^{2}}\over{b}}+{4}={5}$$ ddsfd fsfafadf fadfafadfaf afafaf
+4459	If $${b}\neq{0}$$, does a equal b ?[br/]1. $${{a}^{{2}^{2}}\over{b}}+{4}={5}$$[br/]2. $${{17}{a}+{4}{b}\over{7}}={3}{a}$$
+2365	Mary persuaded n friends to donate $500 each to her election campaign, and then each of these n friends persuaded n more people to donate $500 each to Mary’s campaign. If no one donated more than once and if there were no other donations, what was the value of n?[br/](1)The first n people donated $$\frac1 {16}$$ of the total amount donated.[br/](2)The total amount donated was $120,000.
 21990	$$\frac{1}{3}$$+$$\frac{1}{2}$$-$$\frac{5}{6}$$+$$\frac{1}{5}$$+$$\frac{1}{4}$$-$$\frac{9}{20}$$=
 3931	The total price of a basic computer and a printer was $2,500. If the same printer had been purchased with an enhanced computer whose price was $500 more than the price of the basic computer, then the price of the printer would have been $$\frac{1}{5}$$of that total.[br/]What was the price of the basic computer?
 5234	Does Mary or Susan earn a higher salary?[br/](1) Susan's salary is 150% of Mary's salary.[br/](2) Mary's salary is 66 $${2}/{3}$$ of Susan's salary.

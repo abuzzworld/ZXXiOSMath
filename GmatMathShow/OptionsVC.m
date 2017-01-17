@@ -38,7 +38,7 @@
     _dataSource = @[].mutableCopy;
     [self.view addSubview:self.tableView];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"goto" style:UIBarButtonItemStylePlain target:self action:sel_registerName("goInputNum")];
-    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"gmat 数学公式-选项" ofType:@"txt"];
+    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"gmat选项" ofType:@"txt"];
     NSString *txt = [NSString stringWithContentsOfFile:srcPath encoding:NSUTF8StringEncoding error:nil];
     _srcOriTxt = [txt componentsSeparatedByString:@"\n"];
     _srcFinalTxt = [NSMutableArray arrayWithCapacity:1];
@@ -47,12 +47,10 @@
             continue;
         }
         [_srcFinalTxt addObject:t];
-        NSString *numStr1 = [t substringToIndex:4];
-        NSString *numStr2 = [t substringWithRange:NSMakeRange(5, 5)];
-        NSString *contentStr = [t substringWithRange:NSMakeRange(11, t.length - 11)];
-        EHMathSample *mathSample = [EHMathSample sampleWithDict:@{@"num": numStr1,
-                                                                  @"num2": numStr2,
-                                                                  @"content": [_mathManager parseLatex:contentStr],
+        NSArray<NSString *> *temp = [t componentsSeparatedByString:@"\t"];
+        EHMathSample *mathSample = [EHMathSample sampleWithDict:@{@"num": temp[0],
+                                                                  @"num2": temp[1],
+                                                                  @"content": [_mathManager parseLatex:temp[2]],
                                                                   @"size": [NSValue valueWithCGSize:_mathManager.rect]}];
         [_dataSource addObject:mathSample];
     }
@@ -61,6 +59,7 @@
 {
     self.gotoView.hidden = FALSE;
     [self.view bringSubviewToFront:_gotoView];
+    [_gotoView popKeyboard];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

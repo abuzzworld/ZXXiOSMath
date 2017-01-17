@@ -82,7 +82,7 @@ NSString *const MTSymbolDegree = @"\u00B0"; // \circ
     if (ch < 0x21 || ch > 0x7E) {
         // skip non ascii characters and spaces
         return nil;
-    } else if (ch == '$' || ch == '%' || ch == '#' || ch == '&' || ch == '~') {
+    } else if (ch == '$' || ch == '%' || ch == '#' || ch == '&' || ch == '~') {//ch == '$' ||  本为latex自留符号，暂移到普通字母行，用以正常显示
         // These are latex control characters that have special meanings. We don't support them.
         return nil;
     } else if (ch == '^' || ch == '_' || ch == '{' || ch == '}' || ch == '\\') {

@@ -67,6 +67,7 @@
 {
     self.gotoView.hidden = FALSE;
     [self.view bringSubviewToFront:_gotoView];
+    [_gotoView popKeyboard];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

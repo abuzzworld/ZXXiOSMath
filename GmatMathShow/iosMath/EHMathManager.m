@@ -239,13 +239,14 @@
                 [_words addObject:dict];
             }
         }else {
-            [_words addObject:@{kWord: paragraph_string,
-                                kLength: @([self colMathStrSize:paragraph_string
-                                                       fontSize:fontSize
-                                                      labelMode:lblMode
-                                                       fontName:fontname].width),
-                                kLocation: paragraph_strings[i][kLocation],
-                                kProperty: kPropertySignMath}];
+            NSDictionary *dic = @{kWord: paragraph_string,
+                                  kLength: @([self colMathStrSize:paragraph_string
+                                                         fontSize:fontSize
+                                                        labelMode:lblMode
+                                                         fontName:fontname].width),
+                                  kLocation: paragraph_strings[i][kLocation],
+                                  kProperty: kPropertySignMath};
+            [_words addObject:dic];
         }
     }
 }
