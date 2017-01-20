@@ -17,7 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"this is deveoper branch");
+    NSLog(@"this is deveoper branch 0");
+    NSLog(@"this is deveoper branch 1");
     return YES;
 }
 
