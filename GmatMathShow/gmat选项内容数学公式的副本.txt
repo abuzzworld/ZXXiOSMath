@@ -1,3 +1,4 @@
+3139	If money is invested at r percent interest, compounded annually, the amount of the investment will double in approximately $$\frac{70}{r}$$ years. If Pat's parents invested $5,000 in a long-term bond that pays 8 percent interest, compounded annually, what will be the approximate total amount of the investment 18 years later, when Pat is ready for college?
 22084	If$$ y \neq 2xz$$, what is the value of $$\frac{2xz+yz}{2xz-y}$$?[br/](1) 2x + y = 3[br/](2) z = 2
 20745	$$x \neq y$$，is $$\frac{({x}+{y})^{2}}{({x}-{y})^{2}}$$？[br/](1) xy=5 [br/](2)$${x}^{2}+{y}^{2}={5}{x}{y}$$
 3213	In the formula V =$${{1}\over({2}{r})^{3}}$$,if r is halved, then V is multiplied by

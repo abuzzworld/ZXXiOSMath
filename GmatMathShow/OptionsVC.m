@@ -48,7 +48,6 @@
         }
         [_srcFinalTxt addObject:t];
         NSArray<NSString *> *temp = [t componentsSeparatedByString:@"\t"];
-        NSLog(@"%@",temp[1]);
         EHMathSample *mathSample = [EHMathSample sampleWithDict:@{@"num": temp[0],
                                                                   @"num2": temp[1],
                                                                   @"content": [_mathManager parseLatex:temp[2]],
