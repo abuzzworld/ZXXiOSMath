@@ -20,6 +20,9 @@
     NSLog(@"this is deveoper branch 0");
     NSLog(@"this is deveoper branch 1");
     NSLog(@"this is deveoper branch 2");
+    NSLog(@"this is deveoper branch 3");
+    NSLog(@"this is deveoper branch 4");
+    NSLog(@"this is deveoper branch 5");
     return YES;
 }
 
