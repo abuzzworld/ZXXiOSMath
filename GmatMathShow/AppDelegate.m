@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     NSLog(@"this is deveoper branch 0");
     NSLog(@"this is deveoper branch 1");
+    NSLog(@"this is deveoper branch 2");
     return YES;
 }
 
