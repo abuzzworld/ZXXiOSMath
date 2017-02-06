@@ -45,6 +45,8 @@
 
 
 @implementation EHMathManager
+
+#pragma mark - life
 + (EHMathManager *)manager
 {
     return [[EHMathManager alloc] init];
@@ -61,6 +63,8 @@
     }
     return self;
 }
+
+#pragma mark - public methords
 - (NSString *)parseLatex:(NSString *)latex
 {
     /* 已修复问题汇总
@@ -92,7 +96,7 @@
      stringByReplacingOccurrencesOfString:@"ν" withString:@"\\upsilon "]
      stringByReplacingOccurrencesOfString:@"ε" withString:@"\\varepsilon "]
      stringByReplacingOccurrencesOfString:@"–" withString:@"-"]
-
+     
      ，中文逗号无法解析
      */
     return [self parseLatex:[[[latex stringByReplacingOccurrencesOfString:@"[br/]" withString:@" \\\\ " ]
@@ -125,6 +129,8 @@
                 fontName:_fontName];
     return resultString;
 }
+
+#pragma mark - private-tools methords
 - (NSMutableArray<NSDictionary<NSString *, NSString *> *> *)parseLatexToParagraphs:(NSString *)latex
 {
     if (_words.count > 0) {
@@ -150,7 +156,7 @@
         }
         NSString *property = nil;
         NSString *paragraph = [temp_paragraph_strings[i] stringByReplacingOccurrencesOfString:@"$" withString:@"\\$"];//将美元符号保留，例如 $5,000 表示5000美元
-//        NSString *property = odd_even_check ? i%2 == 0 ? kPropertySignMath : kPropertySignWords : i%2 == 0 ? kPropertySignWords : kPropertySignMath ;
+        //        NSString *property = odd_even_check ? i%2 == 0 ? kPropertySignMath : kPropertySignWords : i%2 == 0 ? kPropertySignWords : kPropertySignMath ;
         if (odd_even_check) {
             if (i%2 == 0) {
                 property = kPropertySignMath;
@@ -196,7 +202,7 @@
                                            kLocation: @(results_end_sign[i].range.location + results_end_sign[i].range.length)}];
         }
     }
-     */
+    */
     return paragraph_strings;
 }
 - (void)parseParagraphStringsToWords:(NSMutableArray<NSDictionary<NSString *, NSString *> *> *)paragraph_strings
@@ -275,11 +281,58 @@
         return;
     }
     if (isWord) {
-        [resultString appendString:[NSString stringWithFormat:@" \\text{%@}", word]];
+        [resultString appendString:[NSString stringWithFormat:[self getDisplayStyle:0], word]];
     }else {
-        [resultString appendString:[NSString stringWithFormat:@" \\mathbf{%@}", word]];
+        [resultString appendString:[NSString stringWithFormat:[self getDisplayStyle:6], word]];
     }
 }
+- (NSString *)getDisplayStyle:(NSInteger)index
+{
+    switch (index) {
+        case 0:
+            return @" \\text{%@}";
+            break;
+        case 1:
+            return @" \\mathbf{%@}";
+            break;
+        case 2:
+            return @" \\mathrm{%@}";
+            break;
+        case 3:
+            return @" \\mathcal{%@}";
+            break;
+        case 4:
+            return @" \\mathfrak{%@}";
+            break;
+        case 5:
+            return @" \\mathsf{%@}";
+            break;
+        case 6:
+            return @" \\bm{%@}";
+            break;
+        case 7:
+            return @" \\mathtt{%@}";
+            break;
+        default:
+            return @"%@";
+            break;
+            break;
+    }
+}
+- (CGSize)colMathStrSize:(NSString *)mathStr
+                fontSize:(CGFloat)fontSize
+               labelMode:(MTMathUILabelMode)lblMode
+                fontName:(MathFontName)fontname
+{
+    _mathlbl.fontSize = fontSize;
+    _mathlbl.font = [[MTFontManager fontManager] fontWithMathFontName:fontname size:fontSize];
+    _mathlbl.latex = mathStr;
+    _mathlbl.labelMode = lblMode;
+    _mathlbl.frame = CGRectZero;
+    return _mathlbl.rect;
+}
+
+#pragma mark - property-setter-getter
 - (CGSize)rect
 {
     return _mathlbl.rect;
@@ -299,16 +352,5 @@
     _defaultLblMode = defaultLblMode;
     _lblMode = defaultLblMode;
 }
-- (CGSize)colMathStrSize:(NSString *)mathStr
-                fontSize:(CGFloat)fontSize
-               labelMode:(MTMathUILabelMode)lblMode
-                fontName:(MathFontName)fontname
-{
-    _mathlbl.fontSize = fontSize;
-    _mathlbl.font = [[MTFontManager fontManager] fontWithMathFontName:fontname size:fontSize];
-    _mathlbl.latex = mathStr;
-    _mathlbl.labelMode = lblMode;
-    _mathlbl.frame = CGRectZero;
-    return _mathlbl.rect;
-}
+
 @end
