@@ -95,8 +95,9 @@
 
      ，中文逗号无法解析
      */
-    return [self parseLatex:[[latex stringByReplacingOccurrencesOfString:@"[br/]" withString:@"  \\\\"]
-                             stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
+    return [self parseLatex:[[[latex stringByReplacingOccurrencesOfString:@"[br/]" withString:@" \\\\ " ]
+                              stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
+                             stringByReplacingOccurrencesOfString:@"\r" withString:@""]
                    fontSize:_defaultFontSize
                    maxWidth:_defaultWidth
                     lblMode:_defaultLblMode
@@ -148,26 +149,22 @@
             continue;
         }
         NSString *property = nil;
-        NSString *paragraph = [temp_paragraph_strings[i] stringByReplacingOccurrencesOfString:@"$" withString:@"\\$"];
+        NSString *paragraph = [temp_paragraph_strings[i] stringByReplacingOccurrencesOfString:@"$" withString:@"\\$"];//将美元符号保留，例如 $5,000 表示5000美元
 //        NSString *property = odd_even_check ? i%2 == 0 ? kPropertySignMath : kPropertySignWords : i%2 == 0 ? kPropertySignWords : kPropertySignMath ;
         if (odd_even_check) {
             if (i%2 == 0) {
                 property = kPropertySignMath;
-                paragraph = [NSString stringWithFormat:@"\\mathbf{%@}", paragraph];
             }else {
                 property = kPropertySignWords;
-//                paragraph = [NSString stringWithFormat:@"\\text{%@}", paragraph];
             }
         }else {
             if (i%2 == 0) {
                 property = kPropertySignWords;
-//                paragraph = [NSString stringWithFormat:@"\\text{%@}", paragraph];
             }else {
                 property = kPropertySignMath;
-                paragraph = [NSString stringWithFormat:@"\\mathbf{%@}", paragraph];
             }
         }
-        [paragraph_strings addObject:@{kParagraph: paragraph,//将美元符号保留，例如 $5,000 表示5000美元
+        [paragraph_strings addObject:@{kParagraph: paragraph,
                                        kProperty: property,
                                        kLocation: @(location)}];
         location += [temp_paragraph_strings[i] length];
@@ -218,7 +215,7 @@
                 NSRange range = NSMakeRange(i == 0 ? i : results[i-1].range.location + 1,
                                             i == 0 ? results[i].range.location + 1 : results[i].range.location - results[i-1].range.location);
                 NSString *word = [paragraph_string substringWithRange:range];
-                NSDictionary *dict = @{kWord: [word stringByReplacingOccurrencesOfString:@" " withString:kSpaceKey],
+                NSDictionary *dict = @{kWord: word,//[word stringByReplacingOccurrencesOfString:@" " withString:kSpaceKey],
                                        kLength: @([self colMathStrSize:word
                                                               fontSize:fontSize
                                                              labelMode:lblMode
@@ -231,7 +228,7 @@
                 NSRange range = NSMakeRange(results.lastObject.range.location + 1,
                                             paragraph_string.length - results.lastObject.range.location - 1);
                 NSString *word = [paragraph_string substringWithRange:range];
-                NSDictionary *dict = @{kWord: [word stringByReplacingOccurrencesOfString:@" " withString:kSpaceKey],
+                NSDictionary *dict = @{kWord: word,//[word stringByReplacingOccurrencesOfString:@" " withString:kSpaceKey],
                                        kLength: @([self colMathStrSize:word
                                                               fontSize:fontSize
                                                              labelMode:lblMode
@@ -256,31 +253,32 @@
 {
     CGFloat row_addup_length = 0;
     NSMutableString *resultString = [NSMutableString string];
-    //[NSString stringWithFormat:@"\\text{%@} ",
-    
-    BOOL flag = false; //
     for (NSInteger i = 0; i < _words.count; i++) {
-        
-//        if ([_words[i][kProperty] isEqualToString:kPropertySignWords] && !flag) {
-//            _words[i][kWord] = [NSString stringWithFormat:@"\\text{%@", _words[i][kWord]];
-//            flag = !flag;
-//        }else {
-//            _words[i][kWord] = [NSString stringWithFormat:@"}%@", _words[i][kWord]];
-//            flag = !flag;
-//        }
-        
         row_addup_length += [_words[i][kLength] floatValue];
-        if (row_addup_length > _maxWidth - kAmendArgument || [_words[i][kWord] hasPrefix:@"\\\\"]) {
+        if (row_addup_length > _maxWidth - kAmendArgument || [_words[i][kWord] containsString:kLineBreakKey]) {
             row_addup_length = [_words[i][kLength] floatValue];
-            if (![_words[i][kWord] hasPrefix:@"\\\\"]) {
+            if (![_words[i][kWord] containsString:kLineBreakKey]) {
                 [resultString appendString:kLineBreakKey];
             }
-            [resultString appendString:_words[i][kWord]];
-        }else {
-            [resultString appendString:_words[i][kWord]];
         }
+        [self appendingWord:_words[i][kWord]
+             toResultString:resultString
+             stringProperty:[_words[i][kProperty] isEqualToString:kPropertySignWords]];
     }
-    return resultString;
+    return [resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:@" \\\\ "];
+}
+- (void)appendingWord:(NSString *)word
+       toResultString:(NSMutableString *)resultString
+       stringProperty:(BOOL)isWord
+{
+    if (word.length <=0 || nil == word || nil == resultString) {
+        return;
+    }
+    if (isWord) {
+        [resultString appendString:[NSString stringWithFormat:@" \\text{%@}", word]];
+    }else {
+        [resultString appendString:[NSString stringWithFormat:@" \\mathbf{%@}", word]];
+    }
 }
 - (CGSize)rect
 {
