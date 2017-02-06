@@ -148,21 +148,26 @@
             continue;
         }
         NSString *property = nil;
+        NSString *paragraph = [temp_paragraph_strings[i] stringByReplacingOccurrencesOfString:@"$" withString:@"\\$"];
 //        NSString *property = odd_even_check ? i%2 == 0 ? kPropertySignMath : kPropertySignWords : i%2 == 0 ? kPropertySignWords : kPropertySignMath ;
         if (odd_even_check) {
             if (i%2 == 0) {
                 property = kPropertySignMath;
+                paragraph = [NSString stringWithFormat:@"\\mathbf{%@}", paragraph];
             }else {
                 property = kPropertySignWords;
+//                paragraph = [NSString stringWithFormat:@"\\text{%@}", paragraph];
             }
         }else {
             if (i%2 == 0) {
                 property = kPropertySignWords;
+//                paragraph = [NSString stringWithFormat:@"\\text{%@}", paragraph];
             }else {
                 property = kPropertySignMath;
+                paragraph = [NSString stringWithFormat:@"\\mathbf{%@}", paragraph];
             }
         }
-        [paragraph_strings addObject:@{kParagraph: [temp_paragraph_strings[i] stringByReplacingOccurrencesOfString:@"$" withString:@"\\$"],//将美元符号保留，例如 $5,000 表示5000美元
+        [paragraph_strings addObject:@{kParagraph: paragraph,//将美元符号保留，例如 $5,000 表示5000美元
                                        kProperty: property,
                                        kLocation: @(location)}];
         location += [temp_paragraph_strings[i] length];
@@ -251,7 +256,19 @@
 {
     CGFloat row_addup_length = 0;
     NSMutableString *resultString = [NSMutableString string];
+    //[NSString stringWithFormat:@"\\text{%@} ",
+    
+    BOOL flag = false; //
     for (NSInteger i = 0; i < _words.count; i++) {
+        
+//        if ([_words[i][kProperty] isEqualToString:kPropertySignWords] && !flag) {
+//            _words[i][kWord] = [NSString stringWithFormat:@"\\text{%@", _words[i][kWord]];
+//            flag = !flag;
+//        }else {
+//            _words[i][kWord] = [NSString stringWithFormat:@"}%@", _words[i][kWord]];
+//            flag = !flag;
+//        }
+        
         row_addup_length += [_words[i][kLength] floatValue];
         if (row_addup_length > _maxWidth - kAmendArgument || [_words[i][kWord] hasPrefix:@"\\\\"]) {
             row_addup_length = [_words[i][kLength] floatValue];

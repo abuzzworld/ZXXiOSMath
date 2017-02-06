@@ -11,7 +11,6 @@
 
 #import "MTMathListBuilder.h"
 #import "MTMathAtomFactory.h"
-#import "UIColor+HexString.h"
 
 NSString *const MTParseError = @"ParseError";
 
@@ -44,6 +43,8 @@ NSString *const MTParseError = @"ParseError";
     NSUInteger _length;
     MTInner* _currentInnerAtom;
     MTEnvProperties* _currentEnv;
+    MTFontStyle _currentFontStyle;
+    BOOL _spacesAllowed;
 }
 
 - (instancetype)initWithString:(NSString *)str
@@ -55,6 +56,7 @@ NSString *const MTParseError = @"ParseError";
         _length = str.length;
         [str getCharacters:_chars range:NSMakeRange(0, str.length)];
         _currentChar = 0;
+        _currentFontStyle = kMTFontStyleDefault;
     }
     return self;
 }
@@ -178,6 +180,28 @@ NSString *const MTParseError = @"ParseError";
             } else if (_error) {
                 return nil;
             }
+            if ([self applyModifier:command atom:prevAtom]) {
+                continue;
+            }
+            MTFontStyle fontStyle = [MTMathAtomFactory fontStyleWithName:command];
+            if (fontStyle != NSNotFound) {
+                BOOL oldSpacesAllowed = _spacesAllowed;
+                // Text has special consideration where it allows spaces without escaping.
+                _spacesAllowed = [command isEqualToString:@"text"];
+                MTFontStyle oldFontStyle = _currentFontStyle;
+                _currentFontStyle = fontStyle;
+                MTMathList* sublist = [self buildInternal:true];
+                // Restore the font style.
+                _currentFontStyle = oldFontStyle;
+                _spacesAllowed = oldSpacesAllowed;
+
+                prevAtom = [sublist.atoms lastObject];
+                [list append:sublist];
+                if (oneCharOnly) {
+                    return list;
+                }
+                continue;
+            }
             atom = [self atomForCommand:command];
             if (atom == nil) {
                 // this was an unknown command,
@@ -197,6 +221,9 @@ NSString *const MTParseError = @"ParseError";
                 MTMathAtom* table = [self buildTable:nil firstList:list row:NO];
                 return [MTMathList mathListWithAtoms:table, nil];
             }
+        } else if (_spacesAllowed && ch == ' ') {
+            // If spaces are allowed then spaces do not need escaping with a \ before being used.
+            atom = [MTMathAtomFactory atomForLatexSymbolName:@" "];
         } else {
             atom = [MTMathAtomFactory atomForCharacter:ch];
             if (!atom) {
@@ -205,6 +232,7 @@ NSString *const MTParseError = @"ParseError";
             }
         }
         NSAssert(atom != nil, @"Atom shouldn't be nil");
+        atom.fontStyle = _currentFontStyle;
         [list addAtom:atom];
         prevAtom = atom;
         
@@ -360,24 +388,6 @@ NSString *const MTParseError = @"ParseError";
     return boundary;
 }
 
-- (NSString *) readRaw {
-    NSMutableString *result = [[NSMutableString alloc] initWithString:@""];
-    while([self hasCharacters]) {
-        unichar ch = [self getNextCharacter];
-        if (ch == '{') {
-            continue;
-        }
-        
-        if (ch == '}') {
-            return result;
-        }
-        
-        [result appendString:[NSString stringWithCharacters:&ch length:1]];
-    }
-    
-    return result;
-}
-
 - (MTMathAtom*) atomForCommand:(NSString*) command
 {
     MTMathAtom* atom = [MTMathAtomFactory atomForLatexSymbolName:command];
@@ -389,17 +399,6 @@ NSString *const MTParseError = @"ParseError";
         // The command is an accent
         accent.innerList = [self buildInternal:true];
         return accent;
-    } else if ([command isEqualToString:@"text"]) {
-        MTMathText* text = [[MTMathText alloc] initWithText:[self readRaw]];
-        return text;
-        
-    } else if ([command isEqualToString:@"color"]) {
-        NSString* hex = [self readRaw];
-        UIColor* color = [UIColor colorFromHexString:hex];
-        MTMathColor* mathColor = [[MTMathColor alloc] initWithColor:color];
-        mathColor.innerList = [self buildInternal:true];
-        
-        return mathColor;
     } else if ([command isEqualToString:@"frac"]) {
         // A fraction command has 2 arguments
         MTFraction* frac = [MTFraction new];
@@ -545,6 +544,32 @@ NSString *const MTParseError = @"ParseError";
     return nil;
 }
 
+// Applies the modifier to the atom. Returns true if modifier applied.
+- (BOOL) applyModifier:(NSString*) modifier atom:(MTMathAtom*) atom
+{
+    if ([modifier isEqualToString:@"limits"]) {
+        if (atom.type != kMTMathAtomLargeOperator) {
+            NSString* errorMessage = [NSString stringWithFormat:@"limits can only be applied to an operator."];
+            [self setError:MTParseErrorInvalidLimits message:errorMessage];
+        } else {
+            MTLargeOperator* op = (MTLargeOperator*) atom;
+            op.limits = YES;
+        }
+        return true;
+    } else if ([modifier isEqualToString:@"nolimits"]) {
+        if (atom.type != kMTMathAtomLargeOperator) {
+            NSString* errorMessage = [NSString stringWithFormat:@"nolimits can only be applied to an operator."];
+            [self setError:MTParseErrorInvalidLimits message:errorMessage];
+            return YES;
+        } else {
+            MTLargeOperator* op = (MTLargeOperator*) atom;
+            op.limits = NO;
+        }
+        return true;
+    }
+    return false;
+}
+
 - (void) setError:(MTParseErrors) code message:(NSString*) message
 {
     // Only record the first error.
@@ -669,7 +694,20 @@ NSString *const MTParseError = @"ParseError";
 + (NSString *)mathListToString:(MTMathList *)ml
 {
     NSMutableString* str = [NSMutableString string];
+    MTFontStyle currentfontStyle = kMTFontStyleDefault;
     for (MTMathAtom* atom in ml.atoms) {
+        if (currentfontStyle != atom.fontStyle) {
+            if (currentfontStyle != kMTFontStyleDefault) {
+                // close the previous font style.
+                [str appendString:@"}"];
+            }
+            if (atom.fontStyle != kMTFontStyleDefault) {
+                // open new font style
+                NSString* fontStyleName = [MTMathAtomFactory fontNameForStyle:atom.fontStyle];
+                [str appendFormat:@"\\%@{", fontStyleName];
+            }
+            currentfontStyle = atom.fontStyle;
+        }
         if (atom.type == kMTMathAtomFraction) {
             MTFraction* frac = (MTFraction*) atom;
             if (frac.hasRule) {
@@ -759,6 +797,18 @@ NSString *const MTParseError = @"ParseError";
         } else if (atom.type == kMTMathAtomAccent) {
             MTAccent* accent = (MTAccent*) atom;
             [str appendFormat:@"\\%@{%@}", [MTMathAtomFactory accentName:accent], [self mathListToString:accent.innerList]];
+        } else if (atom.type == kMTMathAtomLargeOperator) {
+            MTLargeOperator* op = (MTLargeOperator*) atom;
+            NSString* command = [MTMathAtomFactory latexSymbolNameForAtom:atom];
+            MTLargeOperator* originalOp = (MTLargeOperator*) [MTMathAtomFactory atomForLatexSymbolName:command];
+            [str appendFormat:@"\\%@ ", command];
+            if (originalOp.limits != op.limits) {
+                if (op.limits) {
+                    [str appendString:@"\\limits "];
+                } else {
+                    [str appendString:@"\\nolimits "];
+                }
+            }
         } else if (atom.type == kMTMathAtomSpace) {
             MTMathSpace* space = (MTMathSpace*) atom;
             NSDictionary* spaceToCommands = [MTMathListBuilder spaceToCommands];
@@ -789,7 +839,7 @@ NSString *const MTParseError = @"ParseError";
                 [str appendString:atom.nucleus];
             }
         }
-        
+
         if (atom.superScript) {
             [str appendFormat:@"^{%@}", [self mathListToString:atom.superScript]];
         }
@@ -797,6 +847,9 @@ NSString *const MTParseError = @"ParseError";
         if (atom.subScript) {
             [str appendFormat:@"_{%@}", [self mathListToString:atom.subScript]];
         }
+    }
+    if (currentfontStyle != kMTFontStyleDefault) {
+        [str appendString:@"}"];
     }
     return [str copy];
 }

@@ -54,6 +54,10 @@ FOUNDATION_EXPORT NSString *const MTSymbolDegree;
 
 #pragma mark -
 
+/** Gets the atom with the right type for the given character.
+ */
++ (MTMathAtom *)atomForAnyCharacter:(unichar) ch;
+
 /** Gets the atom with the right type for the given character. If an atom
  cannot be determined for a given character this returns nil. 
  This function follows latex conventions for assigning types to the atoms.
@@ -123,6 +127,12 @@ FOUNDATION_EXPORT NSString *const MTSymbolDegree;
  `<` and `langle`) and this function always returns the shorter name.
  */
 + (NSString*) delimiterNameForBoundaryAtom:(MTMathAtom*) boundary;
+
+/** Returns a font style associated with the name. If none is found returns NSNotFound. */
++ (MTFontStyle) fontStyleWithName:(NSString*) fontName;
+
+/** Returns the latex font name for a given style. */
++ (NSString*) fontNameForStyle:(MTFontStyle) fontStyle;
 
 /** Returns a fraction with the given numerator and denominator. */
 + (MTFraction*) fractionWithNumerator:(MTMathList*) num denominator:(MTMathList*) denom;

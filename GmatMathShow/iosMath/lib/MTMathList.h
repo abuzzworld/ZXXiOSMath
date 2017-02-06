@@ -11,7 +11,6 @@
 
 @import Foundation;
 @import CoreGraphics;
-@import UIKit;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -28,19 +27,19 @@ typedef NS_ENUM(NSUInteger, MTMathAtomType)
     /// A number or text in ordinary format - Ord in TeX
     kMTMathAtomOrdinary = 1,
     /// A number - Does not exist in TeX
-    kMTMathAtomNumber, // 2
+    kMTMathAtomNumber,
     /// A variable (i.e. text in italic format) - Does not exist in TeX
-    kMTMathAtomVariable, // 3
+    kMTMathAtomVariable,
     /// A large operator such as (sin/cos, integral etc.) - Op in TeX
-    kMTMathAtomLargeOperator, // 4
+    kMTMathAtomLargeOperator,
     /// A binary operator - Bin in TeX
-    kMTMathAtomBinaryOperator, // 5
+    kMTMathAtomBinaryOperator,
     /// A unary operator - Does not exist in TeX.
-    kMTMathAtomUnaryOperator, // 6
+    kMTMathAtomUnaryOperator,
     /// A relation, e.g. = > < etc. - Rel in TeX
-    kMTMathAtomRelation, // 7
+    kMTMathAtomRelation,
     /// Open brackets - Open in TeX
-    kMTMathAtomOpen, // 8
+    kMTMathAtomOpen,
     /// Close brackets - Close in TeX
     kMTMathAtomClose,
     /// An fraction e.g 1/2 - generalized fraction noad in TeX
@@ -59,10 +58,6 @@ typedef NS_ENUM(NSUInteger, MTMathAtomType)
     kMTMathAtomOverline,
     /// An accented atom - Accent in TeX
     kMTMathAtomAccent,
-    /// A text atom
-    kMTMathAtomText,
-    /// A color atom,
-    kMTMathAtomColor,
     
     // Atoms after this point do not support subscripts or superscripts
     
@@ -84,6 +79,37 @@ typedef NS_ENUM(NSUInteger, MTMathAtomType)
     /// halign which is handled outside of the TeX math rendering engine. We bring it into our
     /// math typesetting to handle matrices and other tables.
     kMTMathAtomTable = 1001,
+};
+
+/**
+ @typedef MTFontStyle
+ @brief The font style of a character.
+
+ The fontstyle of the atom determines what style the character is rendered in. This only applies to atoms
+ of type kMTMathAtomVariable and kMTMathAtomNumber. None of the other atom types change their font style.
+ */
+typedef NS_ENUM(NSUInteger, MTFontStyle)
+{
+    /// The default latex rendering style. i.e. variables are italic and numbers are roman.
+    kMTFontStyleDefault = 0,
+    /// Roman font style i.e. \mathrm
+    kMTFontStyleRoman,
+    /// Bold font style i.e. \mathbf
+    kMTFontStyleBold,
+    /// Caligraphic font style i.e. \mathcal
+    kMTFontStyleCaligraphic,
+    /// Typewriter (monospace) style i.e. \mathtt
+    kMTFontStyleTypewriter,
+    /// Italic style i.e. \mathit
+    kMTFontStyleItalic,
+    /// San-serif font i.e. \mathss
+    kMTFontStyleSansSerif,
+    /// Fractur font i.e \mathfrak
+    kMTFontStyleFraktur,
+    /// Blackboard font i.e. \mathbb
+    kMTFontStyleBlackboard,
+    /// Bold italic
+    kMTFontStyleBoldItalic,
 };
 
 /** A `MTMathAtom` is the basic unit of a math list. Each atom represents a single character
@@ -117,6 +143,8 @@ typedef NS_ENUM(NSUInteger, MTMathAtomType)
 @property (nonatomic, nullable) MTMathList* superScript;
 /** An optional subscript. */
 @property (nonatomic, nullable) MTMathList* subScript;
+/** The font style to be used for the atom. */
+@property (nonatomic) MTFontStyle fontStyle;
 
 /** Returns true if this atom allows scripts (sub or super). */
 - (bool) scriptsAllowed;
@@ -192,7 +220,7 @@ typedef NS_ENUM(NSUInteger, MTMathAtomType)
  above and below the operator in display mode.  If limits is false
  then the limits (if present) and displayed like a regular subscript/superscript.
  */
-@property (nonatomic, readonly) BOOL limits;
+@property (nonatomic) BOOL limits;
 
 @end
 
@@ -247,19 +275,6 @@ typedef NS_ENUM(NSUInteger, MTMathAtomType)
 
 @end
 
-/** A differently colored atom. */
-@interface MTMathColor: MTMathAtom
-
-/** Creates a new `MTColor` with the given value as the accent.
- */
-- (instancetype)initWithColor:(UIColor*) color NS_DESIGNATED_INITIALIZER;
-
-/// The mathlist under the accent.
-@property (nonatomic, nullable) MTMathList* innerList;
-@property (nonatomic) UIColor* color;
-
-@end
-
 /** An atom representing space.
  @note None of the usual fields of the `MTMathAtom` apply even though this
  class inherits from `MTMathAtom`. i.e. it is meaningless to have a value
@@ -275,23 +290,6 @@ typedef NS_ENUM(NSUInteger, MTMathAtomType)
 @property (nonatomic, readonly) CGFloat space;
 
 @end
-
-/** An atom representing text.
- @note None of the usual fields of the `MTMathAtom` apply even though this
- class inherits from `MTMathAtom`. i.e. it is meaningless to have a value
- in the nucleus, subscript or superscript fields. */
-@interface MTMathText : MTMathAtom
-
-/** Creates a new `MTMathText` with the given text.
- @param text The text.
- */
-- (instancetype) initWithText:(NSString *) text NS_DESIGNATED_INITIALIZER;
-
-/** The text represented by this atom. */
-@property (nonatomic, readonly) NSString *text;
-
-@end
-
 
 /**
  @typedef MTLineStyle
