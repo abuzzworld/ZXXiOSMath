@@ -82,7 +82,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     EHMathSample *mathSample = _dataSource[indexPath.row];
-    return mathSample.rect.height + 10;
+    return mathSample.rect.height > 10 ? mathSample.rect.height + 10 : 50;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

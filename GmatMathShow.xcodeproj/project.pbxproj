@@ -27,9 +27,7 @@
 		6A46C0E71E27317000DB195D /* MTUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0CD1E27317000DB195D /* MTUnicode.m */; };
 		6A46C0E81E27317000DB195D /* libiosMath-iOS10.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A46C0CE1E27317000DB195D /* libiosMath-iOS10.1.a */; };
 		6A46C0EA1E27317000DB195D /* MTTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0D61E27317000DB195D /* MTTypesetter.m */; };
-		6A46C0ED1E27317000DB195D /* MTMathListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0DC1E27317000DB195D /* MTMathListDisplay.m */; };
 		6A46C0EE1E27317000DB195D /* MTMathUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0DE1E27317000DB195D /* MTMathUILabel.m */; };
-		6A46C0EF1E27317000DB195D /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0E01E27317000DB195D /* UIColor+HexString.m */; };
 		6A46C0F11E27323F00DB195D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A46C0F01E27323F00DB195D /* Foundation.framework */; };
 		6A46C0F31E27324800DB195D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A46C0F21E27324800DB195D /* UIKit.framework */; };
 		6A46C0F51E27324F00DB195D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A46C0F41E27324F00DB195D /* CoreGraphics.framework */; };
@@ -63,6 +61,13 @@
 		6AD51F291E481841003091FB /* MTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F241E481841003091FB /* MTFont.m */; };
 		6AD51F2A1E481841003091FB /* MTFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F261E481841003091FB /* MTFontManager.m */; };
 		6AD51F2B1E481841003091FB /* MTFontMathTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F281E481841003091FB /* MTFontMathTable.m */; };
+		6AD51F411E4821CC003091FB /* MTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F361E4821CC003091FB /* MTLabel.m */; };
+		6AD51F421E4821CC003091FB /* MTMathListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F381E4821CC003091FB /* MTMathListDisplay.m */; };
+		6AD51F441E4821CC003091FB /* NSBezierPath+addLineToPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F3C1E4821CC003091FB /* NSBezierPath+addLineToPoint.m */; };
+		6AD51F451E4821CC003091FB /* NSView+backgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F3E1E4821CC003091FB /* NSView+backgroundColor.m */; };
+		6AD51F461E4821CC003091FB /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F401E4821CC003091FB /* UIColor+HexString.m */; };
+		6AD51F4A1E482300003091FB /* GAMT题目终版.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AD51F481E482300003091FB /* GAMT题目终版.txt */; };
+		6AD51F4B1E482300003091FB /* GMAT选项终版.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AD51F491E482300003091FB /* GMAT选项终版.txt */; };
 		A7831CFE1E27E59C00ABEDA1 /* EHMathCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */; };
 		A7831CFF1E27E59C00ABEDA1 /* EHMathCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */; };
 		A7831D011E27EA6600ABEDA1 /* gmat选项内容数学公式的副本.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7831D001E27EA6600ABEDA1 /* gmat选项内容数学公式的副本.txt */; };
@@ -105,12 +110,8 @@
 		6A46C0D41E27317000DB195D /* MTMathListDisplayInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListDisplayInternal.h; sourceTree = "<group>"; };
 		6A46C0D51E27317000DB195D /* MTTypesetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTypesetter.h; sourceTree = "<group>"; };
 		6A46C0D61E27317000DB195D /* MTTypesetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTypesetter.m; sourceTree = "<group>"; };
-		6A46C0DB1E27317000DB195D /* MTMathListDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListDisplay.h; sourceTree = "<group>"; };
-		6A46C0DC1E27317000DB195D /* MTMathListDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathListDisplay.m; sourceTree = "<group>"; };
 		6A46C0DD1E27317000DB195D /* MTMathUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathUILabel.h; sourceTree = "<group>"; };
 		6A46C0DE1E27317000DB195D /* MTMathUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathUILabel.m; sourceTree = "<group>"; };
-		6A46C0DF1E27317000DB195D /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
-		6A46C0E01E27317000DB195D /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		6A46C0F01E27323F00DB195D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A46C0F21E27324800DB195D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A46C0F41E27324F00DB195D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,6 +156,19 @@
 		6AD51F261E481841003091FB /* MTFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFontManager.m; sourceTree = "<group>"; };
 		6AD51F271E481841003091FB /* MTFontMathTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFontMathTable.h; sourceTree = "<group>"; };
 		6AD51F281E481841003091FB /* MTFontMathTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFontMathTable.m; sourceTree = "<group>"; };
+		6AD51F341E4821CC003091FB /* MTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTConfig.h; sourceTree = "<group>"; };
+		6AD51F351E4821CC003091FB /* MTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLabel.h; sourceTree = "<group>"; };
+		6AD51F361E4821CC003091FB /* MTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLabel.m; sourceTree = "<group>"; };
+		6AD51F381E4821CC003091FB /* MTMathListDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathListDisplay.m; sourceTree = "<group>"; };
+		6AD51F3B1E4821CC003091FB /* NSBezierPath+addLineToPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+addLineToPoint.h"; sourceTree = "<group>"; };
+		6AD51F3C1E4821CC003091FB /* NSBezierPath+addLineToPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+addLineToPoint.m"; sourceTree = "<group>"; };
+		6AD51F3D1E4821CC003091FB /* NSView+backgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+backgroundColor.h"; sourceTree = "<group>"; };
+		6AD51F3E1E4821CC003091FB /* NSView+backgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+backgroundColor.m"; sourceTree = "<group>"; };
+		6AD51F3F1E4821CC003091FB /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		6AD51F401E4821CC003091FB /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		6AD51F471E48225A003091FB /* MTMathListDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListDisplay.h; sourceTree = "<group>"; };
+		6AD51F481E482300003091FB /* GAMT题目终版.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GAMT题目终版.txt"; sourceTree = "<group>"; };
+		6AD51F491E482300003091FB /* GMAT选项终版.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GMAT选项终版.txt"; sourceTree = "<group>"; };
 		A7831CFB1E27E59C00ABEDA1 /* EHMathCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHMathCell2.h; sourceTree = "<group>"; };
 		A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHMathCell2.m; sourceTree = "<group>"; };
 		A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHMathCell2.xib; sourceTree = "<group>"; };
@@ -240,6 +254,8 @@
 		6A46C0961E272FD100DB195D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6AD51F481E482300003091FB /* GAMT题目终版.txt */,
+				6AD51F491E482300003091FB /* GMAT选项终版.txt */,
 				6A46C0BC1E2730F900DB195D /* math.html */,
 				6ABAA02F1E2CE05900FA42A9 /* gmat题目1.txt */,
 				6ABAA02B1E2CDFE500FA42A9 /* gmat题目.txt */,
@@ -321,12 +337,19 @@
 			children = (
 				6AD51F221E4817EC003091FB /* Font */,
 				6A46C0D01E27317000DB195D /* internal */,
-				6A46C0DB1E27317000DB195D /* MTMathListDisplay.h */,
-				6A46C0DC1E27317000DB195D /* MTMathListDisplay.m */,
+				6AD51F341E4821CC003091FB /* MTConfig.h */,
+				6AD51F351E4821CC003091FB /* MTLabel.h */,
+				6AD51F361E4821CC003091FB /* MTLabel.m */,
+				6AD51F471E48225A003091FB /* MTMathListDisplay.h */,
+				6AD51F381E4821CC003091FB /* MTMathListDisplay.m */,
 				6A46C0DD1E27317000DB195D /* MTMathUILabel.h */,
 				6A46C0DE1E27317000DB195D /* MTMathUILabel.m */,
-				6A46C0DF1E27317000DB195D /* UIColor+HexString.h */,
-				6A46C0E01E27317000DB195D /* UIColor+HexString.m */,
+				6AD51F3B1E4821CC003091FB /* NSBezierPath+addLineToPoint.h */,
+				6AD51F3C1E4821CC003091FB /* NSBezierPath+addLineToPoint.m */,
+				6AD51F3D1E4821CC003091FB /* NSView+backgroundColor.h */,
+				6AD51F3E1E4821CC003091FB /* NSView+backgroundColor.m */,
+				6AD51F3F1E4821CC003091FB /* UIColor+HexString.h */,
+				6AD51F401E4821CC003091FB /* UIColor+HexString.m */,
 			);
 			path = render;
 			sourceTree = "<group>";
@@ -414,6 +437,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD51F4B1E482300003091FB /* GMAT选项终版.txt in Resources */,
 				6A46C1121E27925A00DB195D /* gmat_answer_math.txt in Resources */,
 				6ABAA0211E2C842B00FA42A9 /* gmat 数学公式-题目1.txt in Resources */,
 				6A46C0A91E272FD100DB195D /* LaunchScreen.storyboard in Resources */,
@@ -423,6 +447,7 @@
 				6A46C1181E2879C900DB195D /* Main.storyboard in Resources */,
 				6A46C1141E27925A00DB195D /* gmat选项内容数学公式.txt in Resources */,
 				6ABAA02D1E2CDFE600FA42A9 /* gmat题目.txt in Resources */,
+				6AD51F4A1E482300003091FB /* GAMT题目终版.txt in Resources */,
 				6A46C0E21E27317000DB195D /* iosMathFonts.bundle in Resources */,
 				6ABAA01D1E2C762000FA42A9 /* gmat 数学公式-选项.txt in Resources */,
 				6ABAA02E1E2CDFE600FA42A9 /* gmat选项.txt in Resources */,
@@ -448,11 +473,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A46C0B91E2730A800DB195D /* HTMLNode.m in Sources */,
+				6AD51F411E4821CC003091FB /* MTLabel.m in Sources */,
 				6AD51F2B1E481841003091FB /* MTFontMathTable.m in Sources */,
+				6AD51F451E4821CC003091FB /* NSView+backgroundColor.m in Sources */,
 				6A46C0E51E27317000DB195D /* MTMathListBuilder.m in Sources */,
 				6A46C0E71E27317000DB195D /* MTUnicode.m in Sources */,
-				6A46C0ED1E27317000DB195D /* MTMathListDisplay.m in Sources */,
 				6A46C0BA1E2730A800DB195D /* HTMLParser.m in Sources */,
+				6AD51F441E4821CC003091FB /* NSBezierPath+addLineToPoint.m in Sources */,
 				6AD51F2A1E481841003091FB /* MTFontManager.m in Sources */,
 				6AD51F291E481841003091FB /* MTFont.m in Sources */,
 				6A46C0E41E27317000DB195D /* MTMathList.m in Sources */,
@@ -462,11 +489,12 @@
 				6A46C09E1E272FD100DB195D /* ViewController.m in Sources */,
 				6A46C10D1E278ECD00DB195D /* OptionsVC.m in Sources */,
 				6A46C11F1E28C33B00DB195D /* TestVC.m in Sources */,
+				6AD51F421E4821CC003091FB /* MTMathListDisplay.m in Sources */,
 				6ABAA0331E2DC94100FA42A9 /* CheckOutVC.m in Sources */,
 				6A46C0BB1E2730A800DB195D /* README.md in Sources */,
-				6A46C0EF1E27317000DB195D /* UIColor+HexString.m in Sources */,
 				6A46C10A1E278E9C00DB195D /* LocalMathVCV.m in Sources */,
 				6A46C0E11E27317000DB195D /* EHMathManager.m in Sources */,
+				6AD51F461E4821CC003091FB /* UIColor+HexString.m in Sources */,
 				6A46C0A41E272FD100DB195D /* GmatMathShow.xcdatamodeld in Sources */,
 				6A46C0EA1E27317000DB195D /* MTTypesetter.m in Sources */,
 				A7831CFE1E27E59C00ABEDA1 /* EHMathCell2.m in Sources */,

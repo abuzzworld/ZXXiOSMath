@@ -38,7 +38,7 @@
     _dataSource = @[].mutableCopy;
     [self.view addSubview:self.tableView];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"goto" style:UIBarButtonItemStylePlain target:self action:sel_registerName("goInputNum")];
-    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"gmat题目1" ofType:@"txt"];
+    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"GAMT题目终版" ofType:@"txt"];
     NSString *txt = [NSString stringWithContentsOfFile:srcPath encoding:NSUTF8StringEncoding error:nil];
     _srcOriTxt = [txt componentsSeparatedByString:@"\n"];
     _srcFinalTxt = [NSMutableArray arrayWithCapacity:1];
