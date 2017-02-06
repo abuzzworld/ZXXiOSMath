@@ -26,10 +26,7 @@
 		6A46C0E61E27317000DB195D /* MTMathListIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0CB1E27317000DB195D /* MTMathListIndex.m */; };
 		6A46C0E71E27317000DB195D /* MTUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0CD1E27317000DB195D /* MTUnicode.m */; };
 		6A46C0E81E27317000DB195D /* libiosMath-iOS10.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A46C0CE1E27317000DB195D /* libiosMath-iOS10.1.a */; };
-		6A46C0E91E27317000DB195D /* MTFontMathTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0D31E27317000DB195D /* MTFontMathTable.m */; };
 		6A46C0EA1E27317000DB195D /* MTTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0D61E27317000DB195D /* MTTypesetter.m */; };
-		6A46C0EB1E27317000DB195D /* MTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0D81E27317000DB195D /* MTFont.m */; };
-		6A46C0EC1E27317000DB195D /* MTFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0DA1E27317000DB195D /* MTFontManager.m */; };
 		6A46C0ED1E27317000DB195D /* MTMathListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0DC1E27317000DB195D /* MTMathListDisplay.m */; };
 		6A46C0EE1E27317000DB195D /* MTMathUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0DE1E27317000DB195D /* MTMathUILabel.m */; };
 		6A46C0EF1E27317000DB195D /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46C0E01E27317000DB195D /* UIColor+HexString.m */; };
@@ -63,6 +60,9 @@
 		6ABAA0331E2DC94100FA42A9 /* CheckOutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAA0321E2DC94100FA42A9 /* CheckOutVC.m */; };
 		6ABAA0351E2DCA3000FA42A9 /* CheckOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAA0341E2DCA3000FA42A9 /* CheckOutView.xib */; };
 		6ABAA0381E2DCB7500FA42A9 /* CheckOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAA0371E2DCB7500FA42A9 /* CheckOutView.m */; };
+		6AD51F291E481841003091FB /* MTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F241E481841003091FB /* MTFont.m */; };
+		6AD51F2A1E481841003091FB /* MTFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F261E481841003091FB /* MTFontManager.m */; };
+		6AD51F2B1E481841003091FB /* MTFontMathTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD51F281E481841003091FB /* MTFontMathTable.m */; };
 		A7831CFE1E27E59C00ABEDA1 /* EHMathCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */; };
 		A7831CFF1E27E59C00ABEDA1 /* EHMathCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */; };
 		A7831D011E27EA6600ABEDA1 /* gmat选项内容数学公式的副本.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7831D001E27EA6600ABEDA1 /* gmat选项内容数学公式的副本.txt */; };
@@ -102,15 +102,9 @@
 		6A46C0CD1E27317000DB195D /* MTUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTUnicode.m; sourceTree = "<group>"; };
 		6A46C0CE1E27317000DB195D /* libiosMath-iOS10.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libiosMath-iOS10.1.a"; sourceTree = "<group>"; };
 		6A46C0D11E27317000DB195D /* MTFont+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTFont+Internal.h"; sourceTree = "<group>"; };
-		6A46C0D21E27317000DB195D /* MTFontMathTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFontMathTable.h; sourceTree = "<group>"; };
-		6A46C0D31E27317000DB195D /* MTFontMathTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFontMathTable.m; sourceTree = "<group>"; };
 		6A46C0D41E27317000DB195D /* MTMathListDisplayInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListDisplayInternal.h; sourceTree = "<group>"; };
 		6A46C0D51E27317000DB195D /* MTTypesetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTypesetter.h; sourceTree = "<group>"; };
 		6A46C0D61E27317000DB195D /* MTTypesetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTypesetter.m; sourceTree = "<group>"; };
-		6A46C0D71E27317000DB195D /* MTFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFont.h; sourceTree = "<group>"; };
-		6A46C0D81E27317000DB195D /* MTFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFont.m; sourceTree = "<group>"; };
-		6A46C0D91E27317000DB195D /* MTFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFontManager.h; sourceTree = "<group>"; };
-		6A46C0DA1E27317000DB195D /* MTFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFontManager.m; sourceTree = "<group>"; };
 		6A46C0DB1E27317000DB195D /* MTMathListDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathListDisplay.h; sourceTree = "<group>"; };
 		6A46C0DC1E27317000DB195D /* MTMathListDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMathListDisplay.m; sourceTree = "<group>"; };
 		6A46C0DD1E27317000DB195D /* MTMathUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMathUILabel.h; sourceTree = "<group>"; };
@@ -155,6 +149,12 @@
 		6ABAA0341E2DCA3000FA42A9 /* CheckOutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckOutView.xib; sourceTree = "<group>"; };
 		6ABAA0361E2DCB7500FA42A9 /* CheckOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOutView.h; sourceTree = "<group>"; };
 		6ABAA0371E2DCB7500FA42A9 /* CheckOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckOutView.m; sourceTree = "<group>"; };
+		6AD51F231E481841003091FB /* MTFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFont.h; sourceTree = "<group>"; };
+		6AD51F241E481841003091FB /* MTFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFont.m; sourceTree = "<group>"; };
+		6AD51F251E481841003091FB /* MTFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFontManager.h; sourceTree = "<group>"; };
+		6AD51F261E481841003091FB /* MTFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFontManager.m; sourceTree = "<group>"; };
+		6AD51F271E481841003091FB /* MTFontMathTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFontMathTable.h; sourceTree = "<group>"; };
+		6AD51F281E481841003091FB /* MTFontMathTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFontMathTable.m; sourceTree = "<group>"; };
 		A7831CFB1E27E59C00ABEDA1 /* EHMathCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHMathCell2.h; sourceTree = "<group>"; };
 		A7831CFC1E27E59C00ABEDA1 /* EHMathCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHMathCell2.m; sourceTree = "<group>"; };
 		A7831CFD1E27E59C00ABEDA1 /* EHMathCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHMathCell2.xib; sourceTree = "<group>"; };
@@ -319,11 +319,8 @@
 		6A46C0CF1E27317000DB195D /* render */ = {
 			isa = PBXGroup;
 			children = (
+				6AD51F221E4817EC003091FB /* Font */,
 				6A46C0D01E27317000DB195D /* internal */,
-				6A46C0D71E27317000DB195D /* MTFont.h */,
-				6A46C0D81E27317000DB195D /* MTFont.m */,
-				6A46C0D91E27317000DB195D /* MTFontManager.h */,
-				6A46C0DA1E27317000DB195D /* MTFontManager.m */,
 				6A46C0DB1E27317000DB195D /* MTMathListDisplay.h */,
 				6A46C0DC1E27317000DB195D /* MTMathListDisplay.m */,
 				6A46C0DD1E27317000DB195D /* MTMathUILabel.h */,
@@ -338,13 +335,24 @@
 			isa = PBXGroup;
 			children = (
 				6A46C0D11E27317000DB195D /* MTFont+Internal.h */,
-				6A46C0D21E27317000DB195D /* MTFontMathTable.h */,
-				6A46C0D31E27317000DB195D /* MTFontMathTable.m */,
 				6A46C0D41E27317000DB195D /* MTMathListDisplayInternal.h */,
 				6A46C0D51E27317000DB195D /* MTTypesetter.h */,
 				6A46C0D61E27317000DB195D /* MTTypesetter.m */,
 			);
 			path = internal;
+			sourceTree = "<group>";
+		};
+		6AD51F221E4817EC003091FB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6AD51F231E481841003091FB /* MTFont.h */,
+				6AD51F241E481841003091FB /* MTFont.m */,
+				6AD51F251E481841003091FB /* MTFontManager.h */,
+				6AD51F261E481841003091FB /* MTFontManager.m */,
+				6AD51F271E481841003091FB /* MTFontMathTable.h */,
+				6AD51F281E481841003091FB /* MTFontMathTable.m */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,12 +448,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A46C0B91E2730A800DB195D /* HTMLNode.m in Sources */,
+				6AD51F2B1E481841003091FB /* MTFontMathTable.m in Sources */,
 				6A46C0E51E27317000DB195D /* MTMathListBuilder.m in Sources */,
 				6A46C0E71E27317000DB195D /* MTUnicode.m in Sources */,
 				6A46C0ED1E27317000DB195D /* MTMathListDisplay.m in Sources */,
 				6A46C0BA1E2730A800DB195D /* HTMLParser.m in Sources */,
-				6A46C0E91E27317000DB195D /* MTFontMathTable.m in Sources */,
-				6A46C0EC1E27317000DB195D /* MTFontManager.m in Sources */,
+				6AD51F2A1E481841003091FB /* MTFontManager.m in Sources */,
+				6AD51F291E481841003091FB /* MTFont.m in Sources */,
 				6A46C0E41E27317000DB195D /* MTMathList.m in Sources */,
 				6ABAA0241E2C88D700FA42A9 /* EHGoToView.m in Sources */,
 				6A46C1051E276DAB00DB195D /* EHMathCell.m in Sources */,
@@ -462,7 +471,6 @@
 				6A46C0EA1E27317000DB195D /* MTTypesetter.m in Sources */,
 				A7831CFE1E27E59C00ABEDA1 /* EHMathCell2.m in Sources */,
 				6ABAA0381E2DCB7500FA42A9 /* CheckOutView.m in Sources */,
-				6A46C0EB1E27317000DB195D /* MTFont.m in Sources */,
 				6A46C0E31E27317000DB195D /* MTMathAtomFactory.m in Sources */,
 				6A46C09B1E272FD100DB195D /* AppDelegate.m in Sources */,
 				6A46C0981E272FD100DB195D /* main.m in Sources */,

@@ -95,9 +95,7 @@
 
      ，中文逗号无法解析
      */
-    return [self parseLatex:[[[[latex stringByReplacingOccurrencesOfString:@"[br/]" withString:@"  \\\\"]
-                             stringByReplacingOccurrencesOfString:@"\\mathbf" withString:@" "]
-                             stringByReplacingOccurrencesOfString:@"%" withString:@"\\%"]
+    return [self parseLatex:[[latex stringByReplacingOccurrencesOfString:@"[br/]" withString:@"  \\\\"]
                              stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
                    fontSize:_defaultFontSize
                    maxWidth:_defaultWidth
