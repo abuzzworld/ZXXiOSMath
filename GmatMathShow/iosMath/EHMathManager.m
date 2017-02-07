@@ -11,6 +11,7 @@
 #define kMathMaxWidth [UIScreen mainScreen].bounds.size.width - 20.0
 
 #define kMathOriSin @"$$"
+#define kLaTeXLineBreakKey @" \\\\ "
 #define kOriLineBreakKey @"[br/]"
 
 #define kWord @"word"
@@ -58,7 +59,7 @@
 - (NSString *)parseLatex:(NSString *)latex
 {
     NSMutableString *latex_add_newlinesymbol = [self colCharWidth:latex];
-    return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:@" \\\\ " ]
+    return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:kLaTeXLineBreakKey ]
                               stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
                              stringByReplacingOccurrencesOfString:@"\r" withString:@""]
                    fontSize:_defaultFontSize
@@ -164,7 +165,7 @@
              toResultString:resultString
              stringProperty:[_words[i][kProperty] isEqualToString:kPropertySignWords]];
     }
-    return [resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:@" \\\\ "];
+    return [resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:kLaTeXLineBreakKey];
 }
 - (void)appendingWord:(NSString *)word
        toResultString:(NSMutableString *)resultString
