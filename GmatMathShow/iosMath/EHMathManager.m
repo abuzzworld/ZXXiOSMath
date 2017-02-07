@@ -10,18 +10,10 @@
 
 #define kMathMaxWidth [UIScreen mainScreen].bounds.size.width - 20.0
 
-#define kMathBeginSign @"<p>"
-#define kMathEndSign @"</p>"
 #define kMathOriSin @"$$"
-#define kSpaceKey @"\\ "
-#define kLineBreakKey @"\\\\"
+#define kOriLineBreakkKey @"[br/]"
 
-/// property words keys
 #define kWord @"word"
-#define kLength @"length"
-#define kLocation @"location"
-
-
 #define kParagraph @"paragraph"
 #define kProperty @"property"
 
@@ -30,8 +22,6 @@
 
 #define kMathDefaultFontSize 15.0
 #define kAmendArgument 50
-
-#define kSingleQuotes @"&rsquo;"
 
 @interface EHMathManager ()
 @property (nonatomic, strong) MTMathUILabel *mathlbl;
@@ -67,39 +57,8 @@
 #pragma mark - public methords
 - (NSString *)parseLatex:(NSString *)latex
 {
-    /* 已修复问题汇总
-     stringByReplacingOccurrencesOfString:@"＜" withString:@"<"
-     stringByReplacingOccurrencesOfString:@"＞" withString:@">"
-     stringByReplacingOccurrencesOfString:@"</p>" withString:@""
-     stringByReplacingOccurrencesOfString:@"<p>" withString:@""
-     stringByReplacingOccurrencesOfString:@"&rsquo;" withString:@"\'"   //本条未完全修复,多余 ; 未修复
-     stringByReplacingOccurrencesOfString:@"[br\\]" withString:@"  \\\\"]
-     stringByReplacingOccurrencesOfString:@"[br]" withString:@"  \\\\"]
-     stringByReplacingOccurrencesOfString:@"&nbsp;" withString:@" "]
-     stringByReplacingOccurrencesOfString:@"\\mathbf" withString:@" "]
-     stringByReplacingOccurrencesOfString:@"≠" withString:@"\\neq "]
-     stringByReplacingOccurrencesOfString:@"≤" withString:@"\\leq "]
-     stringByReplacingOccurrencesOfString:@"≥" withString:@"\\geq "]
-     stringByReplacingOccurrencesOfString:@"│" withString:@"\\mid "]
-     stringByReplacingOccurrencesOfString:@"π" withString:@"\\pi "]
-     stringByReplacingOccurrencesOfString:@"○" withString:@"O"]
-     stringByReplacingOccurrencesOfString:@"※" withString:@"\\ast "]
-     stringByReplacingOccurrencesOfString:@"⊙" withString:@"\\bigodot "]
-     stringByReplacingOccurrencesOfString:@"×" withString:@"\\times "]
-     stringByReplacingOccurrencesOfString:@"║" withString:@"\\| "]
-     stringByReplacingOccurrencesOfString:@"Θ" withString:@"\\Theta "]
-     stringByReplacingOccurrencesOfString:@"△" withString:@"\\Delta "]
-     stringByReplacingOccurrencesOfString:@"ζ" withString:@"\\zeta "]
-     stringByReplacingOccurrencesOfString:@"η" withString:@"\\eta "]
-     stringByReplacingOccurrencesOfString:@"ψ" withString:@"\\psi "]
-     stringByReplacingOccurrencesOfString:@"ξ" withString:@"\\xi "]
-     stringByReplacingOccurrencesOfString:@"ν" withString:@"\\upsilon "]
-     stringByReplacingOccurrencesOfString:@"ε" withString:@"\\varepsilon "]
-     stringByReplacingOccurrencesOfString:@"–" withString:@"-"]
-     
-     ，中文逗号无法解析
-     */
-    return [self parseLatex:[[[latex stringByReplacingOccurrencesOfString:@"[br/]" withString:@" \\\\ " ]
+    NSMutableString *latex_add_newlinesymbol = [self colCharWidth:latex];
+    return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakkKey withString:@" \\\\ " ]
                               stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
                              stringByReplacingOccurrencesOfString:@"\r" withString:@""]
                    fontSize:_defaultFontSize
@@ -122,7 +81,7 @@
                               fontSize:_fontSize
                              labelMode:_lblMode
                               fontName:_fontName];
-    NSString *resultString = [self addLineBreakKey];
+    NSString *resultString = [self connectWords];
     [self colMathStrSize:resultString
                 fontSize:_fontSize
                labelMode:_lblMode
@@ -156,7 +115,7 @@
         }
         NSString *property = nil;
         NSString *paragraph = [temp_paragraph_strings[i] stringByReplacingOccurrencesOfString:@"$" withString:@"\\$"];//将美元符号保留，例如 $5,000 表示5000美元
-        //        NSString *property = odd_even_check ? i%2 == 0 ? kPropertySignMath : kPropertySignWords : i%2 == 0 ? kPropertySignWords : kPropertySignMath ;
+//        NSString *property = odd_even_check ? i%2 == 0 ? kPropertySignMath : kPropertySignWords : i%2 == 0 ? kPropertySignWords : kPropertySignMath ;
         if (odd_even_check) {
             if (i%2 == 0) {
                 property = kPropertySignMath;
@@ -171,38 +130,9 @@
             }
         }
         [paragraph_strings addObject:@{kParagraph: paragraph,
-                                       kProperty: property,
-                                       kLocation: @(location)}];
+                                       kProperty: property}];
         location += [temp_paragraph_strings[i] length];
     }
-    
-    /*
-    /// 标记必须成对出现，如出现不成对出现标记，则按数量少的进行匹配（有可能会出现显示混乱）
-    /// 获取数学公式所有开始标记
-    NSRegularExpression *regular_begin_sign = [[NSRegularExpression alloc] initWithPattern:kMathBeginSign options:NSRegularExpressionCaseInsensitive error:nil];
-    NSArray<NSTextCheckingResult *> *results_begin_sign = [regular_begin_sign matchesInString:latex options:0 range:NSMakeRange(0, latex.length)];
-    /// 获取数学公式所有结束标记
-    NSRegularExpression *regular_end_sign = [[NSRegularExpression alloc] initWithPattern:kMathEndSign options:NSRegularExpressionCaseInsensitive error:nil];
-    NSArray<NSTextCheckingResult *> *results_end_sign = [regular_end_sign matchesInString:latex options:0 range:NSMakeRange(0, latex.length)];
-    /// 最大循环匹配次数
-    NSInteger loop_cap = results_begin_sign.count < results_end_sign.count ? results_begin_sign.count : results_end_sign.count;
-    for (NSInteger i = 0; i < loop_cap; i++) {
-        [paragraph_strings addObject:@{kParagraph: [latex substringWithRange:NSMakeRange(i == 0 ? 0 : results_end_sign[i-1].range.location + results_end_sign[i-1].range.length,
-                                                                                         i == 0 ? results_begin_sign[i].range.location : results_begin_sign[i].range.location - results_end_sign[i-1].range.location - results_end_sign[i-1].range.length)],
-                                       kProperty: kPropertySignWords,
-                                       kLocation: @(i == 0 ? 0 : results_end_sign[i-1].range.location + results_end_sign[i-1].range.length)}];
-        [paragraph_strings addObject:@{kParagraph: [latex substringWithRange:NSMakeRange(i == 0 ? results_begin_sign[i].range.location + results_begin_sign[i].range.length : results_begin_sign[i].range.location + results_begin_sign[i].range.length,
-                                                                                         i == 0 ? results_end_sign[i].range.location - results_begin_sign[i].range.location - results_begin_sign[i].range.length : results_end_sign[i].range.location - results_begin_sign[i].range.location - results_begin_sign[i].range.length)],
-                                       kProperty: kPropertySignMath,
-                                       kLocation: @(i == 0 ? results_begin_sign[i].range.location + results_begin_sign[i].range.length : results_begin_sign[i].range.location + results_begin_sign[i].range.length)}];
-        if (i == loop_cap - 1) {
-            [paragraph_strings addObject:@{kParagraph: [latex substringWithRange:NSMakeRange(results_end_sign[i].range.location + results_end_sign[i].range.length,
-                                                                                             latex.length - results_end_sign[i].range.location - results_end_sign[i].range.length)],
-                                           kProperty: kPropertySignWords,
-                                           kLocation: @(results_end_sign[i].range.location + results_end_sign[i].range.length)}];
-        }
-    }
-    */
     return paragraph_strings;
 }
 - (void)parseParagraphStringsToWords:(NSMutableArray<NSDictionary<NSString *, NSString *> *> *)paragraph_strings
@@ -212,21 +142,15 @@
 {
     for (NSInteger i = 0; i < paragraph_strings.count; i++) {
         NSString *paragraph_string = paragraph_strings[i][kParagraph];
-        NSInteger paragraph_location = [paragraph_strings[i][kLocation] integerValue];
         if ([paragraph_strings[i][kProperty] isEqualToString:kPropertySignWords]) {
             NSRegularExpression *regular = [[NSRegularExpression alloc] initWithPattern:@" " options:NSRegularExpressionCaseInsensitive error:nil];
             NSArray<NSTextCheckingResult *> *results = [regular matchesInString:paragraph_string options:0 range:NSMakeRange(0, paragraph_string.length)];
-            /// 将字符串按空格分解，分别计算每段的长度，并记住位置,同时替换空格符
+            /// 将字符串按空格分解,并记住位置
             for (NSInteger i = 0; i < results.count; i++) {
                 NSRange range = NSMakeRange(i == 0 ? i : results[i-1].range.location + 1,
                                             i == 0 ? results[i].range.location + 1 : results[i].range.location - results[i-1].range.location);
                 NSString *word = [paragraph_string substringWithRange:range];
-                NSDictionary *dict = @{kWord: word,//[word stringByReplacingOccurrencesOfString:@" " withString:kSpaceKey],
-                                       kLength: @([self colMathStrSize:word
-                                                              fontSize:fontSize
-                                                             labelMode:lblMode
-                                                              fontName:fontname].width),
-                                       kLocation: @(range.location + range.length + paragraph_location),
+                NSDictionary *dict = @{kWord: word,
                                        kProperty: kPropertySignWords};
                 [_words addObject:dict];
             }
@@ -234,39 +158,21 @@
                 NSRange range = NSMakeRange(results.lastObject.range.location + 1,
                                             paragraph_string.length - results.lastObject.range.location - 1);
                 NSString *word = [paragraph_string substringWithRange:range];
-                NSDictionary *dict = @{kWord: word,//[word stringByReplacingOccurrencesOfString:@" " withString:kSpaceKey],
-                                       kLength: @([self colMathStrSize:word
-                                                              fontSize:fontSize
-                                                             labelMode:lblMode
-                                                              fontName:fontname].width),
-                                       kLocation: @(range.location + range.length + paragraph_location),
+                NSDictionary *dict = @{kWord: word,
                                        kProperty: kPropertySignWords};
                 [_words addObject:dict];
             }
         }else {
             NSDictionary *dic = @{kWord: paragraph_string,
-                                  kLength: @([self colMathStrSize:paragraph_string
-                                                         fontSize:fontSize
-                                                        labelMode:lblMode
-                                                         fontName:fontname].width),
-                                  kLocation: paragraph_strings[i][kLocation],
                                   kProperty: kPropertySignMath};
             [_words addObject:dic];
         }
     }
 }
-- (NSString *)addLineBreakKey
+- (NSString *)connectWords
 {
-    CGFloat row_addup_length = 0;
     NSMutableString *resultString = [NSMutableString string];
     for (NSInteger i = 0; i < _words.count; i++) {
-        row_addup_length += [_words[i][kLength] floatValue];
-        if (row_addup_length > _maxWidth - kAmendArgument || [_words[i][kWord] containsString:kLineBreakKey]) {
-            row_addup_length = [_words[i][kLength] floatValue];
-            if (![_words[i][kWord] containsString:kLineBreakKey]) {
-                [resultString appendString:kLineBreakKey];
-            }
-        }
         [self appendingWord:_words[i][kWord]
              toResultString:resultString
              stringProperty:[_words[i][kProperty] isEqualToString:kPropertySignWords]];
@@ -330,6 +236,113 @@
     _mathlbl.labelMode = lblMode;
     _mathlbl.frame = CGRectZero;
     return _mathlbl.rect;
+}
+- (NSMutableString *)colCharWidth:(NSString *)oriStr
+{
+    NSMutableString *resultStr = oriStr.mutableCopy;
+    NSBundle* bundle = [MTFont fontBundle];
+    NSString* fontPath = [bundle pathForResource:[self getFontName:_fontName] ofType:@"otf"];
+    CGDataProviderRef fontDataProvider = CGDataProviderCreateWithFilename(fontPath.UTF8String);
+    CGFontRef cgfontRef =  CGFontCreateWithDataProvider(fontDataProvider);
+    CTFontRef fontRef = CTFontCreateWithGraphicsFont(cgfontRef, _fontSize, NULL, NULL);
+    CGFloat length = 0;
+    
+    NSMutableString *math_cache = [NSMutableString string];
+    NSMutableArray<NSNumber *> *subs = [NSMutableArray arrayWithCapacity:0];
+    NSMutableDictionary<NSString *,NSNumber *> *word_chars_width = [NSMutableDictionary dictionaryWithCapacity:0];
+    
+    BOOL math_begin = false;
+    BOOL math_end = false;
+    
+    for (NSInteger i = 0; i < oriStr.length; i++) {
+        UniChar ch = [oriStr characterAtIndex:i];
+        CGGlyph glyph = 0;
+        CGSize glyphSize;
+        if ((ch >= 0x4E00) && (ch <= 0x9FFF)) {
+            glyphSize = CGSizeMake(_fontSize, 0);
+        }else if (ch == '[') {
+            if (oriStr.length > i+5) {
+                i+=4;
+                length = 0;
+                continue;
+            }
+        }else if (ch == '$' && !math_begin) {
+            math_begin = oriStr.length > i+1 && [[oriStr substringWithRange:NSMakeRange(i, 2)] isEqualToString:@"$$"];
+            if (math_begin) {
+                i++;
+                continue;
+            }
+        }else if (ch == '$' && math_begin && !math_end) {
+            math_end = oriStr.length > i+1 && [[oriStr substringWithRange:NSMakeRange(i, 2)] isEqualToString:@"$$"];
+            if (math_end) {
+                math_begin = false;
+                math_end = false;
+                i++;
+                
+                CGFloat math_width = [self colMathStrSize:math_cache
+                                                 fontSize:_fontSize
+                                                labelMode:_lblMode
+                                                 fontName:_fontName].width;
+                length += math_width;
+                if (length >= _maxWidth) {
+                    length = math_width;
+                    [subs addObject:@(i - math_cache.length - 3 - 1)];
+                }
+                math_cache = [NSMutableString string];
+                continue;
+            }
+        }else {
+            CTFontGetGlyphsForCharacters(fontRef, &ch, &glyph, 1);
+            CTFontGetAdvancesForGlyphs(fontRef, kCTFontHorizontalOrientation, &glyph, &glyphSize, 1);
+        }
+        if (math_begin) {
+            [math_cache appendString:[NSString stringWithFormat:@"%c", ch]];
+        }else {
+            word_chars_width[[NSString stringWithFormat:@"%zd", i]] = @(glyphSize.width * 1.1);
+            length += glyphSize.width * 1.1;
+        }
+        if (length >= _maxWidth) {
+            BOOL flag = true;
+            NSInteger j = i;
+            length = 0;
+            while (flag && j >= 0) {
+                UniChar ch = [oriStr characterAtIndex:j];
+                if (ch == ' ' || ((ch >= 0x4E00) && (ch <= 0x9FFF))) {
+                    [subs addObject:@(j)];
+                    flag = false;
+                }else {
+                    length += [word_chars_width[[NSString stringWithFormat:@"%zd", j]] doubleValue];
+                }
+                j--;
+            }
+        }
+    }
+    for (NSInteger i = subs.count - 1; i >= 0; i--) {
+        NSInteger index = [subs[i] integerValue];
+        UniChar ch = [oriStr characterAtIndex:index];
+        if (((ch >= 0x4E00) && (ch <= 0x9FFF))) {
+            [resultStr insertString:kOriLineBreakkKey atIndex:index];
+        }else {
+            [resultStr replaceCharactersInRange:NSMakeRange(index, 1) withString:kOriLineBreakkKey];
+        }
+    }
+    CGFontRelease(cgfontRef);
+    CFRelease(fontRef);
+    return resultStr;
+}
+- (NSString *)getFontName:(MathFontName)fontName
+{
+    switch (fontName) {
+        case MathFontTypeLatinmodern:
+            return @"latinmodern-math";
+            break;
+        case MathFontTypeXits:
+            return @"xits-math";
+            break;
+        case MathFontTypeTexgyretermes:
+            return @"texgyretermes-math";
+            break;
+    }
 }
 
 #pragma mark - property-setter-getter

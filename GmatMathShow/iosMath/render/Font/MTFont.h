@@ -23,4 +23,6 @@
 /** The size of this font in points. */
 @property (nonatomic, readonly) CGFloat fontSize;
 
++ (nonnull NSBundle*)fontBundle;
+
 @end
