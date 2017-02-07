@@ -11,7 +11,7 @@
 #define kMathMaxWidth [UIScreen mainScreen].bounds.size.width - 20.0
 
 #define kMathOriSin @"$$"
-#define kOriLineBreakkKey @"[br/]"
+#define kOriLineBreakKey @"[br/]"
 
 #define kWord @"word"
 #define kParagraph @"paragraph"
@@ -58,7 +58,7 @@
 - (NSString *)parseLatex:(NSString *)latex
 {
     NSMutableString *latex_add_newlinesymbol = [self colCharWidth:latex];
-    return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakkKey withString:@" \\\\ " ]
+    return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:@" \\\\ " ]
                               stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
                              stringByReplacingOccurrencesOfString:@"\r" withString:@""]
                    fontSize:_defaultFontSize
@@ -143,22 +143,9 @@
     for (NSInteger i = 0; i < paragraph_strings.count; i++) {
         NSString *paragraph_string = paragraph_strings[i][kParagraph];
         if ([paragraph_strings[i][kProperty] isEqualToString:kPropertySignWords]) {
-            NSRegularExpression *regular = [[NSRegularExpression alloc] initWithPattern:@" " options:NSRegularExpressionCaseInsensitive error:nil];
-            NSArray<NSTextCheckingResult *> *results = [regular matchesInString:paragraph_string options:0 range:NSMakeRange(0, paragraph_string.length)];
-            /// 将字符串按空格分解,并记住位置
-            for (NSInteger i = 0; i < results.count; i++) {
-                NSRange range = NSMakeRange(i == 0 ? i : results[i-1].range.location + 1,
-                                            i == 0 ? results[i].range.location + 1 : results[i].range.location - results[i-1].range.location);
-                NSString *word = [paragraph_string substringWithRange:range];
-                NSDictionary *dict = @{kWord: word,
-                                       kProperty: kPropertySignWords};
-                [_words addObject:dict];
-            }
-            if (results.lastObject.range.location + 1 < paragraph_string.length) {
-                NSRange range = NSMakeRange(results.lastObject.range.location + 1,
-                                            paragraph_string.length - results.lastObject.range.location - 1);
-                NSString *word = [paragraph_string substringWithRange:range];
-                NSDictionary *dict = @{kWord: word,
+            NSArray *words = [paragraph_string componentsSeparatedByString:@" "];
+            for (NSInteger i = 0; i < words.count; i++) {
+                NSDictionary *dict = @{kWord: [NSString stringWithFormat:@"%@ ", words[i]],
                                        kProperty: kPropertySignWords};
                 [_words addObject:dict];
             }
@@ -321,9 +308,9 @@
         NSInteger index = [subs[i] integerValue];
         UniChar ch = [oriStr characterAtIndex:index];
         if (((ch >= 0x4E00) && (ch <= 0x9FFF))) {
-            [resultStr insertString:kOriLineBreakkKey atIndex:index];
+            [resultStr insertString:kOriLineBreakKey atIndex:index];
         }else {
-            [resultStr replaceCharactersInRange:NSMakeRange(index, 1) withString:kOriLineBreakkKey];
+            [resultStr replaceCharactersInRange:NSMakeRange(index, 1) withString:kOriLineBreakKey];
         }
     }
     CGFontRelease(cgfontRef);
