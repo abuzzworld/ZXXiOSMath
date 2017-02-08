@@ -58,7 +58,7 @@
 #pragma mark - public methords
 - (NSString *)parseLatex:(NSString *)latex
 {
-    NSMutableString *latex_add_newlinesymbol = [self colCharWidth:latex];
+    NSString *latex_add_newlinesymbol = [self colCharWidth:latex];
     return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:kLaTeXLineBreakKey ]
                               stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
                              stringByReplacingOccurrencesOfString:@"\r" withString:@""]
@@ -226,7 +226,7 @@
     _mathlbl.frame = CGRectZero;
     return _mathlbl.rect;
 }
-- (NSMutableString *)colCharWidth:(NSString *)oriStr
+- (NSString *)colCharWidth:(NSString *)oriStr
 {
     NSMutableString *resultStr = oriStr.mutableCopy;
     NSBundle* bundle = [MTFont fontBundle];
@@ -250,7 +250,7 @@
         if ((ch >= 0x4E00) && (ch <= 0x9FFF)) {
             glyphSize = CGSizeMake(_fontSize, 0);
         }else if (ch == '[') {
-            if (oriStr.length > i+5 && [[oriStr substringWithRange:NSMakeRange(i, 5)] isEqualToString:kOriLineBreakKey]) {
+            if ([self checkLastFiveCharatersIsOriLineBreakKey:oriStr startIndex:i]) {
                 i+=4;
                 length = 0;
                 continue;
@@ -300,7 +300,7 @@
                     [subs addObject:@(j)];
                     flag = false;
                 }else if (ch == ',' || ch == '.') {
-                    [subs addObject:@(j+1)];
+                    [subs addObject:@(j)];
                     flag = false;
                 }else if (ch == '$') {
                     if (j - 1 >= 0 && [[oriStr substringWithRange:NSMakeRange(j-1, 2)] isEqualToString:kMathOriSin]) {
@@ -317,15 +317,22 @@
     for (NSInteger i = subs.count - 1; i >= 0; i--) {
         NSInteger index = [subs[i] integerValue];
         UniChar ch = [oriStr characterAtIndex:index];
+        if ([self checkLastFiveCharatersIsOriLineBreakKey:oriStr startIndex:index + 1]) {
+            continue;
+        }
         if (ch == ' ') {
             [resultStr replaceCharactersInRange:NSMakeRange(index, 1) withString:kOriLineBreakKey];
         }else {
-            [resultStr insertString:kOriLineBreakKey atIndex:index];
+            [resultStr insertString:kOriLineBreakKey atIndex:index+1];
         }
     }
     CGFontRelease(cgfontRef);
     CFRelease(fontRef);
     return resultStr;
+}
+- (BOOL)checkLastFiveCharatersIsOriLineBreakKey:(NSString *)oriStr startIndex:(NSInteger)i
+{
+    return oriStr.length > i+5 && [[oriStr substringWithRange:NSMakeRange(i, 5)] isEqualToString:kOriLineBreakKey];
 }
 - (NSString *)getFontName:(MathFontName)fontName
 {
