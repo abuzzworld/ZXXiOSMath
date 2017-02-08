@@ -255,13 +255,13 @@
                 continue;
             }
         }else if (ch == '$' && !math_begin) {
-            math_begin = oriStr.length > i+1 && [[oriStr substringWithRange:NSMakeRange(i, 2)] isEqualToString:@"$$"];
+            math_begin = oriStr.length > i+1 && [[oriStr substringWithRange:NSMakeRange(i, 2)] isEqualToString:kMathOriSin];
             if (math_begin) {
                 i++;
                 continue;
             }
         }else if (ch == '$' && math_begin && !math_end) {
-            math_end = oriStr.length > i+1 && [[oriStr substringWithRange:NSMakeRange(i, 2)] isEqualToString:@"$$"];
+            math_end = oriStr.length > i+1 && [[oriStr substringWithRange:NSMakeRange(i, 2)] isEqualToString:kMathOriSin];
             if (math_end) {
                 math_begin = false;
                 math_end = false;
