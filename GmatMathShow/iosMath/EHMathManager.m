@@ -144,9 +144,10 @@
     for (NSInteger i = 0; i < paragraph_strings.count; i++) {
         NSString *paragraph_string = paragraph_strings[i][kParagraph];
         if ([paragraph_strings[i][kProperty] isEqualToString:kPropertySignWords]) {
+            BOOL is_has_surffix_spackkey = [paragraph_string hasSuffix:@" "];
             NSArray *words = [paragraph_string componentsSeparatedByString:@" "];
             for (NSInteger i = 0; i < words.count; i++) {
-                NSDictionary *dict = @{kWord: [NSString stringWithFormat:@"%@ ", words[i]],
+                NSDictionary *dict = @{kWord: i == words.count - 1 ? is_has_surffix_spackkey ? [NSString stringWithFormat:@"%@ ", words[i]] : words[i] : [NSString stringWithFormat:@"%@ ", words[i]],
                                        kProperty: kPropertySignWords};
                 [_words addObject:dict];
             }
