@@ -298,6 +298,14 @@
                 if (ch == ' ' || ((ch >= 0x4E00) && (ch <= 0x9FFF))) {
                     [subs addObject:@(j)];
                     flag = false;
+                }else if (ch == ',' || ch == '.') {
+                    [subs addObject:@(j+1)];
+                    flag = false;
+                }else if (ch == '$') {
+                    if (j - 1 >= 0 && [[oriStr substringWithRange:NSMakeRange(j-1, 2)] isEqualToString:kMathOriSin]) {
+                        [subs addObject:@(j+1)];
+                        flag = false;
+                    }
                 }else {
                     length += [word_chars_width[[NSString stringWithFormat:@"%zd", j]] doubleValue];
                 }
@@ -308,10 +316,10 @@
     for (NSInteger i = subs.count - 1; i >= 0; i--) {
         NSInteger index = [subs[i] integerValue];
         UniChar ch = [oriStr characterAtIndex:index];
-        if (((ch >= 0x4E00) && (ch <= 0x9FFF))) {
-            [resultStr insertString:kOriLineBreakKey atIndex:index];
-        }else {
+        if (ch == ' ') {
             [resultStr replaceCharactersInRange:NSMakeRange(index, 1) withString:kOriLineBreakKey];
+        }else {
+            [resultStr insertString:kOriLineBreakKey atIndex:index];
         }
     }
     CGFontRelease(cgfontRef);
