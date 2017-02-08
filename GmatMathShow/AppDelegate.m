@@ -23,6 +23,7 @@
     NSLog(@"this is deveoper branch 3");
     NSLog(@"this is deveoper branch 4");
     NSLog(@"this is deveoper branch 5");
+    NSLog(@"this is deveoper branch 6");
     return YES;
 }
 
