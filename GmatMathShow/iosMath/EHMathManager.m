@@ -166,7 +166,7 @@
              toResultString:resultString
              stringProperty:[_words[i][kProperty] isEqualToString:kPropertySignWords]];
     }
-    return [resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:kLaTeXLineBreakKey];
+    return [[resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:kLaTeXLineBreakKey] stringByReplacingOccurrencesOfString:@"\\text{ }" withString:@""];
 }
 - (void)appendingWord:(NSString *)word
        toResultString:(NSMutableString *)resultString
