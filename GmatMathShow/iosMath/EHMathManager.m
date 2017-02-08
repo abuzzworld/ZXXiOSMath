@@ -249,7 +249,7 @@
         if ((ch >= 0x4E00) && (ch <= 0x9FFF)) {
             glyphSize = CGSizeMake(_fontSize, 0);
         }else if (ch == '[') {
-            if (oriStr.length > i+5) {
+            if (oriStr.length > i+5 && [[oriStr substringWithRange:NSMakeRange(i, 5)] isEqualToString:kOriLineBreakKey]) {
                 i+=4;
                 length = 0;
                 continue;
