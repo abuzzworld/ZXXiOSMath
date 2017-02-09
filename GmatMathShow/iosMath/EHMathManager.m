@@ -13,6 +13,7 @@
 #define kMathOriSin @"$$"
 #define kLaTeXLineBreakKey @" \\\\ "
 #define kOriLineBreakKey @"[br/]"
+#define kSpaceKey @" "
 
 #define kWord @"word"
 #define kParagraph @"paragraph"
@@ -144,9 +145,12 @@
     for (NSInteger i = 0; i < paragraph_strings.count; i++) {
         NSString *paragraph_string = paragraph_strings[i][kParagraph];
         if ([paragraph_strings[i][kProperty] isEqualToString:kPropertySignWords]) {
-            BOOL is_has_surffix_spackkey = [paragraph_string hasSuffix:@" "];
-            NSArray *words = [paragraph_string componentsSeparatedByString:@" "];
+            BOOL is_has_surffix_spackkey = [paragraph_string hasSuffix:kSpaceKey];
+            NSArray *words = [paragraph_string componentsSeparatedByString:kSpaceKey];
             for (NSInteger i = 0; i < words.count; i++) {
+                if (i == words.count - 1 && [words[i] isEqualToString:@""]) {
+                    continue;
+                }
                 NSDictionary *dict = @{kWord: i == words.count - 1 ? is_has_surffix_spackkey ? [NSString stringWithFormat:@"%@ ", words[i]] : words[i] : [NSString stringWithFormat:@"%@ ", words[i]],
                                        kProperty: kPropertySignWords};
                 [_words addObject:dict];
@@ -166,7 +170,7 @@
              toResultString:resultString
              stringProperty:[_words[i][kProperty] isEqualToString:kPropertySignWords]];
     }
-    return [[resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:kLaTeXLineBreakKey] stringByReplacingOccurrencesOfString:@"\\text{ }" withString:@""];
+    return [resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:kLaTeXLineBreakKey];
 }
 - (void)appendingWord:(NSString *)word
        toResultString:(NSMutableString *)resultString
@@ -299,7 +303,7 @@
                 if (ch == ' ' || ((ch >= 0x4E00) && (ch <= 0x9FFF))) {
                     [subs addObject:@(j)];
                     flag = false;
-                }else if (ch == ',' || ch == '.') {
+                }else if (ch == ',' || ch == '.' || ch == '?' || ch == ';') {
                     [subs addObject:@(j)];
                     flag = false;
                 }else if (ch == '$') {
@@ -323,7 +327,11 @@
         if (ch == ' ') {
             [resultStr replaceCharactersInRange:NSMakeRange(index, 1) withString:kOriLineBreakKey];
         }else {
-            [resultStr insertString:kOriLineBreakKey atIndex:index+1];
+//            if (index + 1 >= 0 && [[oriStr substringWithRange:NSMakeRange(index, 1)] isEqualToString:@" "]) {
+//                [resultStr replaceCharactersInRange:NSMakeRange(index-1, 1) withString:kOriLineBreakKey];
+//            }else {
+                [resultStr insertString:kOriLineBreakKey atIndex:index+1];
+//            }
         }
     }
     CGFontRelease(cgfontRef);
