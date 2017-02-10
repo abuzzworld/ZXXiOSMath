@@ -259,19 +259,19 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         if ((ch >= 0x4E00) && (ch <= 0x9FFF)) {
             glyphSize = CGSizeMake(_fontSize, 0);
         }else if (ch == '[') {
-            if ([self checkLastFiveCharatersIsOriLineBreakKey:oriStr startIndex:i]) {
+            if (CheckOriStr(oriStr, i, 5, kOriLineBreakKey)) {
                 i+=4;
                 length = 0;
                 continue;
             }
         }else if (ch == '$' && !math_begin) {
-            math_begin = oriStr.length > i+1 && [[oriStr substringWithRange:NSMakeRange(i, 2)] isEqualToString:kMathOriSin];
+            math_begin = CheckOriStr(oriStr, i, 2, kMathOriSin);
             if (math_begin) {
                 i++;
                 continue;
             }
         }else if (ch == '$' && math_begin && !math_end) {
-            math_end = oriStr.length > i+1 && [[oriStr substringWithRange:NSMakeRange(i, 2)] isEqualToString:kMathOriSin];
+            math_end = CheckOriStr(oriStr, i, 2, kMathOriSin);
             if (math_end) {
                 math_begin = false;
                 math_end = false;
@@ -312,14 +312,14 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
                     [subs addObject:@(j)];
                     flag = false;
                 }else if (ch == ',' || ch == '.' || ch == '?' || ch == ';') {
-                    if (oriStr.length - 1 >= j + 1 && [[oriStr substringWithRange:NSMakeRange(j + 1, 1)] isEqualToString:kSpaceKey]) {
+                    if (CheckOriStr(oriStr, j + 1, 1, kSpaceKey)) {
                         [subs addObject:@(j + 1)];
                     }else {
                         [subs addObject:@(j)];
                     }
                     flag = false;
                 }else if (ch == '$') {
-                    if (j - 1 >= 0 && [[oriStr substringWithRange:NSMakeRange(j-1, 2)] isEqualToString:kMathOriSin]) {
+                    if (CheckOriStr(oriStr, j - 1, 2, kMathOriSin)) {
                         [subs addObject:@(j+1)];
                         flag = false;
                     }
@@ -333,7 +333,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
     for (NSInteger i = subs.count - 1; i >= 0; i--) {
         NSInteger index = [subs[i] integerValue];
         UniChar ch = [oriStr characterAtIndex:index];
-        if ([self checkLastFiveCharatersIsOriLineBreakKey:oriStr startIndex:i]) {
+        if (CheckOriStr(oriStr, i, 5, kOriLineBreakKey)) {
             continue;
         }
         if (ch == ' ') {
@@ -351,10 +351,6 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         }
     }
     return resultStr;
-}
-- (BOOL)checkLastFiveCharatersIsOriLineBreakKey:(NSString *)oriStr startIndex:(NSInteger)i
-{
-    return oriStr.length > i+5 && [[oriStr substringWithRange:NSMakeRange(i, 5)] isEqualToString:kOriLineBreakKey];
 }
 - (NSString *)getFontName:(MathFontName)fontName
 {
