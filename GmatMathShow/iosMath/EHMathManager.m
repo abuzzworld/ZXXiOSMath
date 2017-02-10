@@ -33,6 +33,8 @@
 @property (nonatomic, assign) MTMathUILabelMode lblMode;
 @property (nonatomic, assign) MathFontName fontName;
 @property (nonatomic, strong) NSString *lastLatex;
+@property (nonatomic, assign) CGFontRef cgfontRef;
+@property (nonatomic, assign) CTFontRef ctfontRef;
 @end
 
 
@@ -59,6 +61,11 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         _fontName = MathFontTypeLatinmodern;
     }
     return self;
+}
+- (void)dealloc
+{
+    CGFontRelease(_cgfontRef);
+    CFRelease(_ctfontRef);
 }
 
 #pragma mark - public methords
@@ -236,11 +243,6 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
 - (NSString *)addNewLineKeyTo:(NSString *)oriStr
 {
     NSMutableString *resultStr = oriStr.mutableCopy;
-    NSBundle* bundle = [MTFont fontBundle];
-    NSString* fontPath = [bundle pathForResource:[self getFontName:_fontName] ofType:@"otf"];
-    CGDataProviderRef fontDataProvider = CGDataProviderCreateWithFilename(fontPath.UTF8String);
-    CGFontRef cgfontRef =  CGFontCreateWithDataProvider(fontDataProvider);
-    CTFontRef fontRef = CTFontCreateWithGraphicsFont(cgfontRef, _fontSize, NULL, NULL);
     CGFloat length = 0;
     
     NSMutableString *math_cache = [NSMutableString string];
@@ -288,8 +290,8 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
                 continue;
             }
         }else {
-            CTFontGetGlyphsForCharacters(fontRef, &ch, &glyph, 1);
-            CTFontGetAdvancesForGlyphs(fontRef, kCTFontHorizontalOrientation, &glyph, &glyphSize, 1);
+            CTFontGetGlyphsForCharacters(self.ctfontRef, &ch, &glyph, 1);
+            CTFontGetAdvancesForGlyphs(self.ctfontRef, kCTFontHorizontalOrientation, &glyph, &glyphSize, 1);
         }
         if (math_begin) {
             [math_cache appendString:[NSString stringWithFormat:@"%c", ch]];
@@ -348,8 +350,6 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
 //            }
         }
     }
-    CGFontRelease(cgfontRef);
-    CFRelease(fontRef);
     return resultStr;
 }
 - (BOOL)checkLastFiveCharatersIsOriLineBreakKey:(NSString *)oriStr startIndex:(NSInteger)i
@@ -390,6 +390,17 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
 {
     _defaultLblMode = defaultLblMode;
     _lblMode = defaultLblMode;
+}
+- (CTFontRef)ctfontRef
+{
+    if (_ctfontRef == NULL) {
+        NSBundle* bundle = [MTFont fontBundle];
+        NSString* fontPath = [bundle pathForResource:[self getFontName:_fontName] ofType:@"otf"];
+        CGDataProviderRef fontDataProvider = CGDataProviderCreateWithFilename(fontPath.UTF8String);
+        _cgfontRef =  CGFontCreateWithDataProvider(fontDataProvider);
+        _ctfontRef = CTFontCreateWithGraphicsFont(_cgfontRef, _fontSize, NULL, NULL);
+    }
+    return _ctfontRef;
 }
 
 @end
