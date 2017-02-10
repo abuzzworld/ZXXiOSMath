@@ -307,11 +307,16 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
             length = 0;
             while (flag && j >= 0) {
                 UniChar ch = [oriStr characterAtIndex:j];
+                printf("--%c--", ch);
                 if (ch == ' ' || ((ch >= 0x4E00) && (ch <= 0x9FFF))) {
                     [subs addObject:@(j)];
                     flag = false;
                 }else if (ch == ',' || ch == '.' || ch == '?' || ch == ';') {
-                    [subs addObject:@(j)];
+                    if (oriStr.length - 1 >= j + 1 && [[oriStr substringWithRange:NSMakeRange(j + 1, 1)] isEqualToString:kSpaceKey]) {
+                        [subs addObject:@(j + 1)];
+                    }else {
+                        [subs addObject:@(j)];
+                    }
                     flag = false;
                 }else if (ch == '$') {
                     if (j - 1 >= 0 && [[oriStr substringWithRange:NSMakeRange(j-1, 2)] isEqualToString:kMathOriSin]) {
