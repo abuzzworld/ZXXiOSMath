@@ -64,10 +64,9 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
 #pragma mark - public methords
 - (NSString *)parseLatex:(NSString *)latex
 {
-    NSString *latex_add_newlinesymbol = [self addNewLineKeyTo:latex];
-    return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:kLaTeXLineBreakKey ]
-                              stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
-                             stringByReplacingOccurrencesOfString:@"\r" withString:@""]
+    NSString *latex_add_newlinesymbol = [self addNewLineKeyTo:[latex stringByReplacingOccurrencesOfString:@"\r" withString:@""]];
+    return [self parseLatex:[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:kLaTeXLineBreakKey ]
+                             stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
                    fontSize:_defaultFontSize
                    maxWidth:_defaultWidth
                     lblMode:_defaultLblMode
@@ -307,7 +306,6 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
             length = 0;
             while (flag && j >= 0) {
                 UniChar ch = [oriStr characterAtIndex:j];
-                printf("--%c--", ch);
                 if (ch == ' ' || ((ch >= 0x4E00) && (ch <= 0x9FFF))) {
                     [subs addObject:@(j)];
                     flag = false;
