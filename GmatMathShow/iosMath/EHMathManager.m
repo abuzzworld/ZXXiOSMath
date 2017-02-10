@@ -42,7 +42,7 @@
 #pragma mark static func
 static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSString *verifyStr)
 {
-    return index > 0 && oriStr.length - 1 > index + length && [[oriStr substringWithRange:NSMakeRange(index, length)] isEqualToString:verifyStr];
+    return index >= 0 && oriStr.length - 1 > index + length && [[oriStr substringWithRange:NSMakeRange(index, length)] isEqualToString:verifyStr];
 }
 
 #pragma mark - life
