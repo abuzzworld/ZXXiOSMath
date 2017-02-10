@@ -59,7 +59,7 @@
 #pragma mark - public methords
 - (NSString *)parseLatex:(NSString *)latex
 {
-    NSString *latex_add_newlinesymbol = [self colCharWidth:latex];
+    NSString *latex_add_newlinesymbol = [self colCharWidthAndInsertNewLineKey:latex];
     return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:kLaTeXLineBreakKey ]
                               stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
                              stringByReplacingOccurrencesOfString:@"\r" withString:@""]
@@ -99,7 +99,6 @@
     }else {
         _words = [NSMutableArray arrayWithCapacity:0];
     }
-    /// 字符段数组，按照数学公式标记切割，公式单独成段，公式之前，公式与公式之间，公式之后所有字符单独成段
     NSMutableArray<NSDictionary<NSString *, NSString *> *> *paragraph_strings = [NSMutableArray arrayWithCapacity:0];
     
     BOOL odd_even_check = [latex hasPrefix:kMathOriSin];
@@ -230,7 +229,7 @@
     _mathlbl.frame = CGRectZero;
     return _mathlbl.rect;
 }
-- (NSString *)colCharWidth:(NSString *)oriStr
+- (NSString *)colCharWidthAndInsertNewLineKey:(NSString *)oriStr
 {
     NSMutableString *resultStr = oriStr.mutableCopy;
     NSBundle* bundle = [MTFont fontBundle];
@@ -275,7 +274,7 @@
                 CGFloat math_width = [self colMathStrSize:math_cache
                                                  fontSize:_fontSize
                                                 labelMode:_lblMode
-                                                 fontName:_fontName].width;
+                                                 fontName:_fontName].width * 1.1;
                 length += math_width;
                 if (length >= _maxWidth) {
                     length = math_width;
@@ -291,8 +290,11 @@
         if (math_begin) {
             [math_cache appendString:[NSString stringWithFormat:@"%c", ch]];
         }else {
+            if (ch == '=' || ch == '-' || ch == '+' || ch == '<' || ch == '>' || ch == ':') {
+                glyphSize = CGSizeMake(31.0, 0);
+            }
             word_chars_width[[NSString stringWithFormat:@"%zd", i]] = @(glyphSize.width * 1.1);
-            length += glyphSize.width * 1.1;
+            length += glyphSize.width * 1.02;
         }
         if (length >= _maxWidth) {
             BOOL flag = true;
