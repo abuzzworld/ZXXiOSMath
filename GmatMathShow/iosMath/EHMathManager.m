@@ -314,6 +314,8 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
                 }else if (ch == ',' || ch == '.' || ch == '?' || ch == ';') {
                     if (CheckOriStr(oriStr, j + 1, 1, kSpaceKey)) {
                         [subs addObject:@(j + 1)];
+                    }else if (CheckOriStr(oriStr, i + 1, 5, kOriLineBreakKey)) {
+                        // 需要插入换行的地方为'.'，且'.'之后已经有[br/]，则什么都不做
                     }else {
                         [subs addObject:@(j)];
                     }
