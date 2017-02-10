@@ -37,6 +37,11 @@
 
 
 @implementation EHMathManager
+#pragma mark static func
+static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSString *verifyStr)
+{
+    return index > 0 && oriStr.length - 1 > index + length && [[oriStr substringWithRange:NSMakeRange(index, length)] isEqualToString:verifyStr];
+}
 
 #pragma mark - life
 + (EHMathManager *)manager
@@ -59,7 +64,7 @@
 #pragma mark - public methords
 - (NSString *)parseLatex:(NSString *)latex
 {
-    NSString *latex_add_newlinesymbol = [self colCharWidthAndInsertNewLineKey:latex];
+    NSString *latex_add_newlinesymbol = [self addNewLineKeyTo:latex];
     return [self parseLatex:[[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:kLaTeXLineBreakKey ]
                               stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
                              stringByReplacingOccurrencesOfString:@"\r" withString:@""]
@@ -229,7 +234,7 @@
     _mathlbl.frame = CGRectZero;
     return _mathlbl.rect;
 }
-- (NSString *)colCharWidthAndInsertNewLineKey:(NSString *)oriStr
+- (NSString *)addNewLineKeyTo:(NSString *)oriStr
 {
     NSMutableString *resultStr = oriStr.mutableCopy;
     NSBundle* bundle = [MTFont fontBundle];
@@ -323,7 +328,7 @@
     for (NSInteger i = subs.count - 1; i >= 0; i--) {
         NSInteger index = [subs[i] integerValue];
         UniChar ch = [oriStr characterAtIndex:index];
-        if ([self checkLastFiveCharatersIsOriLineBreakKey:oriStr startIndex:index + 1]) {
+        if ([self checkLastFiveCharatersIsOriLineBreakKey:oriStr startIndex:i]) {
             continue;
         }
         if (ch == ' ') {
@@ -332,7 +337,11 @@
 //            if (index + 1 >= 0 && [[oriStr substringWithRange:NSMakeRange(index, 1)] isEqualToString:@" "]) {
 //                [resultStr replaceCharactersInRange:NSMakeRange(index-1, 1) withString:kOriLineBreakKey];
 //            }else {
-                [resultStr insertString:kOriLineBreakKey atIndex:index+1];
+                    if (index + 1 == oriStr.length) {
+                        continue;
+                    }else {
+                        [resultStr insertString:kOriLineBreakKey atIndex:index+1];
+                    }
 //            }
         }
     }
