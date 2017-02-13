@@ -42,7 +42,7 @@
 #pragma mark static func
 static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSString *verifyStr)
 {
-    return index >= 0 && oriStr.length - 1 > index + length && [[oriStr substringWithRange:NSMakeRange(index, length)] isEqualToString:verifyStr];
+    return index >= 0 && oriStr.length > index + length && [[oriStr substringWithRange:NSMakeRange(index, length)] isEqualToString:verifyStr];
 }
 
 #pragma mark - life
@@ -258,7 +258,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         CGSize glyphSize;
         if ((ch >= 0x4E00) && (ch <= 0x9FFF)) {
             glyphSize = CGSizeMake(_fontSize, 0);
-        }else if (ch == '[') {
+        }else if (ch == '[' && !math_begin) {
             if (CheckOriStr(oriStr, i, 5, kOriLineBreakKey)) {
                 i+=4;
                 length = 0;
