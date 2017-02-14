@@ -184,7 +184,6 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
              toResultString:resultString
              stringProperty:[_words[i][kProperty] isEqualToString:kPropertySignWords]];
     }
-    return [resultString stringByReplacingOccurrencesOfString:@"\\mathsf{\\\\  \\ }" withString:kLaTeXLineBreakKey];
     return [resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:kLaTeXLineBreakKey];
 }
 - (void)appendingWord:(NSString *)word
@@ -195,7 +194,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         return;
     }
     if (isWord) {
-        [resultString appendString:[NSString stringWithFormat:[self getDisplayStyle:5], word]];
+        [resultString appendString:[NSString stringWithFormat:[self getDisplayStyle:0], word]];
     }else {
         [resultString appendString:[NSString stringWithFormat:[self getDisplayStyle:6], word]];
     }
@@ -219,7 +218,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
             return @" \\mathfrak{%@}";
             break;
         case 5:
-            return @" \\mathsf{%@ \\ }";
+            return @" \\mathsf{%@}";
             break;
         case 6:
             return @" \\bm{%@}";
