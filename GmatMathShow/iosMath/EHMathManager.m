@@ -24,6 +24,9 @@
 
 #define kMathDefaultFontSize 15.0
 #define kAmendArgument 50
+#define kCharacterWidthRatio 0.95// 1.02
+#define kMathWidthRatio 1.2// 1.1
+
 
 @interface EHMathManager ()
 @property (nonatomic, strong) MTMathUILabel *mathlbl;
@@ -71,6 +74,9 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
 #pragma mark - public methords
 - (NSString *)parseLatex:(NSString *)latex
 {
+    if (nil == latex || latex.length <= 0 || ![latex isKindOfClass:[NSString class]]) {
+        return latex;
+    }
     NSString *latex_add_newlinesymbol = [self addNewLineKeyTo:[latex stringByReplacingOccurrencesOfString:@"\r" withString:@""]];
     return [self parseLatex:[[latex_add_newlinesymbol stringByReplacingOccurrencesOfString:kOriLineBreakKey withString:kLaTeXLineBreakKey ]
                              stringByReplacingOccurrencesOfString:@"'" withString:@"{\\quotes}"]
@@ -120,7 +126,6 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
             [temp_paragraph_strings addObject:t];
         }
     }
-    NSInteger location = 0;
     for (NSInteger i = 0; i < temp_paragraph_strings.count; i++) {
         if ([temp_paragraph_strings[i] length] == 0) {
             continue;
@@ -143,7 +148,6 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         }
         [paragraph_strings addObject:@{kParagraph: paragraph,
                                        kProperty: property}];
-        location += [temp_paragraph_strings[i] length];
     }
     return paragraph_strings;
 }
@@ -180,6 +184,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
              toResultString:resultString
              stringProperty:[_words[i][kProperty] isEqualToString:kPropertySignWords]];
     }
+    return [resultString stringByReplacingOccurrencesOfString:@"\\mathsf{\\\\  \\ }" withString:kLaTeXLineBreakKey];
     return [resultString stringByReplacingOccurrencesOfString:@"\\text{\\\\ }" withString:kLaTeXLineBreakKey];
 }
 - (void)appendingWord:(NSString *)word
@@ -190,7 +195,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         return;
     }
     if (isWord) {
-        [resultString appendString:[NSString stringWithFormat:[self getDisplayStyle:0], word]];
+        [resultString appendString:[NSString stringWithFormat:[self getDisplayStyle:5], word]];
     }else {
         [resultString appendString:[NSString stringWithFormat:[self getDisplayStyle:6], word]];
     }
@@ -214,7 +219,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
             return @" \\mathfrak{%@}";
             break;
         case 5:
-            return @" \\mathsf{%@}";
+            return @" \\mathsf{%@ \\ }";
             break;
         case 6:
             return @" \\bm{%@}";
@@ -257,7 +262,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         CGGlyph glyph = 0;
         CGSize glyphSize;
         if ((ch >= 0x4E00) && (ch <= 0x9FFF)) {
-            glyphSize = CGSizeMake(_fontSize, 0);
+            glyphSize = CGSizeMake(_fontSize * 1.05, 0);
         }else if (ch == '[' && !math_begin) {
             if (CheckOriStr(oriStr, i, 5, kOriLineBreakKey)) {
                 i+=4;
@@ -280,8 +285,10 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
                 CGFloat math_width = [self colMathStrSize:math_cache
                                                  fontSize:_fontSize
                                                 labelMode:_lblMode
-                                                 fontName:_fontName].width * 1.1;
+                                                 fontName:_fontName].width;
+                math_width = math_width < 22 ? math_width * (kMathWidthRatio) : math_width * (kMathWidthRatio - 0.05);
                 length += math_width;
+//                printf("%s--%.2f--%.2f\n", math_cache.UTF8String, math_width, length);
                 if (length >= _maxWidth) {
                     length = math_width;
                     [subs addObject:@(i - math_cache.length - 3 - 1)];
@@ -298,9 +305,12 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
         }else {
             if (ch == '=' || ch == '-' || ch == '+' || ch == '<' || ch == '>' || ch == ':') {
                 glyphSize = CGSizeMake(31.0, 0);
-            }
-            word_chars_width[[NSString stringWithFormat:@"%zd", i]] = @(glyphSize.width * 1.1);
-            length += glyphSize.width * 1.02;
+            }else if (ch == ',' || ch == ' ') {
+                glyphSize = CGSizeMake(glyphSize.width * 1.2, glyphSize.height);
+            }else
+            word_chars_width[[NSString stringWithFormat:@"%zd", i]] = @(glyphSize.width * kCharacterWidthRatio);
+            length += glyphSize.width * kCharacterWidthRatio;
+//            printf("%--c--%.2f--%.2f\n", ch, glyphSize.width * kCharacterWidthRatio, length);
         }
         if (length >= _maxWidth) {
             BOOL flag = true;
@@ -311,7 +321,7 @@ static BOOL CheckOriStr(NSString *oriStr, NSInteger index, NSInteger length, NSS
                 if (ch == ' ' || ((ch >= 0x4E00) && (ch <= 0x9FFF))) {
                     [subs addObject:@(j)];
                     flag = false;
-                }else if (ch == ',' || ch == '.' || ch == '?' || ch == ';') {
+                }else if (ch == ',' || ch == '.' || ch == '?' || ch == ';' || ch == ':') {
                     if (CheckOriStr(oriStr, j + 1, 1, kSpaceKey)) {
                         [subs addObject:@(j + 1)];
                     }else if (CheckOriStr(oriStr, i + 1, 5, kOriLineBreakKey)) {
